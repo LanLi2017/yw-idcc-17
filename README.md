@@ -1,5 +1,5 @@
 # yw-idcc-17
-Examples of YW provenance queries highlighted in IDCC paper and demo
+Examples of YW provenance queries highlighted in the IDCC'17 presentation, paper, and demo.
 
 # Introduction
 

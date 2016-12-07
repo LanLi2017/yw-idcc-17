@@ -1,5 +1,5 @@
-# dataone-ahm-2016-poster
-Runnable examples of YW provenance queries highlighted in poster for DataONE AHM 2016.
+# yw-idcc-17
+Examples of YW provenance queries highlighted in IDCC paper and demo
 
 # Introduction
 

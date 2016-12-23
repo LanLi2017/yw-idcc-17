@@ -1,5 +1,0 @@
-
-%FACT: tag(Seq, ExecutionId, Tag).
-tag(1, '07baeda4-908a-4852-99b8-8748dfcc0ad9', 'script_A').
-tag(2, '839c1300-9e38-4fa1-a010-e72056f2cbed', 'script_B').
-tag(3, '0e30ba55-c9fa-4ff3-8d78-fbf1c48e39ca', 'script_C').

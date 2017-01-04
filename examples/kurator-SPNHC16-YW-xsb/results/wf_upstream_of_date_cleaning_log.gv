@@ -1,0 +1,44 @@
+
+digraph yw_data_view {
+rankdir=TB
+fontname=Courier; fontsize=18; labelloc=t
+label="clean_name_and_date_workflow"
+subgraph cluster_workflow { label=""; color=black; penwidth=2
+subgraph cluster_workflow_inner { label=""; color=white
+node[shape=box style="filled" fillcolor="#CCFFCC" peripheries=1 fontname=Courier]
+clean_scientific_name
+clean_event_date
+node[shape=box style="filled" fillcolor="#CCFFCC" peripheries=1 fontname=Courier]
+clean_scientific_name
+clean_event_date
+node[shape=box style="rounded,filled" fillcolor="#FFFFCC" peripheries=1 fontname=Helvetica]
+original_dataset
+data_with_cleaned_names
+record_id_data
+date_cleaning_log
+node[shape=box style="rounded,filled" fillcolor="#FFFFFF" peripheries=1 fontname=Helvetica]
+local_authority_source
+}}
+subgraph cluster_inflows { label=""; color=white; penwidth=2
+subgraph cluster_inflows_inner { label=""; color=white
+node[shape=circle fillcolor="#FFFFFF" peripheries=1 width=0.2]
+original_dataset_inflow [label=""]
+local_authority_source_inflow [label=""]
+}}
+subgraph cluster_outflows { label=""; color=white; penwidth=2
+subgraph cluster_outflows_inner { label=""; color=white
+node[shape=circle fillcolor="#FFFFFF" peripheries=1 width=0.2]
+date_cleaning_log_outflow [label=""]
+}}
+record_id_data -> clean_event_date
+data_with_cleaned_names -> clean_event_date
+original_dataset -> clean_scientific_name
+local_authority_source -> clean_scientific_name
+clean_scientific_name -> data_with_cleaned_names
+clean_scientific_name -> record_id_data
+clean_event_date -> date_cleaning_log
+original_dataset_inflow -> original_dataset
+local_authority_source_inflow -> local_authority_source
+date_cleaning_log -> date_cleaning_log_outflow
+}
+

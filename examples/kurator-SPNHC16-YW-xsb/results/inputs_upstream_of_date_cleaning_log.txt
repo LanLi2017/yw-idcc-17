@@ -1,0 +1,9 @@
+
+
+---------------------------------------------------------------------------------------------------
+Q2_Pro : List the script inputs that are upstream of data product date_cleaning_log.
+
+q2_pro(DataProduct, InputDataName)
+...................................................................................................
+q2_pro(date_cleaning_log,original_dataset).
+q2_pro(date_cleaning_log,local_authority_source).

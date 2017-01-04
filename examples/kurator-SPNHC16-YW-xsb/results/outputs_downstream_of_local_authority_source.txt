@@ -1,0 +1,10 @@
+
+
+---------------------------------------------------------------------------------------------------
+Q4_Pro : List the outputs that depend on local_authority_source.
+
+q4_pro(UpstreamDataName, OutputDataName)
+...................................................................................................
+q4_pro(local_authority_source,date_cleaning_log).
+q4_pro(local_authority_source,data_with_cleaned_names_and_dates).
+q4_pro(local_authority_source,name_cleaning_log).

@@ -1,0 +1,14 @@
+count(DISTINCT recor
+--------------------
+0                   
+count(DISTINCT recor
+--------------------
+0                   
+count(DISTINCT new_v
+--------------------
+0                   
+v1                    v2                    v3                    v4        
+--------------------  --------------------  --------------------  ----------
+scientificName        external_check        local_authority_sour  EXACT     
+scientificName        external_check        local_authority_sour  FUZZY     
+eventDate             self_check            ISO_date_format-(YYY  EXACT     

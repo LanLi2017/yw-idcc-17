@@ -1,0 +1,9 @@
+
+
+---------------------------------------------------------------------------------------------------
+Q4_Pro : List the outputs that depend on data_with_cleaned_names.
+
+q4_pro(UpstreamDataName, OutputDataName)
+...................................................................................................
+q4_pro(data_with_cleaned_names,date_cleaning_log).
+q4_pro(data_with_cleaned_names,data_with_cleaned_names_and_dates).

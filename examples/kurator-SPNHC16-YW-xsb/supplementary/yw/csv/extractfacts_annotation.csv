@@ -273,7 +273,7 @@ annotation_id,source_id,line_number,tag,keyword,value
 272,1,527,out,@out,date_val_log
 273,1,527,uri,@uri,file:date_val_log.txt
 274,1,527,as,@as,date_cleaning_log
-275,1,528,log,@log,{timestamp} UPDATING record {Record}: {field_name} from <{original_value}> to <{updated_value}>
+275,1,528,log,@log,{timestamp} UPDATING record {RecordID}: {field_name} from <{original_value}> to <{updated_value}>
 276,1,565,end,@end,update_event_date
 277,1,569,begin,@begin,log_accepted_record
 278,1,569,desc,@desc,Log record final status as accepted

@@ -48,7 +48,7 @@ CREATE TABLE log_template_variable_name_value AS
     FROM log_template_variable_name JOIN reconfacts_log_variable_value
     ON log_template_variable_name.log_variable_id = reconfacts_log_variable_value.log_variable_id;
 
--- RULE: log_record_result(RecordID, resource_id, final_result)
+-- RULE: log_record_result(record_id, resource_id, final_result)
 CREATE TABLE log_record_result AS
     SELECT DISTINCT l1.log_variable_value as final_result, l1.resource_id as resource_id, l2.log_variable_value as record_id
     FROM log_template_variable_name_value l1, log_template_variable_name_value l2 
@@ -63,13 +63,13 @@ CREATE TABLE log_entry_resource AS
     SELECT DISTINCT resource_id, log_entry_id
     FROM reconfacts_log_variable_value;
 
--- RULE: record_update(RecordID, updated_field_name, old_value, new_value)
+-- RULE: record_update(record_id, updated_field_name, old_value, new_value)
 CREATE TABLE record_update AS
     SELECT v1.log_variable_value as record_id, v2.log_variable_value as field_name, v3.log_variable_value as old_value, v4.log_variable_value as new_value 
     FROM log_template_variable_name_value v1, log_template_variable_name_value v2, log_template_variable_name_value v3, log_template_variable_name_value v4 
-    WHERE v1.entry_template='{timestamp} UPDATING record {Record}: {field_name} from {original_value} to {updated_value}' 
+    WHERE v1.entry_template='{timestamp} UPDATING record {RecordID}: {field_name} from <{original_value}> to <{updated_value}>' 
         AND v1.entry_template=v2.entry_template AND v2.entry_template=v3.entry_template AND v3.entry_template=v4.entry_template 
-        AND v1.variable_name='Record' 
+        AND v1.variable_name='RecordID' 
         AND v2.variable_name='field_name' 
         AND v3.variable_name='original_value' 
         AND v4.variable_name='updated_value' 

@@ -58,7 +58,7 @@ log_variable_id,variable_name,log_template_id
 57,match_result,17
 58,source_used,17
 59,timestamp,18
-60,Record,18
+60,RecordID,18
 61,field_name,18
 62,original_value,18
 63,updated_value,18

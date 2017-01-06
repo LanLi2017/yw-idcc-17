@@ -277,7 +277,7 @@ annotation(271, 1, 526, 'as', '@as', 'updated_eventDate').
 annotation(272, 1, 527, 'out', '@out', 'date_val_log').
 annotation(273, 1, 527, 'uri', '@uri', 'file:date_val_log.txt').
 annotation(274, 1, 527, 'as', '@as', 'date_cleaning_log').
-annotation(275, 1, 528, 'log', '@log', '{timestamp} UPDATING record {Record}: {field_name} from <{original_value}> to <{updated_value}>').
+annotation(275, 1, 528, 'log', '@log', '{timestamp} UPDATING record {RecordID}: {field_name} from <{original_value}> to <{updated_value}>').
 annotation(276, 1, 565, 'end', '@end', 'update_event_date').
 annotation(277, 1, 569, 'begin', '@begin', 'log_accepted_record').
 annotation(278, 1, 569, 'desc', '@desc', 'Log record final status as accepted').

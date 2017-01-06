@@ -504,14 +504,14 @@ def clean_event_date():
         date_val_log.write(timestamp("Trying self_check ISO_date_format-(YYYY-MM-DD) EXACT match for validating eventDate: <{0}>\n".format(original2_eventDate)))
         # date format: xxxx-xx-xx
         if re.match(r'^(\d{4}\-)+(\d{1,2}\-)+(\d{1,2})$',original2_eventDate):
-            match_result = 'SUCESSFUL'
+            match_result = 'SUCCESSFUL'
             compliant_eventDate = original2_eventDate
-            date_val_log.write(timestamp("EXACT match was SUCESSFUL, compliant with ISO_date_format-(YYYY-MM-DD): SUCCESSFUL\n"))
+            date_val_log.write(timestamp("EXACT match was SUCCESSFUL, compliant with ISO_date_format-(YYYY-MM-DD): SUCCESSFUL\n"))
         # date format: xxxx-xx-xx/xxxx-xx-xx
         elif re.match(r'^(\d{4}\-)+(\d{1,2}\-)+(\d{1,2}\/)+(\d{4}\-)+(\d{1,2}\-)+(\d{1,2})$',original2_eventDate):
-            match_result = 'SUCESSFUL'
+            match_result = 'SUCCESSFUL'
             compliant_eventDate = original2_eventDate
-            date_val_log.write(timestamp("EXACT match was SUCESSFUL, compliant with ISO_date_format-(YYYY-MM-DD): SUCCESSFUL\n"))
+            date_val_log.write(timestamp("EXACT match was SUCCESSFUL, compliant with ISO_date_format-(YYYY-MM-DD): SUCCESSFUL\n"))
         else: 
             match_result = 'FAILED'
             nonCompliant_eventDate = original2_eventDate
@@ -525,7 +525,7 @@ def clean_event_date():
         @in original2_eventDate @as nonCompliant_eventDate
         @out updated2_eventDate @as updated_eventDate
         @out date_val_log @uri file:date_val_log.txt @as date_cleaning_log
-                          @log {timestamp} UPDATING record {Record}: {field_name} from <{original_value}> to <{updated_value}> 
+                          @log {timestamp} UPDATING record {RecordID}: {field_name} from <{original_value}> to <{updated_value}> 
         """
         updated2_eventDate = None
         # date format: xx/xx/xx

@@ -10,12 +10,6 @@
 <title>yw_data_view</title>
 <polygon fill="white" stroke="none" points="-4,4 -4,-512 364,-512 364,4 -4,4"/>
 <text text-anchor="middle" x="180" y="-489.6" font-family="Courier,monospace" font-size="18.00">clean_name_and_date_workflow</text>
-<g id="clust1" class="cluster"><title>cluster_workflow</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="8,-62 8,-418 352,-418 352,-62 8,-62"/>
-</g>
-<g id="clust2" class="cluster"><title>cluster_workflow_inner</title>
-<polygon fill="none" stroke="white" stroke-width="2" points="16,-70 16,-410 344,-410 344,-70 16,-70"/>
-</g>
 <g id="clust3" class="cluster"><title>cluster_inflows</title>
 <polygon fill="none" stroke="white" stroke-width="2" points="150,-426 150,-472 228,-472 228,-426 150,-426"/>
 </g>
@@ -27,6 +21,12 @@
 </g>
 <g id="clust6" class="cluster"><title>cluster_outflows_inner</title>
 <polygon fill="none" stroke="white" stroke-width="2" points="165,-16 165,-46 195,-46 195,-16 165,-16"/>
+</g>
+<g id="clust1" class="cluster"><title>cluster_workflow</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="8,-62 8,-418 352,-418 352,-62 8,-62"/>
+</g>
+<g id="clust2" class="cluster"><title>cluster_workflow_inner</title>
+<polygon fill="none" stroke="white" stroke-width="2" points="16,-70 16,-410 344,-410 344,-70 16,-70"/>
 </g>
 <!-- clean_scientific_name -->
 <g id="node1" class="node"><title>clean_scientific_name</title>

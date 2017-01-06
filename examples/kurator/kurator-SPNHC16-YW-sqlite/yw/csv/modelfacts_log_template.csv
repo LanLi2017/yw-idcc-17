@@ -16,7 +16,7 @@ log_template_id,port_id,entry_template,log_annotation_id
 15,85,{timestamp} {final_result} the record {RecordID},250
 16,89,{timestamp} Trying {check_type} {source_used} {match_method} match for validating {field_name}: <{field_name_value}>,263
 17,89,"{timestamp} {match_method} match was {match_result}, compliant with {source_used}: {match_result}.",264
-18,92,{timestamp} UPDATING record {Record}: {field_name} from <{original_value}> to <{updated_value}>,275
+18,92,{timestamp} UPDATING record {RecordID}: {field_name} from <{original_value}> to <{updated_value}>,275
 19,97,{timestamp} {final_result} the record {RecordID},289
 20,104,{timestamp} Wrote {accepted2_record_count} accepted records to {output2_data_file_name},312
 21,104,{timestamp} Wrote {rejected2_record_count} UNABLE-to-validate records to {rejected2_data_file_name},313

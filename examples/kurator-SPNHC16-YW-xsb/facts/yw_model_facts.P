@@ -696,7 +696,7 @@ log_template(14, 81, '{timestamp} Checking if {field_name} value is Empty: {chec
 log_template(15, 85, '{timestamp} {final_result} the record {RecordID}', 250).
 log_template(16, 89, '{timestamp} Trying {check_type} {source_used} {match_method} match for validating {field_name}: <{field_name_value}>', 263).
 log_template(17, 89, '{timestamp} {match_method} match was {match_result}, compliant with {source_used}: {match_result}.', 264).
-log_template(18, 92, '{timestamp} UPDATING record {Record}: {field_name} from <{original_value}> to <{updated_value}>', 275).
+log_template(18, 92, '{timestamp} UPDATING record {RecordID}: {field_name} from <{original_value}> to <{updated_value}>', 275).
 log_template(19, 97, '{timestamp} {final_result} the record {RecordID}', 289).
 log_template(20, 104, '{timestamp} Wrote {accepted2_record_count} accepted records to {output2_data_file_name}', 312).
 log_template(21, 104, '{timestamp} Wrote {rejected2_record_count} UNABLE-to-validate records to {rejected2_data_file_name}', 313).
@@ -761,7 +761,7 @@ log_template_variable(56, 'match_method', 17).
 log_template_variable(57, 'match_result', 17).
 log_template_variable(58, 'source_used', 17).
 log_template_variable(59, 'timestamp', 18).
-log_template_variable(60, 'Record', 18).
+log_template_variable(60, 'RecordID', 18).
 log_template_variable(61, 'field_name', 18).
 log_template_variable(62, 'original_value', 18).
 log_template_variable(63, 'updated_value', 18).

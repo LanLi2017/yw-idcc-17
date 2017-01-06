@@ -191,7 +191,7 @@ date format: xxxx-xx-xx/xxxx-xx-xx
 @in original2_eventDate @as nonCompliant_eventDate
 @out updated2_eventDate @as updated_eventDate
 @out date_val_log @uri file:date_val_log.txt @as date_cleaning_log
-@log {timestamp} UPDATING record {Record}: {field_name} from <{original_value}> to <{updated_value}>
+@log {timestamp} UPDATING record {RecordID}: {field_name} from <{original_value}> to <{updated_value}>
 date format: xx/xx/xx
 @end update_event_date
 @begin log_accepted_record @desc Log record final status as accepted

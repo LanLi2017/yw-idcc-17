@@ -276,14 +276,14 @@ def clean_event_date():
         date_val_log.write(timestamp("Trying self_check ISO_date_format-(YYYY-MM-DD) EXACT match for validating eventDate: <{0}>\n".format(original2_eventDate)))
         # date format: xxxx-xx-xx
         if re.match(r'^(\d{4}\-)+(\d{1,2}\-)+(\d{1,2})$',original2_eventDate):
-            match_result = 'SUCESSFUL'
+            match_result = 'SUCCESSFUL'
             compliant_eventDate = original2_eventDate
-            date_val_log.write(timestamp("EXACT match was SUCESSFUL, compliant with ISO_date_format-(YYYY-MM-DD): SUCCESSFUL\n"))
+            date_val_log.write(timestamp("EXACT match was SUCCESSFUL, compliant with ISO_date_format-(YYYY-MM-DD): SUCCESSFUL\n"))
         # date format: xxxx-xx-xx/xxxx-xx-xx
         elif re.match(r'^(\d{4}\-)+(\d{1,2}\-)+(\d{1,2}\/)+(\d{4}\-)+(\d{1,2}\-)+(\d{1,2})$',original2_eventDate):
-            match_result = 'SUCESSFUL'
+            match_result = 'SUCCESSFUL'
             compliant_eventDate = original2_eventDate
-            date_val_log.write(timestamp("EXACT match was SUCESSFUL, compliant with ISO_date_format-(YYYY-MM-DD): SUCCESSFUL\n"))
+            date_val_log.write(timestamp("EXACT match was SUCCESSFUL, compliant with ISO_date_format-(YYYY-MM-DD): SUCCESSFUL\n"))
         else: 
             match_result = 'FAILED'
             nonCompliant_eventDate = original2_eventDate

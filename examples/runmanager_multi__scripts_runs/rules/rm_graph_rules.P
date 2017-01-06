@@ -81,7 +81,7 @@ gv_nodes__files__upstream_of_file(RM, DataSha256) :-
        true.
 
 gv_edges__file_to_execution__upstream_of_file(RM, DownstreamDataSha256) :-
-       rm_file_to_execution_connection_upstream_of_file(RM, DownstreamDataSha256, FilePath, Tag),
+       rm_file_to_execution_connection_upstream_of_file(RM, DownstreamDataSha256, FilePath, Tag, Shas256),
        gv_unlabeled_edge(FilePath, Tag),
        fail
        ;

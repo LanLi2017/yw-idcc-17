@@ -5,6 +5,10 @@
   - *What outputs does the workflow (script) have?*
 - materialize_yw_views.sh
   - *Auxiliary script to materialize YW views for subsequent queries.*
+- materialize_nw_views.sh
+  - *Auxiliary script to materialize NW views for subsequent queries.*
+- materialize_yw_nw_views.sh
+  - *Auxiliary script to materialize combined YW-NW views for subsequent queries.*
 
 
 ##Advanced Generic Queries

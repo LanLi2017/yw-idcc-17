@@ -72,7 +72,7 @@ colors = c('gold', 'yellowgreen', 'lightcoral')
 # @param colors @as Colors
 # @out pie @as Sentiment_Result @uri file:Scores_Datumbox.jpeg
 	jpeg(filename="Scores_Datumbox.jpg",width=480,height=480)
-	pie(c(22,7,70),labels=c('Positive','Negative','Neutral'),explode=exp,col=colors,main="Pie Chart of Sentiment Type",init.angle = 120)
+	pie(sizes,labels=c('Positive','Negative','Neutral'),explode=exp,col=colors,main="Pie Chart of Sentiment Type",init.angle = 120)
 	dev.off()
 # @END DrawPieChart
 	

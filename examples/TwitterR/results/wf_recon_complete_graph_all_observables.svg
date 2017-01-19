@@ -133,7 +133,7 @@
 <path fill="#ffe4b5" stroke="black" d="M97,-79C97,-79 221,-79 221,-79 227,-79 233,-85 233,-91 233,-91 233,-103 233,-103 233,-109 227,-115 221,-115 221,-115 97,-115 97,-115 91,-115 85,-109 85,-103 85,-103 85,-91 85,-91 85,-85 91,-79 97,-79"/>
 <text text-anchor="middle" x="159" y="-103.8" font-family="Courier,monospace" font-weight="bold" font-size="9.00">[data12] Sentiment_Result</text>
 <polyline fill="none" stroke="black" points="85,-97 233,-97 "/>
-<text text-anchor="middle" x="159" y="-85.8" font-family="Courier,monospace" font-weight="bold" font-size="9.00"> </text>
+<text text-anchor="start" x="93" y="-85.8" font-family="Courier,monospace" font-weight="bold" font-size="9.00">Scores_Datumbox.jpg</text>
 </g>
 <!-- DrawPieChart&#45;&gt;Sentiment_Result -->
 <g id="edge18" class="edge"><title>DrawPieChart&#45;&gt;Sentiment_Result</title>
@@ -145,7 +145,7 @@
 <path fill="#ffe4b5" stroke="black" d="M108.5,-657C108.5,-657 211.5,-657 211.5,-657 217.5,-657 223.5,-663 223.5,-669 223.5,-669 223.5,-681 223.5,-681 223.5,-687 217.5,-693 211.5,-693 211.5,-693 108.5,-693 108.5,-693 102.5,-693 96.5,-687 96.5,-681 96.5,-681 96.5,-669 96.5,-669 96.5,-663 102.5,-657 108.5,-657"/>
 <text text-anchor="middle" x="160" y="-681.8" font-family="Courier,monospace" font-weight="bold" font-size="9.00">[data3] Static_Tweets</text>
 <polyline fill="none" stroke="black" points="96.5,-675 223.5,-675 "/>
-<text text-anchor="middle" x="160" y="-663.8" font-family="Courier,monospace" font-weight="bold" font-size="9.00"> </text>
+<text text-anchor="start" x="104.5" y="-663.8" font-family="Courier,monospace" font-weight="bold" font-size="9.00">static_tweet.csv</text>
 </g>
 <!-- Static_Tweets&#45;&gt;AccessTweets -->
 <g id="edge1" class="edge"><title>Static_Tweets&#45;&gt;AccessTweets</title>

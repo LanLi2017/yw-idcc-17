@@ -10,14 +10,14 @@ node[shape=box style="filled" fillcolor="#CCFFCC" peripheries=1 fontname=Courier
 clean_scientific_name
 clean_event_date
 node[shape=box style="rounded,filled" fillcolor="#FFE4B5" peripheries=1 fontname="Courier-Bold" fontsize=9]
-original_dataset[shape=record rankdir=LR label="{<f0> [data7] original_dataset |<f1>demo_input.csv\l}"]
+original_dataset[shape=record rankdir=LR label="{<f0> original_dataset |<f1>demo_input.csv\l}"]
 node[shape=box style="rounded,filled" fillcolor="#FFFFCC" peripheries=1 fontname=Helvetica]
 data_with_cleaned_names
 record_id_data
 node[shape=box style="rounded,filled" fillcolor="#FFE4B5" peripheries=1 fontname="Courier-Bold" fontsize=9]
-name_cleaning_log[shape=record rankdir=LR label="{<f0> [data9] name_cleaning_log |<f1>name_val_log.txt\l}"]
-data_with_cleaned_names_and_dates[shape=record rankdir=LR label="{<f0> [data31] data_with_cleaned_names_and_dates |<f1>demo_output_name_date_val.csv\l}"]
-date_cleaning_log[shape=record rankdir=LR label="{<f0> [data32] date_cleaning_log |<f1>date_val_log.txt\l}"]
+name_cleaning_log[shape=record rankdir=LR label="{<f0> name_cleaning_log |<f1>name_val_log.txt\l}"]
+data_with_cleaned_names_and_dates[shape=record rankdir=LR label="{<f0> data_with_cleaned_names_and_dates |<f1>demo_output_name_date_val.csv\l}"]
+date_cleaning_log[shape=record rankdir=LR label="{<f0> date_cleaning_log |<f1>date_val_log.txt\l}"]
 node[shape=box style="rounded,filled" fillcolor="#FFFFFF" peripheries=1 fontname=Helvetica]
 local_authority_source
 }}

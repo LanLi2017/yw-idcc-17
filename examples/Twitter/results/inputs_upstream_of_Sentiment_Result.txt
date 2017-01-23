@@ -1,1 +1,8 @@
+
+
+---------------------------------------------------------------------------------------------------
+Q2_Pro : List the script inputs that are upstream of data product Sentiment_Result.
+
+q2_pro(DataProduct, InputDataName)
+...................................................................................................
 q2_pro('Sentiment_Result','Static_Tweets').

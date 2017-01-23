@@ -124,7 +124,7 @@
 <text text-anchor="middle" x="222" y="-667.8" font-family="Helvetica,sans-Serif" font-size="14.00">FN_Detector</text>
 </g>
 <!-- FN_Detector&#45;&gt;LOAD_DATA -->
-<g id="edge8" class="edge"><title>FN_Detector&#45;&gt;LOAD_DATA</title>
+<g id="edge1" class="edge"><title>FN_Detector&#45;&gt;LOAD_DATA</title>
 <path fill="none" stroke="black" d="M201.236,-653.697C190.759,-644.965 177.889,-634.24 166.5,-624.75"/>
 <polygon fill="black" stroke="black" points="168.448,-621.817 158.525,-618.104 163.967,-627.195 168.448,-621.817"/>
 </g>
@@ -134,37 +134,37 @@
 <text text-anchor="middle" x="90" y="-667.8" font-family="Helvetica,sans-Serif" font-size="14.00">FN_Sampling_rate</text>
 </g>
 <!-- FN_Sampling_rate&#45;&gt;LOAD_DATA -->
-<g id="edge9" class="edge"><title>FN_Sampling_rate&#45;&gt;LOAD_DATA</title>
+<g id="edge2" class="edge"><title>FN_Sampling_rate&#45;&gt;LOAD_DATA</title>
 <path fill="none" stroke="black" d="M101.865,-653.697C107.503,-645.474 114.354,-635.483 120.569,-626.421"/>
 <polygon fill="black" stroke="black" points="123.503,-628.331 126.271,-618.104 117.729,-624.372 123.503,-628.331"/>
 </g>
 <!-- strain_H1&#45;&gt;AMPLITUDE_SPECTRAL_DENSITY -->
-<g id="edge4" class="edge"><title>strain_H1&#45;&gt;AMPLITUDE_SPECTRAL_DENSITY</title>
+<g id="edge7" class="edge"><title>strain_H1&#45;&gt;AMPLITUDE_SPECTRAL_DENSITY</title>
 <path fill="none" stroke="black" d="M111.528,-509.697C121.382,-500.965 133.486,-490.24 144.196,-480.75"/>
 <polygon fill="black" stroke="black" points="146.533,-483.356 151.697,-474.104 141.891,-478.117 146.533,-483.356"/>
 </g>
 <!-- strain_L1&#45;&gt;AMPLITUDE_SPECTRAL_DENSITY -->
-<g id="edge6" class="edge"><title>strain_L1&#45;&gt;AMPLITUDE_SPECTRAL_DENSITY</title>
+<g id="edge9" class="edge"><title>strain_L1&#45;&gt;AMPLITUDE_SPECTRAL_DENSITY</title>
 <path fill="none" stroke="black" d="M181.539,-509.697C179.997,-501.983 178.142,-492.712 176.422,-484.112"/>
 <polygon fill="black" stroke="black" points="179.814,-483.224 174.421,-474.104 172.95,-484.597 179.814,-483.224"/>
 </g>
 <!-- PSD_H1&#45;&gt;WHITENING -->
-<g id="edge10" class="edge"><title>PSD_H1&#45;&gt;WHITENING</title>
+<g id="edge3" class="edge"><title>PSD_H1&#45;&gt;WHITENING</title>
 <path fill="none" stroke="black" d="M190.494,-365.697C179.537,-356.881 166.054,-346.032 154.175,-336.474"/>
 <polygon fill="black" stroke="black" points="156.244,-333.646 146.258,-330.104 151.855,-339.1 156.244,-333.646"/>
 </g>
 <!-- PSD_L1&#45;&gt;WHITENING -->
-<g id="edge1" class="edge"><title>PSD_L1&#45;&gt;WHITENING</title>
+<g id="edge4" class="edge"><title>PSD_L1&#45;&gt;WHITENING</title>
 <path fill="none" stroke="black" d="M125,-365.697C125,-357.983 125,-348.712 125,-340.112"/>
 <polygon fill="black" stroke="black" points="128.5,-340.104 125,-330.104 121.5,-340.104 128.5,-340.104"/>
 </g>
 <!-- strain_H1_whiten&#45;&gt;SPECTROGRAMS_FOR_WHITEND_DATA -->
-<g id="edge5" class="edge"><title>strain_H1_whiten&#45;&gt;SPECTROGRAMS_FOR_WHITEND_DATA</title>
+<g id="edge8" class="edge"><title>strain_H1_whiten&#45;&gt;SPECTROGRAMS_FOR_WHITEND_DATA</title>
 <path fill="none" stroke="black" d="M214.135,-221.697C208.497,-213.474 201.646,-203.483 195.431,-194.421"/>
 <polygon fill="black" stroke="black" points="198.271,-192.372 189.729,-186.104 192.497,-196.331 198.271,-192.372"/>
 </g>
 <!-- strain_L1_whiten&#45;&gt;SPECTROGRAMS_FOR_WHITEND_DATA -->
-<g id="edge7" class="edge"><title>strain_L1_whiten&#45;&gt;SPECTROGRAMS_FOR_WHITEND_DATA</title>
+<g id="edge10" class="edge"><title>strain_L1_whiten&#45;&gt;SPECTROGRAMS_FOR_WHITEND_DATA</title>
 <path fill="none" stroke="black" d="M107.989,-221.697C119.814,-212.796 134.392,-201.823 147.179,-192.199"/>
 <polygon fill="black" stroke="black" points="149.391,-194.915 155.276,-186.104 145.181,-189.322 149.391,-194.915"/>
 </g>
@@ -183,12 +183,12 @@
 <text text-anchor="middle" x="281" y="-523.8" font-family="Helvetica,sans-Serif" font-size="14.00">fs</text>
 </g>
 <!-- fs&#45;&gt;AMPLITUDE_SPECTRAL_DENSITY -->
-<g id="edge3" class="edge"><title>fs&#45;&gt;AMPLITUDE_SPECTRAL_DENSITY</title>
+<g id="edge6" class="edge"><title>fs&#45;&gt;AMPLITUDE_SPECTRAL_DENSITY</title>
 <path fill="none" stroke="black" d="M254.091,-509.876C239.842,-500.808 222.154,-489.552 206.764,-479.759"/>
 <polygon fill="black" stroke="black" points="208.328,-476.606 198.012,-474.19 204.57,-482.511 208.328,-476.606"/>
 </g>
 <!-- fs&#45;&gt;SPECTROGRAMS_FOR_WHITEND_DATA -->
-<g id="edge2" class="edge"><title>fs&#45;&gt;SPECTROGRAMS_FOR_WHITEND_DATA</title>
+<g id="edge5" class="edge"><title>fs&#45;&gt;SPECTROGRAMS_FOR_WHITEND_DATA</title>
 <path fill="none" stroke="black" d="M287.144,-509.538C290.525,-499.301 294.525,-486.051 297,-474 305.007,-435.009 307,-424.804 307,-385 307,-385 307,-385 307,-311 307,-271.196 320.51,-254.12 297,-222 286.895,-208.194 272.369,-197.919 256.919,-190.294"/>
 <polygon fill="black" stroke="black" points="258.293,-187.073 247.742,-186.104 255.385,-193.441 258.293,-187.073"/>
 </g>

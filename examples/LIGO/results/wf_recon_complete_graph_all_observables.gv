@@ -22,8 +22,8 @@ WAVE_FILE_GENERATOR_FOR_SHIFTED_DATA
 DOWNSAMPLING
 node[shape=box style="filled" fillcolor="#CCFFCC" peripheries=1 fontname=Courier]
 node[shape=box style="rounded,filled" fillcolor="#FFE4B5" peripheries=1 fontname="Courier-Bold" fontsize=9]
-FN_Detector[shape=record rankdir=LR label="{<f0> [data14] FN_Detector |<f1>L-L1_LOSC_4_V1-1126259446-32.hdf5\lH-H1_LOSC_4_V1-1126259446-32.hdf5\l}"]
-FN_Sampling_rate[shape=record rankdir=LR label="{<f0> [data15] FN_Sampling_rate |<f1>H-H1_LOSC_4_V1-1126259446-32.hdf5\lH-H1_LOSC_16_V1-1126259446-32.hdf5\l}"]
+FN_Detector[shape=record rankdir=LR label="{<f0> FN_Detector |<f1>L-L1_LOSC_4_V1-1126259446-32.hdf5\lH-H1_LOSC_4_V1-1126259446-32.hdf5\l}"]
+FN_Sampling_rate[shape=record rankdir=LR label="{<f0> FN_Sampling_rate |<f1>H-H1_LOSC_4_V1-1126259446-32.hdf5\lH-H1_LOSC_16_V1-1126259446-32.hdf5\l}"]
 node[shape=box style="rounded,filled" fillcolor="#FFFFCC" peripheries=1 fontname=Helvetica]
 strain_H1
 strain_L1
@@ -41,16 +41,16 @@ strain_L1_filt
 strain_H1_shifted
 strain_L1_shifted
 node[shape=box style="rounded,filled" fillcolor="#FFE4B5" peripheries=1 fontname="Courier-Bold" fontsize=9]
-ASDs[shape=record rankdir=LR label="{<f0> [data23] ASDs |<f1>GW150914_ASDs.png\l}"]
-WHITENED_strain_data[shape=record rankdir=LR label="{<f0> [data28] WHITENED_strain_data |<f1>GW150914_strain_whitened.png\l}"]
-spectrogram[shape=record rankdir=LR label="{<f0> [data29] spectrogram |<f1>GW150914_L1_spectrogram.png\lGW150914_H1_spectrogram.png\l}"]
-spectrogram_whitened[shape=record rankdir=LR label="{<f0> [data30] spectrogram_whitened |<f1>GW150914_L1_spectrogram_whitened.png\lGW150914_H1_spectrogram_whitened.png\l}"]
-filtered_white_noise_data[shape=record rankdir=LR label="{<f0> [data34] filtered_white_noise_data |<f1>GW150914_filter.png\l}"]
-H1_strain_filtered[shape=record rankdir=LR label="{<f0> [data35] H1_strain_filtered |<f1>GW150914_H1_strain_filtered.png\l}"]
-H1_strain_unfiltered[shape=record rankdir=LR label="{<f0> [data36] H1_strain_unfiltered |<f1>GW150914_H1_strain_unfiltered.png\l}"]
-whitened_bandpass_wavefile[shape=record rankdir=LR label="{<f0> [data37] whitened_bandpass_wavefile |<f1>GW150914_NR_whitenbp.wav\lGW150914_L1_whitenbp.wav\lGW150914_H1_whitenbp.wav\l}"]
-shifted_wavefile[shape=record rankdir=LR label="{<f0> [data40] shifted_wavefile |<f1>GW150914_NR_shifted.wav\lGW150914_L1_shifted.wav\lGW150914_H1_shifted.wav\l}"]
-H1_ASD_SamplingRate[shape=record rankdir=LR label="{<f0> [data41] H1_ASD_SamplingRate |<f1>GW150914_H1_ASD_4096_zoom.png\lGW150914_H1_ASD_16384_zoom.png\lGW150914_H1_ASD_16384.png\l}"]
+ASDs[shape=record rankdir=LR label="{<f0> ASDs |<f1>GW150914_ASDs.png\l}"]
+WHITENED_strain_data[shape=record rankdir=LR label="{<f0> WHITENED_strain_data |<f1>GW150914_strain_whitened.png\l}"]
+spectrogram[shape=record rankdir=LR label="{<f0> spectrogram |<f1>GW150914_L1_spectrogram.png\lGW150914_H1_spectrogram.png\l}"]
+spectrogram_whitened[shape=record rankdir=LR label="{<f0> spectrogram_whitened |<f1>GW150914_L1_spectrogram_whitened.png\lGW150914_H1_spectrogram_whitened.png\l}"]
+filtered_white_noise_data[shape=record rankdir=LR label="{<f0> filtered_white_noise_data |<f1>GW150914_filter.png\l}"]
+H1_strain_filtered[shape=record rankdir=LR label="{<f0> H1_strain_filtered |<f1>GW150914_H1_strain_filtered.png\l}"]
+H1_strain_unfiltered[shape=record rankdir=LR label="{<f0> H1_strain_unfiltered |<f1>GW150914_H1_strain_unfiltered.png\l}"]
+whitened_bandpass_wavefile[shape=record rankdir=LR label="{<f0> whitened_bandpass_wavefile |<f1>GW150914_NR_whitenbp.wav\lGW150914_L1_whitenbp.wav\lGW150914_H1_whitenbp.wav\l}"]
+shifted_wavefile[shape=record rankdir=LR label="{<f0> shifted_wavefile |<f1>GW150914_NR_shifted.wav\lGW150914_L1_shifted.wav\lGW150914_H1_shifted.wav\l}"]
+H1_ASD_SamplingRate[shape=record rankdir=LR label="{<f0> H1_ASD_SamplingRate |<f1>GW150914_H1_ASD_4096_zoom.png\lGW150914_H1_ASD_16384_zoom.png\lGW150914_H1_ASD_16384.png\l}"]
 node[shape=box style="rounded,filled" fillcolor="#FFFFFF" peripheries=1 fontname=Helvetica]
 fs
 }}

@@ -130,10 +130,10 @@
 </g>
 <!-- Sentiment_Result -->
 <g id="node14" class="node"><title>Sentiment_Result</title>
-<path fill="#ffe4b5" stroke="black" d="M95.5113,-78.5C95.5113,-78.5 222.489,-78.5 222.489,-78.5 228.489,-78.5 234.489,-84.5 234.489,-90.5 234.489,-90.5 234.489,-104.1 234.489,-104.1 234.489,-110.1 228.489,-116.1 222.489,-116.1 222.489,-116.1 95.5113,-116.1 95.5113,-116.1 89.5113,-116.1 83.5113,-110.1 83.5113,-104.1 83.5113,-104.1 83.5113,-90.5 83.5113,-90.5 83.5113,-84.5 89.5113,-78.5 95.5113,-78.5"/>
-<text text-anchor="middle" x="159" y="-104" font-family="Courier,monospace" font-weight="bold" font-size="9.00">[data12] Sentiment_Result</text>
-<polyline fill="none" stroke="black" points="83.5113,-97.3 234.489,-97.3 "/>
-<text text-anchor="start" x="91.5113" y="-85.2" font-family="Courier,monospace" font-weight="bold" font-size="9.00">Scores_NLTK.jpg</text>
+<path fill="#ffe4b5" stroke="black" d="M119.807,-78.5C119.807,-78.5 198.193,-78.5 198.193,-78.5 204.193,-78.5 210.193,-84.5 210.193,-90.5 210.193,-90.5 210.193,-104.1 210.193,-104.1 210.193,-110.1 204.193,-116.1 198.193,-116.1 198.193,-116.1 119.807,-116.1 119.807,-116.1 113.807,-116.1 107.807,-110.1 107.807,-104.1 107.807,-104.1 107.807,-90.5 107.807,-90.5 107.807,-84.5 113.807,-78.5 119.807,-78.5"/>
+<text text-anchor="middle" x="159" y="-104" font-family="Courier,monospace" font-weight="bold" font-size="9.00">Sentiment_Result</text>
+<polyline fill="none" stroke="black" points="107.807,-97.3 210.193,-97.3 "/>
+<text text-anchor="start" x="115.807" y="-85.2" font-family="Courier,monospace" font-weight="bold" font-size="9.00">Scores_NLTK.jpg</text>
 </g>
 <!-- DrawPieChart&#45;&gt;Sentiment_Result -->
 <g id="edge18" class="edge"><title>DrawPieChart&#45;&gt;Sentiment_Result</title>
@@ -142,10 +142,10 @@
 </g>
 <!-- Static_Tweets -->
 <g id="node5" class="node"><title>Static_Tweets</title>
-<path fill="#ffe4b5" stroke="black" d="M107.309,-657.1C107.309,-657.1 212.691,-657.1 212.691,-657.1 218.691,-657.1 224.691,-663.1 224.691,-669.1 224.691,-669.1 224.691,-682.7 224.691,-682.7 224.691,-688.7 218.691,-694.7 212.691,-694.7 212.691,-694.7 107.309,-694.7 107.309,-694.7 101.309,-694.7 95.3094,-688.7 95.3094,-682.7 95.3094,-682.7 95.3094,-669.1 95.3094,-669.1 95.3094,-663.1 101.309,-657.1 107.309,-657.1"/>
-<text text-anchor="middle" x="160" y="-682.6" font-family="Courier,monospace" font-weight="bold" font-size="9.00">[data3] Static_Tweets</text>
-<polyline fill="none" stroke="black" points="95.3094,-675.9 224.691,-675.9 "/>
-<text text-anchor="start" x="103.309" y="-663.8" font-family="Courier,monospace" font-weight="bold" font-size="9.00">static_tweet.csv</text>
+<path fill="#ffe4b5" stroke="black" d="M120.807,-657.1C120.807,-657.1 199.193,-657.1 199.193,-657.1 205.193,-657.1 211.193,-663.1 211.193,-669.1 211.193,-669.1 211.193,-682.7 211.193,-682.7 211.193,-688.7 205.193,-694.7 199.193,-694.7 199.193,-694.7 120.807,-694.7 120.807,-694.7 114.807,-694.7 108.807,-688.7 108.807,-682.7 108.807,-682.7 108.807,-669.1 108.807,-669.1 108.807,-663.1 114.807,-657.1 120.807,-657.1"/>
+<text text-anchor="middle" x="160" y="-682.6" font-family="Courier,monospace" font-weight="bold" font-size="9.00">Static_Tweets</text>
+<polyline fill="none" stroke="black" points="108.807,-675.9 211.193,-675.9 "/>
+<text text-anchor="start" x="116.807" y="-663.8" font-family="Courier,monospace" font-weight="bold" font-size="9.00">static_tweet.csv</text>
 </g>
 <!-- Static_Tweets&#45;&gt;AccessTweets -->
 <g id="edge1" class="edge"><title>Static_Tweets&#45;&gt;AccessTweets</title>

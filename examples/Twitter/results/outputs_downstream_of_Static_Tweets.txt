@@ -1,1 +1,8 @@
+
+
+---------------------------------------------------------------------------------------------------
+Q4_Pro : List the outputs that depend on Static_Tweets.
+
+q4_pro(UpstreamDataName, OutputDataName)
+...................................................................................................
 q4_pro('Static_Tweets','Sentiment_Result').

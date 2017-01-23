@@ -80,13 +80,13 @@
 </g>
 <!-- Tair_Matrix -->
 <g id="node16" class="node"><title>Tair_Matrix</title>
-<path fill="#ffffcc" stroke="black" d="M504.491,-405.9C504.491,-405.9 467.509,-405.9 467.509,-405.9 461.509,-405.9 455.509,-399.9 455.509,-393.9 455.509,-393.9 455.509,-381.9 455.509,-381.9 455.509,-375.9 461.509,-369.9 467.509,-369.9 467.509,-369.9 504.491,-369.9 504.491,-369.9 510.491,-369.9 516.491,-375.9 516.491,-381.9 516.491,-381.9 516.491,-393.9 516.491,-393.9 516.491,-399.9 510.491,-405.9 504.491,-405.9"/>
-<text text-anchor="middle" x="486" y="-385.2" font-family="Helvetica,sans-Serif" font-size="9.00">Tair_Matrix</text>
+<path fill="#ffffcc" stroke="black" d="M505.491,-405.9C505.491,-405.9 468.509,-405.9 468.509,-405.9 462.509,-405.9 456.509,-399.9 456.509,-393.9 456.509,-393.9 456.509,-381.9 456.509,-381.9 456.509,-375.9 462.509,-369.9 468.509,-369.9 468.509,-369.9 505.491,-369.9 505.491,-369.9 511.491,-369.9 517.491,-375.9 517.491,-381.9 517.491,-381.9 517.491,-393.9 517.491,-393.9 517.491,-399.9 511.491,-405.9 505.491,-405.9"/>
+<text text-anchor="middle" x="487" y="-385.2" font-family="Helvetica,sans-Serif" font-size="9.00">Tair_Matrix</text>
 </g>
 <!-- fetch_monthly_mean_air_temperature_data&#45;&gt;Tair_Matrix -->
 <g id="edge25" class="edge"><title>fetch_monthly_mean_air_temperature_data&#45;&gt;Tair_Matrix</title>
-<path fill="none" stroke="black" d="M563.568,-443.122C550.168,-433.754 533.371,-422.013 518.838,-411.855"/>
-<polygon fill="black" stroke="black" points="520.787,-408.947 510.586,-406.086 516.777,-414.684 520.787,-408.947"/>
+<path fill="none" stroke="black" d="M563.808,-443.122C550.539,-433.754 533.907,-422.013 519.516,-411.855"/>
+<polygon fill="black" stroke="black" points="521.533,-408.994 511.345,-406.086 517.496,-414.712 521.533,-408.994"/>
 </g>
 <!-- fetch_monthly_mean_precipitation_data -->
 <g id="node3" class="node"><title>fetch_monthly_mean_precipitation_data</title>
@@ -151,7 +151,7 @@
 <!-- C3_fraction_data -->
 <g id="node21" class="node"><title>C3_fraction_data</title>
 <path fill="#ffe4b5" stroke="black" d="M51.9238,-78.5C51.9238,-78.5 330.076,-78.5 330.076,-78.5 336.076,-78.5 342.076,-84.5 342.076,-90.5 342.076,-90.5 342.076,-104.1 342.076,-104.1 342.076,-110.1 336.076,-116.1 330.076,-116.1 330.076,-116.1 51.9238,-116.1 51.9238,-116.1 45.9238,-116.1 39.9238,-110.1 39.9238,-104.1 39.9238,-104.1 39.9238,-90.5 39.9238,-90.5 39.9238,-84.5 45.9238,-78.5 51.9238,-78.5"/>
-<text text-anchor="middle" x="191" y="-104" font-family="Courier,monospace" font-weight="bold" font-size="9.00">[data19] C3_fraction_data</text>
+<text text-anchor="middle" x="191" y="-104" font-family="Courier,monospace" font-weight="bold" font-size="9.00">C3_fraction_data</text>
 <polyline fill="none" stroke="black" points="39.9238,-97.3 342.076,-97.3 "/>
 <text text-anchor="start" x="47.9238" y="-85.2" font-family="Courier,monospace" font-weight="bold" font-size="9.00">outputs/SYNMAP_PRESENTVEG_C3Grass_RelaFrac_NA_v2.0.nc</text>
 </g>
@@ -168,7 +168,7 @@
 <!-- C4_fraction_data -->
 <g id="node22" class="node"><title>C4_fraction_data</title>
 <path fill="#ffe4b5" stroke="black" d="M379.924,-78.5C379.924,-78.5 658.076,-78.5 658.076,-78.5 664.076,-78.5 670.076,-84.5 670.076,-90.5 670.076,-90.5 670.076,-104.1 670.076,-104.1 670.076,-110.1 664.076,-116.1 658.076,-116.1 658.076,-116.1 379.924,-116.1 379.924,-116.1 373.924,-116.1 367.924,-110.1 367.924,-104.1 367.924,-104.1 367.924,-90.5 367.924,-90.5 367.924,-84.5 373.924,-78.5 379.924,-78.5"/>
-<text text-anchor="middle" x="519" y="-104" font-family="Courier,monospace" font-weight="bold" font-size="9.00">[data20] C4_fraction_data</text>
+<text text-anchor="middle" x="519" y="-104" font-family="Courier,monospace" font-weight="bold" font-size="9.00">C4_fraction_data</text>
 <polyline fill="none" stroke="black" points="367.924,-97.3 670.076,-97.3 "/>
 <text text-anchor="start" x="375.924" y="-85.2" font-family="Courier,monospace" font-weight="bold" font-size="9.00">outputs/SYNMAP_PRESENTVEG_C4Grass_RelaFrac_NA_v2.0.nc</text>
 </g>
@@ -185,7 +185,7 @@
 <!-- Grass_fraction_data -->
 <g id="node23" class="node"><title>Grass_fraction_data</title>
 <path fill="#ffe4b5" stroke="black" d="M717.323,-78.5C717.323,-78.5 984.677,-78.5 984.677,-78.5 990.677,-78.5 996.677,-84.5 996.677,-90.5 996.677,-90.5 996.677,-104.1 996.677,-104.1 996.677,-110.1 990.677,-116.1 984.677,-116.1 984.677,-116.1 717.323,-116.1 717.323,-116.1 711.323,-116.1 705.323,-110.1 705.323,-104.1 705.323,-104.1 705.323,-90.5 705.323,-90.5 705.323,-84.5 711.323,-78.5 717.323,-78.5"/>
-<text text-anchor="middle" x="851" y="-104" font-family="Courier,monospace" font-weight="bold" font-size="9.00">[data21] Grass_fraction_data</text>
+<text text-anchor="middle" x="851" y="-104" font-family="Courier,monospace" font-weight="bold" font-size="9.00">Grass_fraction_data</text>
 <polyline fill="none" stroke="black" points="705.323,-97.3 996.677,-97.3 "/>
 <text text-anchor="start" x="713.323" y="-85.2" font-family="Courier,monospace" font-weight="bold" font-size="9.00">outputs/SYNMAP_PRESENTVEG_Grass_Fraction_NA_v2.0.nc</text>
 </g>
@@ -196,10 +196,10 @@
 </g>
 <!-- SYNMAP_land_cover_map_data -->
 <g id="node9" class="node"><title>SYNMAP_land_cover_map_data</title>
-<path fill="#ffe4b5" stroke="black" d="M614.215,-369.1C614.215,-369.1 789.785,-369.1 789.785,-369.1 795.785,-369.1 801.785,-375.1 801.785,-381.1 801.785,-381.1 801.785,-394.7 801.785,-394.7 801.785,-400.7 795.785,-406.7 789.785,-406.7 789.785,-406.7 614.215,-406.7 614.215,-406.7 608.215,-406.7 602.215,-400.7 602.215,-394.7 602.215,-394.7 602.215,-381.1 602.215,-381.1 602.215,-375.1 608.215,-369.1 614.215,-369.1"/>
-<text text-anchor="middle" x="702" y="-394.6" font-family="Courier,monospace" font-weight="bold" font-size="9.00">[data7] SYNMAP_land_cover_map_data</text>
-<polyline fill="none" stroke="black" points="602.215,-387.9 801.785,-387.9 "/>
-<text text-anchor="start" x="610.215" y="-375.8" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/land_cover/SYNMAP_NA_QD.nc</text>
+<path fill="#ffe4b5" stroke="black" d="M616.915,-369.1C616.915,-369.1 787.085,-369.1 787.085,-369.1 793.085,-369.1 799.085,-375.1 799.085,-381.1 799.085,-381.1 799.085,-394.7 799.085,-394.7 799.085,-400.7 793.085,-406.7 787.085,-406.7 787.085,-406.7 616.915,-406.7 616.915,-406.7 610.915,-406.7 604.915,-400.7 604.915,-394.7 604.915,-394.7 604.915,-381.1 604.915,-381.1 604.915,-375.1 610.915,-369.1 616.915,-369.1"/>
+<text text-anchor="middle" x="702" y="-394.6" font-family="Courier,monospace" font-weight="bold" font-size="9.00">SYNMAP_land_cover_map_data</text>
+<polyline fill="none" stroke="black" points="604.915,-387.9 799.085,-387.9 "/>
+<text text-anchor="start" x="612.915" y="-375.8" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/land_cover/SYNMAP_NA_QD.nc</text>
 </g>
 <!-- SYNMAP_land_cover_map_data&#45;&gt;fetch_SYNMAP_land_cover_map_variable -->
 <g id="edge1" class="edge"><title>SYNMAP_land_cover_map_data&#45;&gt;fetch_SYNMAP_land_cover_map_variable</title>
@@ -209,20 +209,20 @@
 <!-- mean_airtemp -->
 <g id="node10" class="node"><title>mean_airtemp</title>
 <path fill="#ffe4b5" stroke="black" d="M431.628,-515.7C431.628,-515.7 758.372,-515.7 758.372,-515.7 764.372,-515.7 770.372,-521.7 770.372,-527.7 770.372,-527.7 770.372,-660.1 770.372,-660.1 770.372,-666.1 764.372,-672.1 758.372,-672.1 758.372,-672.1 431.628,-672.1 431.628,-672.1 425.628,-672.1 419.628,-666.1 419.628,-660.1 419.628,-660.1 419.628,-527.7 419.628,-527.7 419.628,-521.7 425.628,-515.7 431.628,-515.7"/>
-<text text-anchor="middle" x="595" y="-660" font-family="Courier,monospace" font-weight="bold" font-size="9.00">[data12] mean_airtemp</text>
+<text text-anchor="middle" x="595" y="-660" font-family="Courier,monospace" font-weight="bold" font-size="9.00">mean_airtemp</text>
 <polyline fill="none" stroke="black" points="419.628,-653.3 770.372,-653.3 "/>
-<text text-anchor="start" x="427.628" y="-641.2" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_air.2m_monthly/air.2m_monthly_2000_2010_mean.6.nc</text>
-<text text-anchor="start" x="427.628" y="-630.4" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_air.2m_monthly/air.2m_monthly_2000_2010_mean.10.nc</text>
-<text text-anchor="start" x="427.628" y="-619.6" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_air.2m_monthly/air.2m_monthly_2000_2010_mean.3.nc</text>
-<text text-anchor="start" x="427.628" y="-608.8" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_air.2m_monthly/air.2m_monthly_2000_2010_mean.7.nc</text>
-<text text-anchor="start" x="427.628" y="-598" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_air.2m_monthly/air.2m_monthly_2000_2010_mean.11.nc</text>
-<text text-anchor="start" x="427.628" y="-587.2" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_air.2m_monthly/air.2m_monthly_2000_2010_mean.4.nc</text>
-<text text-anchor="start" x="427.628" y="-576.4" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_air.2m_monthly/air.2m_monthly_2000_2010_mean.8.nc</text>
-<text text-anchor="start" x="427.628" y="-565.6" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_air.2m_monthly/air.2m_monthly_2000_2010_mean.12.nc</text>
-<text text-anchor="start" x="427.628" y="-554.8" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_air.2m_monthly/air.2m_monthly_2000_2010_mean.5.nc</text>
-<text text-anchor="start" x="427.628" y="-544" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_air.2m_monthly/air.2m_monthly_2000_2010_mean.9.nc</text>
-<text text-anchor="start" x="427.628" y="-533.2" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_air.2m_monthly/air.2m_monthly_2000_2010_mean.1.nc</text>
-<text text-anchor="start" x="427.628" y="-522.4" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_air.2m_monthly/air.2m_monthly_2000_2010_mean.2.nc</text>
+<text text-anchor="start" x="427.628" y="-641.2" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_air.2m_monthly/air.2m_monthly_2000_2010_mean.8.nc</text>
+<text text-anchor="start" x="427.628" y="-630.4" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_air.2m_monthly/air.2m_monthly_2000_2010_mean.12.nc</text>
+<text text-anchor="start" x="427.628" y="-619.6" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_air.2m_monthly/air.2m_monthly_2000_2010_mean.5.nc</text>
+<text text-anchor="start" x="427.628" y="-608.8" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_air.2m_monthly/air.2m_monthly_2000_2010_mean.9.nc</text>
+<text text-anchor="start" x="427.628" y="-598" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_air.2m_monthly/air.2m_monthly_2000_2010_mean.1.nc</text>
+<text text-anchor="start" x="427.628" y="-587.2" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_air.2m_monthly/air.2m_monthly_2000_2010_mean.2.nc</text>
+<text text-anchor="start" x="427.628" y="-576.4" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_air.2m_monthly/air.2m_monthly_2000_2010_mean.6.nc</text>
+<text text-anchor="start" x="427.628" y="-565.6" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_air.2m_monthly/air.2m_monthly_2000_2010_mean.10.nc</text>
+<text text-anchor="start" x="427.628" y="-554.8" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_air.2m_monthly/air.2m_monthly_2000_2010_mean.3.nc</text>
+<text text-anchor="start" x="427.628" y="-544" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_air.2m_monthly/air.2m_monthly_2000_2010_mean.7.nc</text>
+<text text-anchor="start" x="427.628" y="-533.2" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_air.2m_monthly/air.2m_monthly_2000_2010_mean.11.nc</text>
+<text text-anchor="start" x="427.628" y="-522.4" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_air.2m_monthly/air.2m_monthly_2000_2010_mean.4.nc</text>
 </g>
 <!-- mean_airtemp&#45;&gt;fetch_monthly_mean_air_temperature_data -->
 <g id="edge14" class="edge"><title>mean_airtemp&#45;&gt;fetch_monthly_mean_air_temperature_data</title>
@@ -232,20 +232,20 @@
 <!-- mean_precip -->
 <g id="node11" class="node"><title>mean_precip</title>
 <path fill="#ffe4b5" stroke="black" d="M36.1301,-515.7C36.1301,-515.7 389.87,-515.7 389.87,-515.7 395.87,-515.7 401.87,-521.7 401.87,-527.7 401.87,-527.7 401.87,-660.1 401.87,-660.1 401.87,-666.1 395.87,-672.1 389.87,-672.1 389.87,-672.1 36.1301,-672.1 36.1301,-672.1 30.1301,-672.1 24.1301,-666.1 24.1301,-660.1 24.1301,-660.1 24.1301,-527.7 24.1301,-527.7 24.1301,-521.7 30.1301,-515.7 36.1301,-515.7"/>
-<text text-anchor="middle" x="213" y="-660" font-family="Courier,monospace" font-weight="bold" font-size="9.00">[data14] mean_precip</text>
+<text text-anchor="middle" x="213" y="-660" font-family="Courier,monospace" font-weight="bold" font-size="9.00">mean_precip</text>
 <polyline fill="none" stroke="black" points="24.1301,-653.3 401.87,-653.3 "/>
-<text text-anchor="start" x="32.1301" y="-641.2" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_apcp_rescaled_monthly/apcp_monthly_2000_2010_mean.12.nc</text>
-<text text-anchor="start" x="32.1301" y="-630.4" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_apcp_rescaled_monthly/apcp_monthly_2000_2010_mean.5.nc</text>
-<text text-anchor="start" x="32.1301" y="-619.6" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_apcp_rescaled_monthly/apcp_monthly_2000_2010_mean.9.nc</text>
-<text text-anchor="start" x="32.1301" y="-608.8" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_apcp_rescaled_monthly/apcp_monthly_2000_2010_mean.2.nc</text>
-<text text-anchor="start" x="32.1301" y="-598" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_apcp_rescaled_monthly/apcp_monthly_2000_2010_mean.6.nc</text>
-<text text-anchor="start" x="32.1301" y="-587.2" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_apcp_rescaled_monthly/apcp_monthly_2000_2010_mean.10.nc</text>
-<text text-anchor="start" x="32.1301" y="-576.4" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_apcp_rescaled_monthly/apcp_monthly_2000_2010_mean.3.nc</text>
-<text text-anchor="start" x="32.1301" y="-565.6" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_apcp_rescaled_monthly/apcp_monthly_2000_2010_mean.7.nc</text>
-<text text-anchor="start" x="32.1301" y="-554.8" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_apcp_rescaled_monthly/apcp_monthly_2000_2010_mean.11.nc</text>
-<text text-anchor="start" x="32.1301" y="-544" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_apcp_rescaled_monthly/apcp_monthly_2000_2010_mean.4.nc</text>
-<text text-anchor="start" x="32.1301" y="-533.2" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_apcp_rescaled_monthly/apcp_monthly_2000_2010_mean.8.nc</text>
-<text text-anchor="start" x="32.1301" y="-522.4" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_apcp_rescaled_monthly/apcp_monthly_2000_2010_mean.1.nc</text>
+<text text-anchor="start" x="32.1301" y="-641.2" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_apcp_rescaled_monthly/apcp_monthly_2000_2010_mean.7.nc</text>
+<text text-anchor="start" x="32.1301" y="-630.4" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_apcp_rescaled_monthly/apcp_monthly_2000_2010_mean.11.nc</text>
+<text text-anchor="start" x="32.1301" y="-619.6" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_apcp_rescaled_monthly/apcp_monthly_2000_2010_mean.4.nc</text>
+<text text-anchor="start" x="32.1301" y="-608.8" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_apcp_rescaled_monthly/apcp_monthly_2000_2010_mean.8.nc</text>
+<text text-anchor="start" x="32.1301" y="-598" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_apcp_rescaled_monthly/apcp_monthly_2000_2010_mean.1.nc</text>
+<text text-anchor="start" x="32.1301" y="-587.2" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_apcp_rescaled_monthly/apcp_monthly_2000_2010_mean.12.nc</text>
+<text text-anchor="start" x="32.1301" y="-576.4" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_apcp_rescaled_monthly/apcp_monthly_2000_2010_mean.5.nc</text>
+<text text-anchor="start" x="32.1301" y="-565.6" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_apcp_rescaled_monthly/apcp_monthly_2000_2010_mean.9.nc</text>
+<text text-anchor="start" x="32.1301" y="-554.8" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_apcp_rescaled_monthly/apcp_monthly_2000_2010_mean.2.nc</text>
+<text text-anchor="start" x="32.1301" y="-544" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_apcp_rescaled_monthly/apcp_monthly_2000_2010_mean.6.nc</text>
+<text text-anchor="start" x="32.1301" y="-533.2" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_apcp_rescaled_monthly/apcp_monthly_2000_2010_mean.10.nc</text>
+<text text-anchor="start" x="32.1301" y="-522.4" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/narr_apcp_rescaled_monthly/apcp_monthly_2000_2010_mean.3.nc</text>
 </g>
 <!-- mean_precip&#45;&gt;fetch_monthly_mean_precipitation_data -->
 <g id="edge16" class="edge"><title>mean_precip&#45;&gt;fetch_monthly_mean_precipitation_data</title>
@@ -314,8 +314,8 @@
 </g>
 <!-- Tair_Matrix&#45;&gt;examine_pixels_for_grass -->
 <g id="edge15" class="edge"><title>Tair_Matrix&#45;&gt;examine_pixels_for_grass</title>
-<path fill="none" stroke="black" d="M455.459,-376.226C425.257,-365.67 378.258,-349.243 340.797,-336.15"/>
-<polygon fill="black" stroke="black" points="341.596,-332.722 331.001,-332.726 339.286,-339.33 341.596,-332.722"/>
+<path fill="none" stroke="black" d="M456.309,-376.226C425.96,-365.67 378.73,-349.243 341.085,-336.15"/>
+<polygon fill="black" stroke="black" points="341.836,-332.706 331.241,-332.726 339.536,-339.317 341.836,-332.706"/>
 </g>
 <!-- Rain_Matrix&#45;&gt;examine_pixels_for_grass -->
 <g id="edge17" class="edge"><title>Rain_Matrix&#45;&gt;examine_pixels_for_grass</title>

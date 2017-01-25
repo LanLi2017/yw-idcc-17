@@ -34,15 +34,15 @@ subgraph cluster_outflows_inner { label=""; color=white
 node[shape=circle fillcolor="#FFFFFF" peripheries=1 width=0.2]
 Sentiment_Result_outflow [label=""]
 }}
-DrawPieChart -> Sentiment_Result
-CountSentiments -> NeutralCount
-Measures -> Colors
-AccessTweets -> TweetRead
-Measures -> Explode
-CountSentiments -> PositiveCount
-Measures -> Labels
 CountSentiments -> NegativeCount
+CountSentiments -> NeutralCount
+Measures -> Explode
+DrawPieChart -> Sentiment_Result
+Measures -> Labels
+AccessTweets -> TweetRead
 Measures -> Sizes
+CountSentiments -> PositiveCount
+Measures -> Colors
 Static_Tweets -> AccessTweets
 TweetRead -> CountSentiments
 PositiveCount -> Measures

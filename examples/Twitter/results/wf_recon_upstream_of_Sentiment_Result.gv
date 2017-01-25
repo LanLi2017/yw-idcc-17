@@ -21,9 +21,9 @@ Labels
 Sizes
 Colors
 node[shape=box style="rounded,filled" fillcolor="#FFE4B5" peripheries=1 fontname="Courier-Bold" fontsize=9]
-Static_Tweets[shape=record rankdir=LR label="{<f0> [data3] Static_Tweets |<f1>static_tweet.csv\l}"]
+Static_Tweets[shape=record rankdir=LR label="{<f0> Static_Tweets |<f1>static_tweet.csv\l}"]
 node[shape=box style="rounded,filled" fillcolor="#FFE4B5" peripheries=1 fontname="Courier-Bold" fontsize=9]
-Sentiment_Result[shape=record rankdir=LR label="{<f0> [data12] Sentiment_Result |<f1>Scores_NLTK.jpg\l}"]
+Sentiment_Result[shape=record rankdir=LR label="{<f0> Sentiment_Result |<f1>Scores_NLTK.jpg\l}"]
 node[shape=box style="rounded,filled" fillcolor="#FFFFFF" peripheries=1 fontname=Helvetica]
 }}
 subgraph cluster_inflows { label=""; color=white; penwidth=2
@@ -36,15 +36,15 @@ subgraph cluster_outflows_inner { label=""; color=white
 node[shape=circle fillcolor="#FFFFFF" peripheries=1 width=0.2]
 Sentiment_Result_outflow [label=""]
 }}
-Static_Tweets -> AccessTweets
-NegativeCount -> Measures
-Sizes -> DrawPieChart
 NeutralCount -> Measures
-Colors -> DrawPieChart
-TweetRead -> CountSentiments
+Static_Tweets -> AccessTweets
 Explode -> DrawPieChart
-PositiveCount -> Measures
 Labels -> DrawPieChart
+TweetRead -> CountSentiments
+Sizes -> DrawPieChart
+PositiveCount -> Measures
+Colors -> DrawPieChart
+NegativeCount -> Measures
 AccessTweets -> TweetRead
 CountSentiments -> PositiveCount
 CountSentiments -> NegativeCount

@@ -96,7 +96,7 @@
 <!-- Grass_fraction_data -->
 <g id="node10" class="node"><title>Grass_fraction_data</title>
 <path fill="#ffe4b5" stroke="black" d="M171.323,-78.5C171.323,-78.5 438.677,-78.5 438.677,-78.5 444.677,-78.5 450.677,-84.5 450.677,-90.5 450.677,-90.5 450.677,-104.1 450.677,-104.1 450.677,-110.1 444.677,-116.1 438.677,-116.1 438.677,-116.1 171.323,-116.1 171.323,-116.1 165.323,-116.1 159.323,-110.1 159.323,-104.1 159.323,-104.1 159.323,-90.5 159.323,-90.5 159.323,-84.5 165.323,-78.5 171.323,-78.5"/>
-<text text-anchor="middle" x="305" y="-104" font-family="Courier,monospace" font-weight="bold" font-size="9.00">[data21] Grass_fraction_data</text>
+<text text-anchor="middle" x="305" y="-104" font-family="Courier,monospace" font-weight="bold" font-size="9.00">Grass_fraction_data</text>
 <polyline fill="none" stroke="black" points="159.323,-97.3 450.677,-97.3 "/>
 <text text-anchor="start" x="167.323" y="-85.2" font-family="Courier,monospace" font-weight="bold" font-size="9.00">outputs/SYNMAP_PRESENTVEG_Grass_Fraction_NA_v2.0.nc</text>
 </g>
@@ -132,10 +132,10 @@
 </g>
 <!-- SYNMAP_land_cover_map_data -->
 <g id="node9" class="node"><title>SYNMAP_land_cover_map_data</title>
-<path fill="#ffe4b5" stroke="black" d="M131.215,-369.1C131.215,-369.1 306.785,-369.1 306.785,-369.1 312.785,-369.1 318.785,-375.1 318.785,-381.1 318.785,-381.1 318.785,-394.7 318.785,-394.7 318.785,-400.7 312.785,-406.7 306.785,-406.7 306.785,-406.7 131.215,-406.7 131.215,-406.7 125.215,-406.7 119.215,-400.7 119.215,-394.7 119.215,-394.7 119.215,-381.1 119.215,-381.1 119.215,-375.1 125.215,-369.1 131.215,-369.1"/>
-<text text-anchor="middle" x="219" y="-394.6" font-family="Courier,monospace" font-weight="bold" font-size="9.00">[data7] SYNMAP_land_cover_map_data</text>
-<polyline fill="none" stroke="black" points="119.215,-387.9 318.785,-387.9 "/>
-<text text-anchor="start" x="127.215" y="-375.8" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/land_cover/SYNMAP_NA_QD.nc</text>
+<path fill="#ffe4b5" stroke="black" d="M133.915,-369.1C133.915,-369.1 304.085,-369.1 304.085,-369.1 310.085,-369.1 316.085,-375.1 316.085,-381.1 316.085,-381.1 316.085,-394.7 316.085,-394.7 316.085,-400.7 310.085,-406.7 304.085,-406.7 304.085,-406.7 133.915,-406.7 133.915,-406.7 127.915,-406.7 121.915,-400.7 121.915,-394.7 121.915,-394.7 121.915,-381.1 121.915,-381.1 121.915,-375.1 127.915,-369.1 133.915,-369.1"/>
+<text text-anchor="middle" x="219" y="-394.6" font-family="Courier,monospace" font-weight="bold" font-size="9.00">SYNMAP_land_cover_map_data</text>
+<polyline fill="none" stroke="black" points="121.915,-387.9 316.085,-387.9 "/>
+<text text-anchor="start" x="129.915" y="-375.8" font-family="Courier,monospace" font-weight="bold" font-size="9.00">inputs/land_cover/SYNMAP_NA_QD.nc</text>
 </g>
 <!-- SYNMAP_land_cover_map_data&#45;&gt;fetch_SYNMAP_land_cover_map_variable -->
 <g id="edge6" class="edge"><title>SYNMAP_land_cover_map_data&#45;&gt;fetch_SYNMAP_land_cover_map_variable</title>

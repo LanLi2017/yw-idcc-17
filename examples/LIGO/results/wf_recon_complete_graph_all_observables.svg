@@ -16,17 +16,17 @@
 <g id="clust2" class="cluster"><title>cluster_workflow_inner</title>
 <polygon fill="none" stroke="white" stroke-width="2" points="16,-70 16,-1088 922,-1088 922,-70 16,-70"/>
 </g>
-<g id="clust3" class="cluster"><title>cluster_inflows</title>
-<polygon fill="none" stroke="white" stroke-width="2" points="314,-1104 314,-1150 424,-1150 424,-1104 314,-1104"/>
-</g>
-<g id="clust4" class="cluster"><title>cluster_inflows_inner</title>
-<polygon fill="none" stroke="white" stroke-width="2" points="322,-1112 322,-1142 416,-1142 416,-1112 322,-1112"/>
-</g>
 <g id="clust5" class="cluster"><title>cluster_outflows</title>
 <polygon fill="none" stroke="white" stroke-width="2" points="832,-8 832,-54 1166,-54 1166,-8 832,-8"/>
 </g>
 <g id="clust6" class="cluster"><title>cluster_outflows_inner</title>
 <polygon fill="none" stroke="white" stroke-width="2" points="840,-16 840,-46 1158,-46 1158,-16 840,-16"/>
+</g>
+<g id="clust3" class="cluster"><title>cluster_inflows</title>
+<polygon fill="none" stroke="white" stroke-width="2" points="315,-1104 315,-1150 425,-1150 425,-1104 315,-1104"/>
+</g>
+<g id="clust4" class="cluster"><title>cluster_inflows_inner</title>
+<polygon fill="none" stroke="white" stroke-width="2" points="323,-1112 323,-1142 417,-1142 417,-1112 323,-1112"/>
 </g>
 <!-- LOAD_DATA -->
 <g id="node1" class="node"><title>LOAD_DATA</title>
@@ -45,100 +45,100 @@
 </g>
 <!-- strain_L1 -->
 <g id="node18" class="node"><title>strain_L1</title>
-<path fill="#ffffcc" stroke="black" d="M247,-922.6C247,-922.6 217,-922.6 217,-922.6 211,-922.6 205,-916.6 205,-910.6 205,-910.6 205,-898.6 205,-898.6 205,-892.6 211,-886.6 217,-886.6 217,-886.6 247,-886.6 247,-886.6 253,-886.6 259,-892.6 259,-898.6 259,-898.6 259,-910.6 259,-910.6 259,-916.6 253,-922.6 247,-922.6"/>
-<text text-anchor="middle" x="232" y="-901.9" font-family="Helvetica,sans-Serif" font-size="9.00">strain_L1</text>
+<path fill="#ffffcc" stroke="black" d="M243,-922.6C243,-922.6 213,-922.6 213,-922.6 207,-922.6 201,-916.6 201,-910.6 201,-910.6 201,-898.6 201,-898.6 201,-892.6 207,-886.6 213,-886.6 213,-886.6 243,-886.6 243,-886.6 249,-886.6 255,-892.6 255,-898.6 255,-898.6 255,-910.6 255,-910.6 255,-916.6 249,-922.6 243,-922.6"/>
+<text text-anchor="middle" x="228" y="-901.9" font-family="Helvetica,sans-Serif" font-size="9.00">strain_L1</text>
 </g>
 <!-- LOAD_DATA&#45;&gt;strain_L1 -->
 <g id="edge33" class="edge"><title>LOAD_DATA&#45;&gt;strain_L1</title>
-<path fill="none" stroke="black" d="M321.889,-958.476C305.6,-948.894 285.157,-936.869 267.884,-926.708"/>
-<polygon fill="black" stroke="black" points="269.573,-923.641 259.179,-921.587 266.023,-929.674 269.573,-923.641"/>
+<path fill="none" stroke="black" d="M320.911,-958.476C303.832,-948.756 282.335,-936.522 264.321,-926.271"/>
+<polygon fill="black" stroke="black" points="265.683,-923.019 255.261,-921.114 262.221,-929.102 265.683,-923.019"/>
 </g>
 <!-- strain_16 -->
 <g id="node19" class="node"><title>strain_16</title>
-<path fill="#ffffcc" stroke="black" d="M812,-922.6C812,-922.6 782,-922.6 782,-922.6 776,-922.6 770,-916.6 770,-910.6 770,-910.6 770,-898.6 770,-898.6 770,-892.6 776,-886.6 782,-886.6 782,-886.6 812,-886.6 812,-886.6 818,-886.6 824,-892.6 824,-898.6 824,-898.6 824,-910.6 824,-910.6 824,-916.6 818,-922.6 812,-922.6"/>
-<text text-anchor="middle" x="797" y="-901.9" font-family="Helvetica,sans-Serif" font-size="9.00">strain_16</text>
+<path fill="#ffffcc" stroke="black" d="M813,-922.6C813,-922.6 783,-922.6 783,-922.6 777,-922.6 771,-916.6 771,-910.6 771,-910.6 771,-898.6 771,-898.6 771,-892.6 777,-886.6 783,-886.6 783,-886.6 813,-886.6 813,-886.6 819,-886.6 825,-892.6 825,-898.6 825,-898.6 825,-910.6 825,-910.6 825,-916.6 819,-922.6 813,-922.6"/>
+<text text-anchor="middle" x="798" y="-901.9" font-family="Helvetica,sans-Serif" font-size="9.00">strain_16</text>
 </g>
 <!-- LOAD_DATA&#45;&gt;strain_16 -->
 <g id="edge34" class="edge"><title>LOAD_DATA&#45;&gt;strain_16</title>
-<path fill="none" stroke="black" d="M396.743,-969.426C464.752,-960.107 596.495,-941.518 708,-922.6 725.048,-919.708 743.865,-916.165 759.788,-913.063"/>
-<polygon fill="black" stroke="black" points="760.648,-916.462 769.786,-911.1 759.299,-909.593 760.648,-916.462"/>
+<path fill="none" stroke="black" d="M396.589,-969.472C464.706,-960.176 597.031,-941.573 709,-922.6 726.048,-919.711 744.865,-916.169 760.788,-913.067"/>
+<polygon fill="black" stroke="black" points="761.649,-916.465 770.787,-911.103 760.3,-909.596 761.649,-916.465"/>
 </g>
 <!-- strain_4 -->
 <g id="node20" class="node"><title>strain_4</title>
-<path fill="#ffffcc" stroke="black" d="M687,-922.6C687,-922.6 657,-922.6 657,-922.6 651,-922.6 645,-916.6 645,-910.6 645,-910.6 645,-898.6 645,-898.6 645,-892.6 651,-886.6 657,-886.6 657,-886.6 687,-886.6 687,-886.6 693,-886.6 699,-892.6 699,-898.6 699,-898.6 699,-910.6 699,-910.6 699,-916.6 693,-922.6 687,-922.6"/>
-<text text-anchor="middle" x="672" y="-901.9" font-family="Helvetica,sans-Serif" font-size="9.00">strain_4</text>
+<path fill="#ffffcc" stroke="black" d="M688,-922.6C688,-922.6 658,-922.6 658,-922.6 652,-922.6 646,-916.6 646,-910.6 646,-910.6 646,-898.6 646,-898.6 646,-892.6 652,-886.6 658,-886.6 658,-886.6 688,-886.6 688,-886.6 694,-886.6 700,-892.6 700,-898.6 700,-898.6 700,-910.6 700,-910.6 700,-916.6 694,-922.6 688,-922.6"/>
+<text text-anchor="middle" x="673" y="-901.9" font-family="Helvetica,sans-Serif" font-size="9.00">strain_4</text>
 </g>
 <!-- LOAD_DATA&#45;&gt;strain_4 -->
 <g id="edge35" class="edge"><title>LOAD_DATA&#45;&gt;strain_4</title>
-<path fill="none" stroke="black" d="M396.651,-965.645C460.659,-951.687 575.844,-926.568 634.89,-913.692"/>
-<polygon fill="black" stroke="black" points="635.871,-917.061 644.895,-911.511 634.379,-910.222 635.871,-917.061"/>
+<path fill="none" stroke="black" d="M396.793,-965.645C461.001,-951.687 576.545,-926.568 635.775,-913.692"/>
+<polygon fill="black" stroke="black" points="636.783,-917.055 645.811,-911.511 635.296,-910.215 636.783,-917.055"/>
 </g>
 <!-- AMPLITUDE_SPECTRAL_DENSITY -->
 <g id="node2" class="node"><title>AMPLITUDE_SPECTRAL_DENSITY</title>
-<polygon fill="#ccffcc" stroke="black" points="303.364,-850.6 68.6361,-850.6 68.6361,-814.6 303.364,-814.6 303.364,-850.6"/>
-<text text-anchor="middle" x="186" y="-828.4" font-family="Courier,monospace" font-size="14.00">AMPLITUDE_SPECTRAL_DENSITY</text>
+<polygon fill="#ccffcc" stroke="black" points="304.364,-850.6 69.6361,-850.6 69.6361,-814.6 304.364,-814.6 304.364,-850.6"/>
+<text text-anchor="middle" x="187" y="-828.4" font-family="Courier,monospace" font-size="14.00">AMPLITUDE_SPECTRAL_DENSITY</text>
 </g>
 <!-- PSD_H1 -->
 <g id="node21" class="node"><title>PSD_H1</title>
-<path fill="#ffffcc" stroke="black" d="M183,-766.5C183,-766.5 153,-766.5 153,-766.5 147,-766.5 141,-760.5 141,-754.5 141,-754.5 141,-742.5 141,-742.5 141,-736.5 147,-730.5 153,-730.5 153,-730.5 183,-730.5 183,-730.5 189,-730.5 195,-736.5 195,-742.5 195,-742.5 195,-754.5 195,-754.5 195,-760.5 189,-766.5 183,-766.5"/>
-<text text-anchor="middle" x="168" y="-745.8" font-family="Helvetica,sans-Serif" font-size="9.00">PSD_H1</text>
+<path fill="#ffffcc" stroke="black" d="M202,-766.5C202,-766.5 172,-766.5 172,-766.5 166,-766.5 160,-760.5 160,-754.5 160,-754.5 160,-742.5 160,-742.5 160,-736.5 166,-730.5 172,-730.5 172,-730.5 202,-730.5 202,-730.5 208,-730.5 214,-736.5 214,-742.5 214,-742.5 214,-754.5 214,-754.5 214,-760.5 208,-766.5 202,-766.5"/>
+<text text-anchor="middle" x="187" y="-745.8" font-family="Helvetica,sans-Serif" font-size="9.00">PSD_H1</text>
 </g>
 <!-- AMPLITUDE_SPECTRAL_DENSITY&#45;&gt;PSD_H1 -->
 <g id="edge36" class="edge"><title>AMPLITUDE_SPECTRAL_DENSITY&#45;&gt;PSD_H1</title>
-<path fill="none" stroke="black" d="M182.27,-814.589C179.873,-803.654 176.705,-789.206 173.963,-776.7"/>
-<polygon fill="black" stroke="black" points="177.347,-775.79 171.787,-766.772 170.51,-777.289 177.347,-775.79"/>
+<path fill="none" stroke="black" d="M187,-814.589C187,-803.763 187,-789.494 187,-777.076"/>
+<polygon fill="black" stroke="black" points="190.5,-776.772 187,-766.772 183.5,-776.772 190.5,-776.772"/>
 </g>
 <!-- PSD_L1 -->
 <g id="node22" class="node"><title>PSD_L1</title>
-<path fill="#ffffcc" stroke="black" d="M111,-766.5C111,-766.5 81,-766.5 81,-766.5 75,-766.5 69,-760.5 69,-754.5 69,-754.5 69,-742.5 69,-742.5 69,-736.5 75,-730.5 81,-730.5 81,-730.5 111,-730.5 111,-730.5 117,-730.5 123,-736.5 123,-742.5 123,-742.5 123,-754.5 123,-754.5 123,-760.5 117,-766.5 111,-766.5"/>
-<text text-anchor="middle" x="96" y="-745.8" font-family="Helvetica,sans-Serif" font-size="9.00">PSD_L1</text>
+<path fill="#ffffcc" stroke="black" d="M130,-766.5C130,-766.5 100,-766.5 100,-766.5 94,-766.5 88,-760.5 88,-754.5 88,-754.5 88,-742.5 88,-742.5 88,-736.5 94,-730.5 100,-730.5 100,-730.5 130,-730.5 130,-730.5 136,-730.5 142,-736.5 142,-742.5 142,-742.5 142,-754.5 142,-754.5 142,-760.5 136,-766.5 130,-766.5"/>
+<text text-anchor="middle" x="115" y="-745.8" font-family="Helvetica,sans-Serif" font-size="9.00">PSD_L1</text>
 </g>
 <!-- AMPLITUDE_SPECTRAL_DENSITY&#45;&gt;PSD_L1 -->
 <g id="edge37" class="edge"><title>AMPLITUDE_SPECTRAL_DENSITY&#45;&gt;PSD_L1</title>
-<path fill="none" stroke="black" d="M167.352,-814.589C154.406,-802.779 136.968,-786.871 122.571,-773.739"/>
-<polygon fill="black" stroke="black" points="124.681,-770.925 114.934,-766.772 119.963,-776.097 124.681,-770.925"/>
+<path fill="none" stroke="black" d="M172.082,-814.589C161.917,-802.998 148.289,-787.459 136.899,-774.471"/>
+<polygon fill="black" stroke="black" points="139.372,-771.983 130.147,-766.772 134.109,-776.598 139.372,-771.983"/>
 </g>
 <!-- ASDs -->
 <g id="node32" class="node"><title>ASDs</title>
-<path fill="#ffe4b5" stroke="black" d="M225.108,-729.7C225.108,-729.7 308.892,-729.7 308.892,-729.7 314.892,-729.7 320.892,-735.7 320.892,-741.7 320.892,-741.7 320.892,-755.3 320.892,-755.3 320.892,-761.3 314.892,-767.3 308.892,-767.3 308.892,-767.3 225.108,-767.3 225.108,-767.3 219.108,-767.3 213.108,-761.3 213.108,-755.3 213.108,-755.3 213.108,-741.7 213.108,-741.7 213.108,-735.7 219.108,-729.7 225.108,-729.7"/>
-<text text-anchor="middle" x="267" y="-755.2" font-family="Courier,monospace" font-weight="bold" font-size="9.00">[data23] ASDs</text>
-<polyline fill="none" stroke="black" points="213.108,-748.5 320.892,-748.5 "/>
-<text text-anchor="start" x="221.108" y="-736.4" font-family="Courier,monospace" font-weight="bold" font-size="9.00">GW150914_ASDs.png</text>
+<path fill="#ffe4b5" stroke="black" d="M244.108,-729.7C244.108,-729.7 327.892,-729.7 327.892,-729.7 333.892,-729.7 339.892,-735.7 339.892,-741.7 339.892,-741.7 339.892,-755.3 339.892,-755.3 339.892,-761.3 333.892,-767.3 327.892,-767.3 327.892,-767.3 244.108,-767.3 244.108,-767.3 238.108,-767.3 232.108,-761.3 232.108,-755.3 232.108,-755.3 232.108,-741.7 232.108,-741.7 232.108,-735.7 238.108,-729.7 244.108,-729.7"/>
+<text text-anchor="middle" x="286" y="-755.2" font-family="Courier,monospace" font-weight="bold" font-size="9.00">ASDs</text>
+<polyline fill="none" stroke="black" points="232.108,-748.5 339.892,-748.5 "/>
+<text text-anchor="start" x="240.108" y="-736.4" font-family="Courier,monospace" font-weight="bold" font-size="9.00">GW150914_ASDs.png</text>
 </g>
 <!-- AMPLITUDE_SPECTRAL_DENSITY&#45;&gt;ASDs -->
 <g id="edge38" class="edge"><title>AMPLITUDE_SPECTRAL_DENSITY&#45;&gt;ASDs</title>
-<path fill="none" stroke="black" d="M202.783,-814.589C214.172,-803.046 229.423,-787.587 242.205,-774.632"/>
-<polygon fill="black" stroke="black" points="244.866,-776.918 249.398,-767.341 239.883,-772.002 244.866,-776.918"/>
+<path fill="none" stroke="black" d="M207.513,-814.589C221.692,-802.83 240.771,-787.008 256.568,-773.908"/>
+<polygon fill="black" stroke="black" points="259.023,-776.419 264.486,-767.341 254.554,-771.031 259.023,-776.419"/>
 </g>
 <!-- WHITENING -->
 <g id="node3" class="node"><title>WHITENING</title>
-<polygon fill="#ccffcc" stroke="black" points="213.588,-682.4 122.412,-682.4 122.412,-646.4 213.588,-646.4 213.588,-682.4"/>
-<text text-anchor="middle" x="168" y="-660.2" font-family="Courier,monospace" font-size="14.00">WHITENING</text>
+<polygon fill="#ccffcc" stroke="black" points="233.588,-682.4 142.412,-682.4 142.412,-646.4 233.588,-646.4 233.588,-682.4"/>
+<text text-anchor="middle" x="188" y="-660.2" font-family="Courier,monospace" font-size="14.00">WHITENING</text>
 </g>
 <!-- strain_H1_whiten -->
 <g id="node23" class="node"><title>strain_H1_whiten</title>
-<path fill="#ffffcc" stroke="black" d="M197.513,-609.1C197.513,-609.1 136.487,-609.1 136.487,-609.1 130.487,-609.1 124.487,-603.1 124.487,-597.1 124.487,-597.1 124.487,-585.1 124.487,-585.1 124.487,-579.1 130.487,-573.1 136.487,-573.1 136.487,-573.1 197.513,-573.1 197.513,-573.1 203.513,-573.1 209.513,-579.1 209.513,-585.1 209.513,-585.1 209.513,-597.1 209.513,-597.1 209.513,-603.1 203.513,-609.1 197.513,-609.1"/>
-<text text-anchor="middle" x="167" y="-588.4" font-family="Helvetica,sans-Serif" font-size="9.00">strain_H1_whiten</text>
+<path fill="#ffffcc" stroke="black" d="M219.513,-609.1C219.513,-609.1 158.487,-609.1 158.487,-609.1 152.487,-609.1 146.487,-603.1 146.487,-597.1 146.487,-597.1 146.487,-585.1 146.487,-585.1 146.487,-579.1 152.487,-573.1 158.487,-573.1 158.487,-573.1 219.513,-573.1 219.513,-573.1 225.513,-573.1 231.513,-579.1 231.513,-585.1 231.513,-585.1 231.513,-597.1 231.513,-597.1 231.513,-603.1 225.513,-609.1 219.513,-609.1"/>
+<text text-anchor="middle" x="189" y="-588.4" font-family="Helvetica,sans-Serif" font-size="9.00">strain_H1_whiten</text>
 </g>
 <!-- WHITENING&#45;&gt;strain_H1_whiten -->
 <g id="edge39" class="edge"><title>WHITENING&#45;&gt;strain_H1_whiten</title>
-<path fill="none" stroke="black" d="M167.758,-646.14C167.645,-638.083 167.508,-628.3 167.381,-619.284"/>
-<polygon fill="black" stroke="black" points="170.88,-619.151 167.24,-609.201 163.881,-619.249 170.88,-619.151"/>
+<path fill="none" stroke="black" d="M188.242,-646.14C188.355,-638.083 188.492,-628.3 188.619,-619.284"/>
+<polygon fill="black" stroke="black" points="192.119,-619.249 188.76,-609.201 185.12,-619.151 192.119,-619.249"/>
 </g>
 <!-- strain_L1_whiten -->
 <g id="node24" class="node"><title>strain_L1_whiten</title>
-<path fill="#ffffcc" stroke="black" d="M300.018,-609.1C300.018,-609.1 239.982,-609.1 239.982,-609.1 233.982,-609.1 227.982,-603.1 227.982,-597.1 227.982,-597.1 227.982,-585.1 227.982,-585.1 227.982,-579.1 233.982,-573.1 239.982,-573.1 239.982,-573.1 300.018,-573.1 300.018,-573.1 306.018,-573.1 312.018,-579.1 312.018,-585.1 312.018,-585.1 312.018,-597.1 312.018,-597.1 312.018,-603.1 306.018,-609.1 300.018,-609.1"/>
-<text text-anchor="middle" x="270" y="-588.4" font-family="Helvetica,sans-Serif" font-size="9.00">strain_L1_whiten</text>
+<path fill="#ffffcc" stroke="black" d="M322.018,-609.1C322.018,-609.1 261.982,-609.1 261.982,-609.1 255.982,-609.1 249.982,-603.1 249.982,-597.1 249.982,-597.1 249.982,-585.1 249.982,-585.1 249.982,-579.1 255.982,-573.1 261.982,-573.1 261.982,-573.1 322.018,-573.1 322.018,-573.1 328.018,-573.1 334.018,-579.1 334.018,-585.1 334.018,-585.1 334.018,-597.1 334.018,-597.1 334.018,-603.1 328.018,-609.1 322.018,-609.1"/>
+<text text-anchor="middle" x="292" y="-588.4" font-family="Helvetica,sans-Serif" font-size="9.00">strain_L1_whiten</text>
 </g>
 <!-- WHITENING&#45;&gt;strain_L1_whiten -->
 <g id="edge40" class="edge"><title>WHITENING&#45;&gt;strain_L1_whiten</title>
-<path fill="none" stroke="black" d="M192.432,-646.322C205.832,-636.954 222.629,-625.213 237.162,-615.055"/>
-<polygon fill="black" stroke="black" points="239.223,-617.884 245.414,-609.286 235.213,-612.147 239.223,-617.884"/>
+<path fill="none" stroke="black" d="M212.911,-646.322C226.574,-636.954 243.7,-625.213 258.518,-615.055"/>
+<polygon fill="black" stroke="black" points="260.663,-617.827 266.932,-609.286 256.705,-612.054 260.663,-617.827"/>
 </g>
 <!-- BANDPASSING -->
 <g id="node4" class="node"><title>BANDPASSING</title>
-<polygon fill="#ccffcc" stroke="black" points="221.385,-535.8 112.615,-535.8 112.615,-499.8 221.385,-499.8 221.385,-535.8"/>
-<text text-anchor="middle" x="167" y="-513.6" font-family="Courier,monospace" font-size="14.00">BANDPASSING</text>
+<polygon fill="#ccffcc" stroke="black" points="244.385,-535.8 135.615,-535.8 135.615,-499.8 244.385,-499.8 244.385,-535.8"/>
+<text text-anchor="middle" x="190" y="-513.6" font-family="Courier,monospace" font-size="14.00">BANDPASSING</text>
 </g>
 <!-- strain_H1_whitenbp -->
 <g id="node25" class="node"><title>strain_H1_whitenbp</title>
@@ -147,8 +147,8 @@
 </g>
 <!-- BANDPASSING&#45;&gt;strain_H1_whitenbp -->
 <g id="edge41" class="edge"><title>BANDPASSING&#45;&gt;strain_H1_whitenbp</title>
-<path fill="none" stroke="black" d="M154.794,-499.778C147.581,-489.719 138.31,-476.791 130.243,-465.541"/>
-<polygon fill="black" stroke="black" points="133.034,-463.427 124.362,-457.34 127.345,-467.506 133.034,-463.427"/>
+<path fill="none" stroke="black" d="M172.689,-499.778C162.16,-489.424 148.537,-476.028 136.867,-464.552"/>
+<polygon fill="black" stroke="black" points="139.116,-461.856 129.532,-457.34 134.208,-466.847 139.116,-461.856"/>
 </g>
 <!-- strain_L1_whitenbp -->
 <g id="node26" class="node"><title>strain_L1_whitenbp</title>
@@ -157,8 +157,8 @@
 </g>
 <!-- BANDPASSING&#45;&gt;strain_L1_whitenbp -->
 <g id="edge42" class="edge"><title>BANDPASSING&#45;&gt;strain_L1_whitenbp</title>
-<path fill="none" stroke="black" d="M179.872,-499.778C187.478,-489.719 197.254,-476.791 205.762,-465.541"/>
-<polygon fill="black" stroke="black" points="208.723,-467.427 211.963,-457.34 203.14,-463.205 208.723,-467.427"/>
+<path fill="none" stroke="black" d="M197.768,-499.778C202.222,-490.015 207.911,-477.549 212.936,-466.538"/>
+<polygon fill="black" stroke="black" points="216.166,-467.89 217.133,-457.34 209.797,-464.984 216.166,-467.89"/>
 </g>
 <!-- STRAIN_WAVEFORM_FOR_WHITENED_DATA -->
 <g id="node5" class="node"><title>STRAIN_WAVEFORM_FOR_WHITENED_DATA</title>
@@ -167,56 +167,56 @@
 </g>
 <!-- WHITENED_strain_data -->
 <g id="node33" class="node"><title>WHITENED_strain_data</title>
-<path fill="#ffe4b5" stroke="black" d="M424.713,-257.5C424.713,-257.5 573.287,-257.5 573.287,-257.5 579.287,-257.5 585.287,-263.5 585.287,-269.5 585.287,-269.5 585.287,-283.1 585.287,-283.1 585.287,-289.1 579.287,-295.1 573.287,-295.1 573.287,-295.1 424.713,-295.1 424.713,-295.1 418.713,-295.1 412.713,-289.1 412.713,-283.1 412.713,-283.1 412.713,-269.5 412.713,-269.5 412.713,-263.5 418.713,-257.5 424.713,-257.5"/>
-<text text-anchor="middle" x="499" y="-283" font-family="Courier,monospace" font-weight="bold" font-size="9.00">[data28] WHITENED_strain_data</text>
-<polyline fill="none" stroke="black" points="412.713,-276.3 585.287,-276.3 "/>
-<text text-anchor="start" x="420.713" y="-264.2" font-family="Courier,monospace" font-weight="bold" font-size="9.00">GW150914_strain_whitened.png</text>
+<path fill="#ffe4b5" stroke="black" d="M446.413,-257.5C446.413,-257.5 589.587,-257.5 589.587,-257.5 595.587,-257.5 601.587,-263.5 601.587,-269.5 601.587,-269.5 601.587,-283.1 601.587,-283.1 601.587,-289.1 595.587,-295.1 589.587,-295.1 589.587,-295.1 446.413,-295.1 446.413,-295.1 440.413,-295.1 434.413,-289.1 434.413,-283.1 434.413,-283.1 434.413,-269.5 434.413,-269.5 434.413,-263.5 440.413,-257.5 446.413,-257.5"/>
+<text text-anchor="middle" x="518" y="-283" font-family="Courier,monospace" font-weight="bold" font-size="9.00">WHITENED_strain_data</text>
+<polyline fill="none" stroke="black" points="434.413,-276.3 601.587,-276.3 "/>
+<text text-anchor="start" x="442.413" y="-264.2" font-family="Courier,monospace" font-weight="bold" font-size="9.00">GW150914_strain_whitened.png</text>
 </g>
 <!-- STRAIN_WAVEFORM_FOR_WHITENED_DATA&#45;&gt;WHITENED_strain_data -->
 <g id="edge43" class="edge"><title>STRAIN_WAVEFORM_FOR_WHITENED_DATA&#45;&gt;WHITENED_strain_data</title>
-<path fill="none" stroke="black" d="M438.747,-342.389C449.333,-330.954 463.476,-315.676 475.399,-302.795"/>
-<polygon fill="black" stroke="black" points="478.259,-304.857 482.484,-295.141 473.123,-300.102 478.259,-304.857"/>
+<path fill="none" stroke="black" d="M442.684,-342.389C456.291,-330.63 474.599,-314.808 489.757,-301.708"/>
+<polygon fill="black" stroke="black" points="492.078,-304.328 497.355,-295.141 487.501,-299.032 492.078,-304.328"/>
 </g>
 <!-- SPECTROGRAMS_FOR_STRAIN_DATA -->
 <g id="node6" class="node"><title>SPECTROGRAMS_FOR_STRAIN_DATA</title>
-<polygon fill="#ccffcc" stroke="black" points="592.661,-850.6 341.339,-850.6 341.339,-814.6 592.661,-814.6 592.661,-850.6"/>
-<text text-anchor="middle" x="467" y="-828.4" font-family="Courier,monospace" font-size="14.00">SPECTROGRAMS_FOR_STRAIN_DATA</text>
+<polygon fill="#ccffcc" stroke="black" points="593.661,-850.6 342.339,-850.6 342.339,-814.6 593.661,-814.6 593.661,-850.6"/>
+<text text-anchor="middle" x="468" y="-828.4" font-family="Courier,monospace" font-size="14.00">SPECTROGRAMS_FOR_STRAIN_DATA</text>
 </g>
 <!-- spectrogram -->
 <g id="node34" class="node"><title>spectrogram</title>
 <path fill="#ffe4b5" stroke="black" d="M468.112,-724.3C468.112,-724.3 605.888,-724.3 605.888,-724.3 611.888,-724.3 617.888,-730.3 617.888,-736.3 617.888,-736.3 617.888,-760.7 617.888,-760.7 617.888,-766.7 611.888,-772.7 605.888,-772.7 605.888,-772.7 468.112,-772.7 468.112,-772.7 462.112,-772.7 456.112,-766.7 456.112,-760.7 456.112,-760.7 456.112,-736.3 456.112,-736.3 456.112,-730.3 462.112,-724.3 468.112,-724.3"/>
-<text text-anchor="middle" x="537" y="-760.6" font-family="Courier,monospace" font-weight="bold" font-size="9.00">[data29] spectrogram</text>
+<text text-anchor="middle" x="537" y="-760.6" font-family="Courier,monospace" font-weight="bold" font-size="9.00">spectrogram</text>
 <polyline fill="none" stroke="black" points="456.112,-753.9 617.888,-753.9 "/>
 <text text-anchor="start" x="464.112" y="-741.8" font-family="Courier,monospace" font-weight="bold" font-size="9.00">GW150914_L1_spectrogram.png</text>
 <text text-anchor="start" x="464.112" y="-731" font-family="Courier,monospace" font-weight="bold" font-size="9.00">GW150914_H1_spectrogram.png</text>
 </g>
 <!-- SPECTROGRAMS_FOR_STRAIN_DATA&#45;&gt;spectrogram -->
 <g id="edge44" class="edge"><title>SPECTROGRAMS_FOR_STRAIN_DATA&#45;&gt;spectrogram</title>
-<path fill="none" stroke="black" d="M481.504,-814.589C489.899,-804.743 500.722,-792.049 510.578,-780.489"/>
-<polygon fill="black" stroke="black" points="513.381,-782.597 517.205,-772.716 508.054,-778.055 513.381,-782.597"/>
+<path fill="none" stroke="black" d="M482.297,-814.589C490.572,-804.743 501.24,-792.049 510.956,-780.489"/>
+<polygon fill="black" stroke="black" points="513.734,-782.623 517.488,-772.716 508.375,-778.12 513.734,-782.623"/>
 </g>
 <!-- SPECTROGRAMS_FOR_WHITEND_DATA -->
 <g id="node7" class="node"><title>SPECTROGRAMS_FOR_WHITEND_DATA</title>
-<polygon fill="#ccffcc" stroke="black" points="498.56,-535.8 239.44,-535.8 239.44,-499.8 498.56,-499.8 498.56,-535.8"/>
-<text text-anchor="middle" x="369" y="-513.6" font-family="Courier,monospace" font-size="14.00">SPECTROGRAMS_FOR_WHITEND_DATA</text>
+<polygon fill="#ccffcc" stroke="black" points="521.56,-535.8 262.44,-535.8 262.44,-499.8 521.56,-499.8 521.56,-535.8"/>
+<text text-anchor="middle" x="392" y="-513.6" font-family="Courier,monospace" font-size="14.00">SPECTROGRAMS_FOR_WHITEND_DATA</text>
 </g>
 <!-- spectrogram_whitened -->
 <g id="node35" class="node"><title>spectrogram_whitened</title>
 <path fill="#ffe4b5" stroke="black" d="M301.816,-414.9C301.816,-414.9 488.184,-414.9 488.184,-414.9 494.184,-414.9 500.184,-420.9 500.184,-426.9 500.184,-426.9 500.184,-451.3 500.184,-451.3 500.184,-457.3 494.184,-463.3 488.184,-463.3 488.184,-463.3 301.816,-463.3 301.816,-463.3 295.816,-463.3 289.816,-457.3 289.816,-451.3 289.816,-451.3 289.816,-426.9 289.816,-426.9 289.816,-420.9 295.816,-414.9 301.816,-414.9"/>
-<text text-anchor="middle" x="395" y="-451.2" font-family="Courier,monospace" font-weight="bold" font-size="9.00">[data30] spectrogram_whitened</text>
+<text text-anchor="middle" x="395" y="-451.2" font-family="Courier,monospace" font-weight="bold" font-size="9.00">spectrogram_whitened</text>
 <polyline fill="none" stroke="black" points="289.816,-444.5 500.184,-444.5 "/>
 <text text-anchor="start" x="297.816" y="-432.4" font-family="Courier,monospace" font-weight="bold" font-size="9.00">GW150914_L1_spectrogram_whitened.png</text>
 <text text-anchor="start" x="297.816" y="-421.6" font-family="Courier,monospace" font-weight="bold" font-size="9.00">GW150914_H1_spectrogram_whitened.png</text>
 </g>
 <!-- SPECTROGRAMS_FOR_WHITEND_DATA&#45;&gt;spectrogram_whitened -->
 <g id="edge45" class="edge"><title>SPECTROGRAMS_FOR_WHITEND_DATA&#45;&gt;spectrogram_whitened</title>
-<path fill="none" stroke="black" d="M374.77,-499.778C377.429,-491.934 380.679,-482.346 383.79,-473.169"/>
-<polygon fill="black" stroke="black" points="387.181,-474.068 387.077,-463.474 380.551,-471.821 387.181,-474.068"/>
+<path fill="none" stroke="black" d="M392.666,-499.778C392.966,-492.101 393.332,-482.753 393.684,-473.755"/>
+<polygon fill="black" stroke="black" points="397.192,-473.603 394.086,-463.474 390.198,-473.329 397.192,-473.603"/>
 </g>
 <!-- FILTER_COEFS -->
 <g id="node8" class="node"><title>FILTER_COEFS</title>
-<polygon fill="#ccffcc" stroke="black" points="747.283,-850.6 630.717,-850.6 630.717,-814.6 747.283,-814.6 747.283,-850.6"/>
-<text text-anchor="middle" x="689" y="-828.4" font-family="Courier,monospace" font-size="14.00">FILTER_COEFS</text>
+<polygon fill="#ccffcc" stroke="black" points="748.283,-850.6 631.717,-850.6 631.717,-814.6 748.283,-814.6 748.283,-850.6"/>
+<text text-anchor="middle" x="690" y="-828.4" font-family="Courier,monospace" font-size="14.00">FILTER_COEFS</text>
 </g>
 <!-- COEFFICIENTS -->
 <g id="node27" class="node"><title>COEFFICIENTS</title>
@@ -225,74 +225,74 @@
 </g>
 <!-- FILTER_COEFS&#45;&gt;COEFFICIENTS -->
 <g id="edge46" class="edge"><title>FILTER_COEFS&#45;&gt;COEFFICIENTS</title>
-<path fill="none" stroke="black" d="M686.514,-814.589C684.915,-803.654 682.804,-789.206 680.976,-776.7"/>
-<polygon fill="black" stroke="black" points="684.434,-776.16 679.525,-766.772 677.508,-777.173 684.434,-776.16"/>
+<path fill="none" stroke="black" d="M687.306,-814.589C685.575,-803.654 683.287,-789.206 681.307,-776.7"/>
+<polygon fill="black" stroke="black" points="684.756,-776.101 679.735,-766.772 677.842,-777.196 684.756,-776.101"/>
 </g>
 <!-- FILTER_DATA -->
 <g id="node9" class="node"><title>FILTER_DATA</title>
-<polygon fill="#ccffcc" stroke="black" points="674.385,-682.4 565.615,-682.4 565.615,-646.4 674.385,-646.4 674.385,-682.4"/>
-<text text-anchor="middle" x="620" y="-660.2" font-family="Courier,monospace" font-size="14.00">FILTER_DATA</text>
+<polygon fill="#ccffcc" stroke="black" points="706.385,-682.4 597.615,-682.4 597.615,-646.4 706.385,-646.4 706.385,-682.4"/>
+<text text-anchor="middle" x="652" y="-660.2" font-family="Courier,monospace" font-size="14.00">FILTER_DATA</text>
 </g>
 <!-- strain_H1_filt -->
 <g id="node28" class="node"><title>strain_H1_filt</title>
-<path fill="#ffffcc" stroke="black" d="M599.005,-609.1C599.005,-609.1 554.995,-609.1 554.995,-609.1 548.995,-609.1 542.995,-603.1 542.995,-597.1 542.995,-597.1 542.995,-585.1 542.995,-585.1 542.995,-579.1 548.995,-573.1 554.995,-573.1 554.995,-573.1 599.005,-573.1 599.005,-573.1 605.005,-573.1 611.005,-579.1 611.005,-585.1 611.005,-585.1 611.005,-597.1 611.005,-597.1 611.005,-603.1 605.005,-609.1 599.005,-609.1"/>
-<text text-anchor="middle" x="577" y="-588.4" font-family="Helvetica,sans-Serif" font-size="9.00">strain_H1_filt</text>
+<path fill="#ffffcc" stroke="black" d="M629.005,-609.1C629.005,-609.1 584.995,-609.1 584.995,-609.1 578.995,-609.1 572.995,-603.1 572.995,-597.1 572.995,-597.1 572.995,-585.1 572.995,-585.1 572.995,-579.1 578.995,-573.1 584.995,-573.1 584.995,-573.1 629.005,-573.1 629.005,-573.1 635.005,-573.1 641.005,-579.1 641.005,-585.1 641.005,-585.1 641.005,-597.1 641.005,-597.1 641.005,-603.1 635.005,-609.1 629.005,-609.1"/>
+<text text-anchor="middle" x="607" y="-588.4" font-family="Helvetica,sans-Serif" font-size="9.00">strain_H1_filt</text>
 </g>
 <!-- FILTER_DATA&#45;&gt;strain_H1_filt -->
 <g id="edge47" class="edge"><title>FILTER_DATA&#45;&gt;strain_H1_filt</title>
-<path fill="none" stroke="black" d="M609.591,-646.14C604.468,-637.645 598.187,-627.231 592.512,-617.821"/>
-<polygon fill="black" stroke="black" points="595.475,-615.957 587.313,-609.201 589.481,-619.572 595.475,-615.957"/>
+<path fill="none" stroke="black" d="M641.107,-646.14C635.745,-637.645 629.173,-627.231 623.233,-617.821"/>
+<polygon fill="black" stroke="black" points="626.09,-615.789 617.793,-609.201 620.17,-619.525 626.09,-615.789"/>
 </g>
 <!-- strain_L1_filt -->
 <g id="node29" class="node"><title>strain_L1_filt</title>
-<path fill="#ffffcc" stroke="black" d="M684.509,-609.1C684.509,-609.1 641.491,-609.1 641.491,-609.1 635.491,-609.1 629.491,-603.1 629.491,-597.1 629.491,-597.1 629.491,-585.1 629.491,-585.1 629.491,-579.1 635.491,-573.1 641.491,-573.1 641.491,-573.1 684.509,-573.1 684.509,-573.1 690.509,-573.1 696.509,-579.1 696.509,-585.1 696.509,-585.1 696.509,-597.1 696.509,-597.1 696.509,-603.1 690.509,-609.1 684.509,-609.1"/>
-<text text-anchor="middle" x="663" y="-588.4" font-family="Helvetica,sans-Serif" font-size="9.00">strain_L1_filt</text>
+<path fill="#ffffcc" stroke="black" d="M714.509,-609.1C714.509,-609.1 671.491,-609.1 671.491,-609.1 665.491,-609.1 659.491,-603.1 659.491,-597.1 659.491,-597.1 659.491,-585.1 659.491,-585.1 659.491,-579.1 665.491,-573.1 671.491,-573.1 671.491,-573.1 714.509,-573.1 714.509,-573.1 720.509,-573.1 726.509,-579.1 726.509,-585.1 726.509,-585.1 726.509,-597.1 726.509,-597.1 726.509,-603.1 720.509,-609.1 714.509,-609.1"/>
+<text text-anchor="middle" x="693" y="-588.4" font-family="Helvetica,sans-Serif" font-size="9.00">strain_L1_filt</text>
 </g>
 <!-- FILTER_DATA&#45;&gt;strain_L1_filt -->
 <g id="edge48" class="edge"><title>FILTER_DATA&#45;&gt;strain_L1_filt</title>
-<path fill="none" stroke="black" d="M630.409,-646.14C635.532,-637.645 641.813,-627.231 647.488,-617.821"/>
-<polygon fill="black" stroke="black" points="650.519,-619.572 652.687,-609.201 644.525,-615.957 650.519,-619.572"/>
+<path fill="none" stroke="black" d="M661.925,-646.14C666.76,-637.733 672.675,-627.446 678.042,-618.112"/>
+<polygon fill="black" stroke="black" points="681.216,-619.614 683.166,-609.201 675.147,-616.125 681.216,-619.614"/>
 </g>
 <!-- filtered_white_noise_data -->
 <g id="node36" class="node"><title>filtered_white_noise_data</title>
-<path fill="#ffe4b5" stroke="black" d="M726.215,-572.3C726.215,-572.3 901.785,-572.3 901.785,-572.3 907.785,-572.3 913.785,-578.3 913.785,-584.3 913.785,-584.3 913.785,-597.9 913.785,-597.9 913.785,-603.9 907.785,-609.9 901.785,-609.9 901.785,-609.9 726.215,-609.9 726.215,-609.9 720.215,-609.9 714.215,-603.9 714.215,-597.9 714.215,-597.9 714.215,-584.3 714.215,-584.3 714.215,-578.3 720.215,-572.3 726.215,-572.3"/>
-<text text-anchor="middle" x="814" y="-597.8" font-family="Courier,monospace" font-weight="bold" font-size="9.00">[data34] filtered_white_noise_data</text>
-<polyline fill="none" stroke="black" points="714.215,-591.1 913.785,-591.1 "/>
-<text text-anchor="start" x="722.215" y="-579" font-family="Courier,monospace" font-weight="bold" font-size="9.00">GW150914_filter.png</text>
+<path fill="#ffe4b5" stroke="black" d="M769.511,-572.3C769.511,-572.3 896.489,-572.3 896.489,-572.3 902.489,-572.3 908.489,-578.3 908.489,-584.3 908.489,-584.3 908.489,-597.9 908.489,-597.9 908.489,-603.9 902.489,-609.9 896.489,-609.9 896.489,-609.9 769.511,-609.9 769.511,-609.9 763.511,-609.9 757.511,-603.9 757.511,-597.9 757.511,-597.9 757.511,-584.3 757.511,-584.3 757.511,-578.3 763.511,-572.3 769.511,-572.3"/>
+<text text-anchor="middle" x="833" y="-597.8" font-family="Courier,monospace" font-weight="bold" font-size="9.00">filtered_white_noise_data</text>
+<polyline fill="none" stroke="black" points="757.511,-591.1 908.489,-591.1 "/>
+<text text-anchor="start" x="765.511" y="-579" font-family="Courier,monospace" font-weight="bold" font-size="9.00">GW150914_filter.png</text>
 </g>
 <!-- FILTER_DATA&#45;&gt;filtered_white_noise_data -->
 <g id="edge49" class="edge"><title>FILTER_DATA&#45;&gt;filtered_white_noise_data</title>
-<path fill="none" stroke="black" d="M666.468,-646.322C693.358,-636.439 727.436,-623.915 756.064,-613.393"/>
-<polygon fill="black" stroke="black" points="757.366,-616.643 765.545,-609.908 754.952,-610.073 757.366,-616.643"/>
+<path fill="none" stroke="black" d="M695.354,-646.322C720.224,-636.525 751.684,-624.132 778.248,-613.668"/>
+<polygon fill="black" stroke="black" points="779.771,-616.83 787.792,-609.908 777.205,-610.317 779.771,-616.83"/>
 </g>
 <!-- STRAIN_WAVEFORM_FOR_FILTERED_DATA -->
 <g id="node10" class="node"><title>STRAIN_WAVEFORM_FOR_FILTERED_DATA</title>
-<polygon fill="#ccffcc" stroke="black" points="809.654,-535.8 516.346,-535.8 516.346,-499.8 809.654,-499.8 809.654,-535.8"/>
-<text text-anchor="middle" x="663" y="-513.6" font-family="Courier,monospace" font-size="14.00">STRAIN_WAVEFORM_FOR_FILTERED_DATA</text>
+<polygon fill="#ccffcc" stroke="black" points="835.654,-535.8 542.346,-535.8 542.346,-499.8 835.654,-499.8 835.654,-535.8"/>
+<text text-anchor="middle" x="689" y="-513.6" font-family="Courier,monospace" font-size="14.00">STRAIN_WAVEFORM_FOR_FILTERED_DATA</text>
 </g>
 <!-- H1_strain_filtered -->
 <g id="node37" class="node"><title>H1_strain_filtered</title>
 <path fill="#ffe4b5" stroke="black" d="M530.314,-420.3C530.314,-420.3 689.686,-420.3 689.686,-420.3 695.686,-420.3 701.686,-426.3 701.686,-432.3 701.686,-432.3 701.686,-445.9 701.686,-445.9 701.686,-451.9 695.686,-457.9 689.686,-457.9 689.686,-457.9 530.314,-457.9 530.314,-457.9 524.314,-457.9 518.314,-451.9 518.314,-445.9 518.314,-445.9 518.314,-432.3 518.314,-432.3 518.314,-426.3 524.314,-420.3 530.314,-420.3"/>
-<text text-anchor="middle" x="610" y="-445.8" font-family="Courier,monospace" font-weight="bold" font-size="9.00">[data35] H1_strain_filtered</text>
+<text text-anchor="middle" x="610" y="-445.8" font-family="Courier,monospace" font-weight="bold" font-size="9.00">H1_strain_filtered</text>
 <polyline fill="none" stroke="black" points="518.314,-439.1 701.686,-439.1 "/>
 <text text-anchor="start" x="526.314" y="-427" font-family="Courier,monospace" font-weight="bold" font-size="9.00">GW150914_H1_strain_filtered.png</text>
 </g>
 <!-- STRAIN_WAVEFORM_FOR_FILTERED_DATA&#45;&gt;H1_strain_filtered -->
 <g id="edge50" class="edge"><title>STRAIN_WAVEFORM_FOR_FILTERED_DATA&#45;&gt;H1_strain_filtered</title>
-<path fill="none" stroke="black" d="M651.238,-499.778C644.5,-490.027 635.898,-477.579 628.296,-466.577"/>
-<polygon fill="black" stroke="black" points="631.032,-464.381 622.468,-458.143 625.273,-468.36 631.032,-464.381"/>
+<path fill="none" stroke="black" d="M671.467,-499.778C661.026,-489.641 647.583,-476.589 635.932,-465.277"/>
+<polygon fill="black" stroke="black" points="638.197,-462.598 628.584,-458.143 633.321,-467.62 638.197,-462.598"/>
 </g>
 <!-- H1_strain_unfiltered -->
 <g id="node38" class="node"><title>H1_strain_unfiltered</title>
 <path fill="#ffe4b5" stroke="black" d="M731.915,-420.3C731.915,-420.3 902.085,-420.3 902.085,-420.3 908.085,-420.3 914.085,-426.3 914.085,-432.3 914.085,-432.3 914.085,-445.9 914.085,-445.9 914.085,-451.9 908.085,-457.9 902.085,-457.9 902.085,-457.9 731.915,-457.9 731.915,-457.9 725.915,-457.9 719.915,-451.9 719.915,-445.9 719.915,-445.9 719.915,-432.3 719.915,-432.3 719.915,-426.3 725.915,-420.3 731.915,-420.3"/>
-<text text-anchor="middle" x="817" y="-445.8" font-family="Courier,monospace" font-weight="bold" font-size="9.00">[data36] H1_strain_unfiltered</text>
+<text text-anchor="middle" x="817" y="-445.8" font-family="Courier,monospace" font-weight="bold" font-size="9.00">H1_strain_unfiltered</text>
 <polyline fill="none" stroke="black" points="719.915,-439.1 914.085,-439.1 "/>
 <text text-anchor="start" x="727.915" y="-427" font-family="Courier,monospace" font-weight="bold" font-size="9.00">GW150914_H1_strain_unfiltered.png</text>
 </g>
 <!-- STRAIN_WAVEFORM_FOR_FILTERED_DATA&#45;&gt;H1_strain_unfiltered -->
 <g id="edge51" class="edge"><title>STRAIN_WAVEFORM_FOR_FILTERED_DATA&#45;&gt;H1_strain_unfiltered</title>
-<path fill="none" stroke="black" d="M697.178,-499.778C719.16,-488.83 747.969,-474.481 771.83,-462.597"/>
-<polygon fill="black" stroke="black" points="773.652,-465.6 781.043,-458.009 770.531,-459.334 773.652,-465.6"/>
+<path fill="none" stroke="black" d="M717.407,-499.778C735.291,-489.062 758.611,-475.088 778.189,-463.356"/>
+<polygon fill="black" stroke="black" points="780.11,-466.286 786.889,-458.143 776.512,-460.281 780.11,-466.286"/>
 </g>
 <!-- WAVE_FILE_GENERATOR_FOR_WHITENED_DATA -->
 <g id="node11" class="node"><title>WAVE_FILE_GENERATOR_FOR_WHITENED_DATA</title>
@@ -301,17 +301,17 @@
 </g>
 <!-- whitened_bandpass_wavefile -->
 <g id="node39" class="node"><title>whitened_bandpass_wavefile</title>
-<path fill="#ffe4b5" stroke="black" d="M691.516,-246.7C691.516,-246.7 872.484,-246.7 872.484,-246.7 878.484,-246.7 884.484,-252.7 884.484,-258.7 884.484,-258.7 884.484,-293.9 884.484,-293.9 884.484,-299.9 878.484,-305.9 872.484,-305.9 872.484,-305.9 691.516,-305.9 691.516,-305.9 685.516,-305.9 679.516,-299.9 679.516,-293.9 679.516,-293.9 679.516,-258.7 679.516,-258.7 679.516,-252.7 685.516,-246.7 691.516,-246.7"/>
-<text text-anchor="middle" x="782" y="-293.8" font-family="Courier,monospace" font-weight="bold" font-size="9.00">[data37] whitened_bandpass_wavefile</text>
-<polyline fill="none" stroke="black" points="679.516,-287.1 884.484,-287.1 "/>
-<text text-anchor="start" x="687.516" y="-275" font-family="Courier,monospace" font-weight="bold" font-size="9.00">GW150914_NR_whitenbp.wav</text>
-<text text-anchor="start" x="687.516" y="-264.2" font-family="Courier,monospace" font-weight="bold" font-size="9.00">GW150914_L1_whitenbp.wav</text>
-<text text-anchor="start" x="687.516" y="-253.4" font-family="Courier,monospace" font-weight="bold" font-size="9.00">GW150914_H1_whitenbp.wav</text>
+<path fill="#ffe4b5" stroke="black" d="M727.812,-246.7C727.812,-246.7 860.188,-246.7 860.188,-246.7 866.188,-246.7 872.188,-252.7 872.188,-258.7 872.188,-258.7 872.188,-293.9 872.188,-293.9 872.188,-299.9 866.188,-305.9 860.188,-305.9 860.188,-305.9 727.812,-305.9 727.812,-305.9 721.812,-305.9 715.812,-299.9 715.812,-293.9 715.812,-293.9 715.812,-258.7 715.812,-258.7 715.812,-252.7 721.812,-246.7 727.812,-246.7"/>
+<text text-anchor="middle" x="794" y="-293.8" font-family="Courier,monospace" font-weight="bold" font-size="9.00">whitened_bandpass_wavefile</text>
+<polyline fill="none" stroke="black" points="715.812,-287.1 872.188,-287.1 "/>
+<text text-anchor="start" x="723.812" y="-275" font-family="Courier,monospace" font-weight="bold" font-size="9.00">GW150914_NR_whitenbp.wav</text>
+<text text-anchor="start" x="723.812" y="-264.2" font-family="Courier,monospace" font-weight="bold" font-size="9.00">GW150914_L1_whitenbp.wav</text>
+<text text-anchor="start" x="723.812" y="-253.4" font-family="Courier,monospace" font-weight="bold" font-size="9.00">GW150914_H1_whitenbp.wav</text>
 </g>
 <!-- WAVE_FILE_GENERATOR_FOR_WHITENED_DATA&#45;&gt;whitened_bandpass_wavefile -->
 <g id="edge52" class="edge"><title>WAVE_FILE_GENERATOR_FOR_WHITENED_DATA&#45;&gt;whitened_bandpass_wavefile</title>
-<path fill="none" stroke="black" d="M757.423,-342.389C760.372,-334.58 763.996,-324.98 767.548,-315.575"/>
-<polygon fill="black" stroke="black" points="770.932,-316.52 771.19,-305.928 764.383,-314.047 770.932,-316.52"/>
+<path fill="none" stroke="black" d="M759.91,-342.389C764.085,-334.416 769.24,-324.575 774.264,-314.982"/>
+<polygon fill="black" stroke="black" points="777.467,-316.411 779.006,-305.928 771.266,-313.163 777.467,-316.411"/>
 </g>
 <!-- SHIFT_FREQUENCY_BANDPASSED -->
 <g id="node12" class="node"><title>SHIFT_FREQUENCY_BANDPASSED</title>
@@ -345,27 +345,27 @@
 </g>
 <!-- shifted_wavefile -->
 <g id="node40" class="node"><title>shifted_wavefile</title>
-<path fill="#ffe4b5" stroke="black" d="M301.511,-78.5C301.511,-78.5 428.489,-78.5 428.489,-78.5 434.489,-78.5 440.489,-84.5 440.489,-90.5 440.489,-90.5 440.489,-125.7 440.489,-125.7 440.489,-131.7 434.489,-137.7 428.489,-137.7 428.489,-137.7 301.511,-137.7 301.511,-137.7 295.511,-137.7 289.511,-131.7 289.511,-125.7 289.511,-125.7 289.511,-90.5 289.511,-90.5 289.511,-84.5 295.511,-78.5 301.511,-78.5"/>
-<text text-anchor="middle" x="365" y="-125.6" font-family="Courier,monospace" font-weight="bold" font-size="9.00">[data40] shifted_wavefile</text>
-<polyline fill="none" stroke="black" points="289.511,-118.9 440.489,-118.9 "/>
-<text text-anchor="start" x="297.511" y="-106.8" font-family="Courier,monospace" font-weight="bold" font-size="9.00">GW150914_NR_shifted.wav</text>
-<text text-anchor="start" x="297.511" y="-96" font-family="Courier,monospace" font-weight="bold" font-size="9.00">GW150914_L1_shifted.wav</text>
-<text text-anchor="start" x="297.511" y="-85.2" font-family="Courier,monospace" font-weight="bold" font-size="9.00">GW150914_H1_shifted.wav</text>
+<path fill="#ffe4b5" stroke="black" d="M311.91,-78.5C311.91,-78.5 428.09,-78.5 428.09,-78.5 434.09,-78.5 440.09,-84.5 440.09,-90.5 440.09,-90.5 440.09,-125.7 440.09,-125.7 440.09,-131.7 434.09,-137.7 428.09,-137.7 428.09,-137.7 311.91,-137.7 311.91,-137.7 305.91,-137.7 299.91,-131.7 299.91,-125.7 299.91,-125.7 299.91,-90.5 299.91,-90.5 299.91,-84.5 305.91,-78.5 311.91,-78.5"/>
+<text text-anchor="middle" x="370" y="-125.6" font-family="Courier,monospace" font-weight="bold" font-size="9.00">shifted_wavefile</text>
+<polyline fill="none" stroke="black" points="299.91,-118.9 440.09,-118.9 "/>
+<text text-anchor="start" x="307.91" y="-106.8" font-family="Courier,monospace" font-weight="bold" font-size="9.00">GW150914_NR_shifted.wav</text>
+<text text-anchor="start" x="307.91" y="-96" font-family="Courier,monospace" font-weight="bold" font-size="9.00">GW150914_L1_shifted.wav</text>
+<text text-anchor="start" x="307.91" y="-85.2" font-family="Courier,monospace" font-weight="bold" font-size="9.00">GW150914_H1_shifted.wav</text>
 </g>
 <!-- WAVE_FILE_GENERATOR_FOR_SHIFTED_DATA&#45;&gt;shifted_wavefile -->
 <g id="edge55" class="edge"><title>WAVE_FILE_GENERATOR_FOR_SHIFTED_DATA&#45;&gt;shifted_wavefile</title>
-<path fill="none" stroke="black" d="M269.071,-174.189C282.154,-165.312 298.65,-154.119 314.256,-143.53"/>
-<polygon fill="black" stroke="black" points="316.498,-146.239 322.807,-137.728 312.567,-140.447 316.498,-146.239"/>
+<path fill="none" stroke="black" d="M270.107,-174.189C283.857,-165.23 301.227,-153.912 317.611,-143.236"/>
+<polygon fill="black" stroke="black" points="319.596,-146.12 326.064,-137.728 315.775,-140.255 319.596,-146.12"/>
 </g>
 <!-- DOWNSAMPLING -->
 <g id="node14" class="node"><title>DOWNSAMPLING</title>
-<polygon fill="#ccffcc" stroke="black" points="882.283,-850.6 765.717,-850.6 765.717,-814.6 882.283,-814.6 882.283,-850.6"/>
-<text text-anchor="middle" x="824" y="-828.4" font-family="Courier,monospace" font-size="14.00">DOWNSAMPLING</text>
+<polygon fill="#ccffcc" stroke="black" points="883.283,-850.6 766.717,-850.6 766.717,-814.6 883.283,-814.6 883.283,-850.6"/>
+<text text-anchor="middle" x="825" y="-828.4" font-family="Courier,monospace" font-size="14.00">DOWNSAMPLING</text>
 </g>
 <!-- H1_ASD_SamplingRate -->
 <g id="node41" class="node"><title>H1_ASD_SamplingRate</title>
 <path fill="#ffe4b5" stroke="black" d="M748.014,-718.9C748.014,-718.9 901.986,-718.9 901.986,-718.9 907.986,-718.9 913.986,-724.9 913.986,-730.9 913.986,-730.9 913.986,-766.1 913.986,-766.1 913.986,-772.1 907.986,-778.1 901.986,-778.1 901.986,-778.1 748.014,-778.1 748.014,-778.1 742.014,-778.1 736.014,-772.1 736.014,-766.1 736.014,-766.1 736.014,-730.9 736.014,-730.9 736.014,-724.9 742.014,-718.9 748.014,-718.9"/>
-<text text-anchor="middle" x="825" y="-766" font-family="Courier,monospace" font-weight="bold" font-size="9.00">[data41] H1_ASD_SamplingRate</text>
+<text text-anchor="middle" x="825" y="-766" font-family="Courier,monospace" font-weight="bold" font-size="9.00">H1_ASD_SamplingRate</text>
 <polyline fill="none" stroke="black" points="736.014,-759.3 913.986,-759.3 "/>
 <text text-anchor="start" x="744.014" y="-747.2" font-family="Courier,monospace" font-weight="bold" font-size="9.00">GW150914_H1_ASD_4096_zoom.png</text>
 <text text-anchor="start" x="744.014" y="-736.4" font-family="Courier,monospace" font-weight="bold" font-size="9.00">GW150914_H1_ASD_16384_zoom.png</text>
@@ -373,104 +373,104 @@
 </g>
 <!-- DOWNSAMPLING&#45;&gt;H1_ASD_SamplingRate -->
 <g id="edge56" class="edge"><title>DOWNSAMPLING&#45;&gt;H1_ASD_SamplingRate</title>
-<path fill="none" stroke="black" d="M824.207,-814.589C824.3,-806.945 824.414,-797.584 824.527,-788.369"/>
-<polygon fill="black" stroke="black" points="828.029,-788.17 824.651,-778.128 821.03,-788.085 828.029,-788.17"/>
+<path fill="none" stroke="black" d="M825,-814.589C825,-806.945 825,-797.584 825,-788.369"/>
+<polygon fill="black" stroke="black" points="828.5,-788.128 825,-778.128 821.5,-788.128 828.5,-788.128"/>
 </g>
 <!-- FN_Detector -->
 <g id="node15" class="node"><title>FN_Detector</title>
-<path fill="#ffe4b5" stroke="black" d="M283.915,-1031.1C283.915,-1031.1 454.085,-1031.1 454.085,-1031.1 460.085,-1031.1 466.085,-1037.1 466.085,-1043.1 466.085,-1043.1 466.085,-1067.5 466.085,-1067.5 466.085,-1073.5 460.085,-1079.5 454.085,-1079.5 454.085,-1079.5 283.915,-1079.5 283.915,-1079.5 277.915,-1079.5 271.915,-1073.5 271.915,-1067.5 271.915,-1067.5 271.915,-1043.1 271.915,-1043.1 271.915,-1037.1 277.915,-1031.1 283.915,-1031.1"/>
-<text text-anchor="middle" x="369" y="-1067.4" font-family="Courier,monospace" font-weight="bold" font-size="9.00">[data14] FN_Detector</text>
-<polyline fill="none" stroke="black" points="271.915,-1060.7 466.085,-1060.7 "/>
-<text text-anchor="start" x="279.915" y="-1048.6" font-family="Courier,monospace" font-weight="bold" font-size="9.00">L&#45;L1_LOSC_4_V1&#45;1126259446&#45;32.hdf5</text>
-<text text-anchor="start" x="279.915" y="-1037.8" font-family="Courier,monospace" font-weight="bold" font-size="9.00">H&#45;H1_LOSC_4_V1&#45;1126259446&#45;32.hdf5</text>
+<path fill="#ffe4b5" stroke="black" d="M284.915,-1031.1C284.915,-1031.1 455.085,-1031.1 455.085,-1031.1 461.085,-1031.1 467.085,-1037.1 467.085,-1043.1 467.085,-1043.1 467.085,-1067.5 467.085,-1067.5 467.085,-1073.5 461.085,-1079.5 455.085,-1079.5 455.085,-1079.5 284.915,-1079.5 284.915,-1079.5 278.915,-1079.5 272.915,-1073.5 272.915,-1067.5 272.915,-1067.5 272.915,-1043.1 272.915,-1043.1 272.915,-1037.1 278.915,-1031.1 284.915,-1031.1"/>
+<text text-anchor="middle" x="370" y="-1067.4" font-family="Courier,monospace" font-weight="bold" font-size="9.00">FN_Detector</text>
+<polyline fill="none" stroke="black" points="272.915,-1060.7 467.085,-1060.7 "/>
+<text text-anchor="start" x="280.915" y="-1048.6" font-family="Courier,monospace" font-weight="bold" font-size="9.00">L&#45;L1_LOSC_4_V1&#45;1126259446&#45;32.hdf5</text>
+<text text-anchor="start" x="280.915" y="-1037.8" font-family="Courier,monospace" font-weight="bold" font-size="9.00">H&#45;H1_LOSC_4_V1&#45;1126259446&#45;32.hdf5</text>
 </g>
 <!-- FN_Detector&#45;&gt;LOAD_DATA -->
 <g id="edge1" class="edge"><title>FN_Detector&#45;&gt;LOAD_DATA</title>
-<path fill="none" stroke="black" d="M363.502,-1030.87C361.561,-1022.6 359.363,-1013.24 357.358,-1004.69"/>
-<polygon fill="black" stroke="black" points="360.729,-1003.74 355.037,-994.801 353.914,-1005.34 360.729,-1003.74"/>
+<path fill="none" stroke="black" d="M364.196,-1030.87C362.148,-1022.6 359.828,-1013.24 357.711,-1004.69"/>
+<polygon fill="black" stroke="black" points="361.063,-1003.67 355.261,-994.801 354.268,-1005.35 361.063,-1003.67"/>
 </g>
 <!-- FN_Sampling_rate -->
 <g id="node16" class="node"><title>FN_Sampling_rate</title>
-<path fill="#ffe4b5" stroke="black" d="M66.2153,-1031.1C66.2153,-1031.1 241.785,-1031.1 241.785,-1031.1 247.785,-1031.1 253.785,-1037.1 253.785,-1043.1 253.785,-1043.1 253.785,-1067.5 253.785,-1067.5 253.785,-1073.5 247.785,-1079.5 241.785,-1079.5 241.785,-1079.5 66.2153,-1079.5 66.2153,-1079.5 60.2153,-1079.5 54.2153,-1073.5 54.2153,-1067.5 54.2153,-1067.5 54.2153,-1043.1 54.2153,-1043.1 54.2153,-1037.1 60.2153,-1031.1 66.2153,-1031.1"/>
-<text text-anchor="middle" x="154" y="-1067.4" font-family="Courier,monospace" font-weight="bold" font-size="9.00">[data15] FN_Sampling_rate</text>
-<polyline fill="none" stroke="black" points="54.2153,-1060.7 253.785,-1060.7 "/>
-<text text-anchor="start" x="62.2153" y="-1048.6" font-family="Courier,monospace" font-weight="bold" font-size="9.00">H&#45;H1_LOSC_4_V1&#45;1126259446&#45;32.hdf5</text>
-<text text-anchor="start" x="62.2153" y="-1037.8" font-family="Courier,monospace" font-weight="bold" font-size="9.00">H&#45;H1_LOSC_16_V1&#45;1126259446&#45;32.hdf5</text>
+<path fill="#ffe4b5" stroke="black" d="M67.2153,-1031.1C67.2153,-1031.1 242.785,-1031.1 242.785,-1031.1 248.785,-1031.1 254.785,-1037.1 254.785,-1043.1 254.785,-1043.1 254.785,-1067.5 254.785,-1067.5 254.785,-1073.5 248.785,-1079.5 242.785,-1079.5 242.785,-1079.5 67.2153,-1079.5 67.2153,-1079.5 61.2153,-1079.5 55.2153,-1073.5 55.2153,-1067.5 55.2153,-1067.5 55.2153,-1043.1 55.2153,-1043.1 55.2153,-1037.1 61.2153,-1031.1 67.2153,-1031.1"/>
+<text text-anchor="middle" x="155" y="-1067.4" font-family="Courier,monospace" font-weight="bold" font-size="9.00">FN_Sampling_rate</text>
+<polyline fill="none" stroke="black" points="55.2153,-1060.7 254.785,-1060.7 "/>
+<text text-anchor="start" x="63.2153" y="-1048.6" font-family="Courier,monospace" font-weight="bold" font-size="9.00">H&#45;H1_LOSC_4_V1&#45;1126259446&#45;32.hdf5</text>
+<text text-anchor="start" x="63.2153" y="-1037.8" font-family="Courier,monospace" font-weight="bold" font-size="9.00">H&#45;H1_LOSC_16_V1&#45;1126259446&#45;32.hdf5</text>
 </g>
 <!-- FN_Sampling_rate&#45;&gt;LOAD_DATA -->
 <g id="edge2" class="edge"><title>FN_Sampling_rate&#45;&gt;LOAD_DATA</title>
-<path fill="none" stroke="black" d="M213.641,-1031.08C240.352,-1020.68 271.604,-1008.51 297.544,-998.413"/>
-<polygon fill="black" stroke="black" points="299.156,-1001.54 307.205,-994.651 296.616,-995.018 299.156,-1001.54"/>
+<path fill="none" stroke="black" d="M214.338,-1031.08C240.914,-1020.68 272.007,-1008.51 297.815,-998.413"/>
+<polygon fill="black" stroke="black" points="299.39,-1001.55 307.427,-994.651 296.839,-995.036 299.39,-1001.55"/>
 </g>
 <!-- strain_H1&#45;&gt;AMPLITUDE_SPECTRAL_DENSITY -->
 <g id="edge3" class="edge"><title>strain_H1&#45;&gt;AMPLITUDE_SPECTRAL_DENSITY</title>
-<path fill="none" stroke="black" d="M313.646,-891.247C291.431,-881.214 259.583,-866.831 233.257,-854.942"/>
-<polygon fill="black" stroke="black" points="234.39,-851.613 223.836,-850.687 231.509,-857.993 234.39,-851.613"/>
+<path fill="none" stroke="black" d="M313.822,-891.247C291.751,-881.214 260.108,-866.831 233.952,-854.942"/>
+<polygon fill="black" stroke="black" points="235.144,-851.639 224.592,-850.687 232.247,-858.012 235.144,-851.639"/>
 </g>
 <!-- strain_H1&#45;&gt;SPECTROGRAMS_FOR_STRAIN_DATA -->
 <g id="edge4" class="edge"><title>strain_H1&#45;&gt;SPECTROGRAMS_FOR_STRAIN_DATA</title>
-<path fill="none" stroke="black" d="M368.03,-888.583C385.259,-879.012 407.886,-866.441 427.155,-855.736"/>
-<polygon fill="black" stroke="black" points="428.981,-858.725 436.023,-850.809 425.582,-852.606 428.981,-858.725"/>
+<path fill="none" stroke="black" d="M368.245,-888.583C385.611,-879.012 408.417,-866.441 427.839,-855.736"/>
+<polygon fill="black" stroke="black" points="429.709,-858.702 436.777,-850.809 426.33,-852.571 429.709,-858.702"/>
 </g>
 <!-- strain_H1&#45;&gt;FILTER_DATA -->
 <g id="edge5" class="edge"><title>strain_H1&#45;&gt;FILTER_DATA</title>
-<path fill="none" stroke="black" d="M334.171,-886.319C327.945,-867.711 321.219,-837.675 332,-814.6 360.207,-754.228 388.424,-750.168 447,-718.4 480.928,-699.999 522.141,-687.052 555.83,-678.563"/>
-<polygon fill="black" stroke="black" points="556.691,-681.956 565.572,-676.178 555.027,-675.156 556.691,-681.956"/>
+<path fill="none" stroke="black" d="M334.489,-886.318C328.578,-867.71 322.28,-837.674 333,-814.6 360.934,-754.477 388.103,-748.835 447,-718.4 491.049,-695.638 545.588,-682.149 587.336,-674.48"/>
+<polygon fill="black" stroke="black" points="588.152,-677.89 597.389,-672.7 586.931,-670.997 588.152,-677.89"/>
 </g>
 <!-- strain_L1&#45;&gt;AMPLITUDE_SPECTRAL_DENSITY -->
 <g id="edge6" class="edge"><title>strain_L1&#45;&gt;AMPLITUDE_SPECTRAL_DENSITY</title>
-<path fill="none" stroke="black" d="M220.629,-886.297C215.282,-878.159 208.796,-868.289 202.889,-859.301"/>
-<polygon fill="black" stroke="black" points="205.657,-857.139 197.24,-850.704 199.807,-860.984 205.657,-857.139"/>
+<path fill="none" stroke="black" d="M217.865,-886.297C213.148,-878.244 207.438,-868.494 202.218,-859.582"/>
+<polygon fill="black" stroke="black" points="205.092,-857.564 197.018,-850.704 199.052,-861.102 205.092,-857.564"/>
 </g>
 <!-- strain_L1&#45;&gt;SPECTROGRAMS_FOR_STRAIN_DATA -->
 <g id="edge7" class="edge"><title>strain_L1&#45;&gt;SPECTROGRAMS_FOR_STRAIN_DATA</title>
-<path fill="none" stroke="black" d="M259.417,-895.433C293.667,-885.231 353.436,-867.427 400.071,-853.536"/>
-<polygon fill="black" stroke="black" points="401.225,-856.845 409.81,-850.635 399.226,-850.136 401.225,-856.845"/>
+<path fill="none" stroke="black" d="M255.065,-895.706C289.93,-885.537 351.764,-867.502 399.848,-853.478"/>
+<polygon fill="black" stroke="black" points="400.957,-856.8 409.577,-850.64 398.997,-850.08 400.957,-856.8"/>
 </g>
 <!-- strain_L1&#45;&gt;FILTER_DATA -->
 <g id="edge8" class="edge"><title>strain_L1&#45;&gt;FILTER_DATA</title>
-<path fill="none" stroke="black" d="M204.684,-904.329C165.266,-903.712 93.4982,-895.975 60,-850.6 25.1029,-803.331 20.4593,-761.86 60,-718.4 92.8191,-682.328 415.369,-670.28 555.527,-666.727"/>
-<polygon fill="black" stroke="black" points="555.789,-670.222 565.7,-666.476 555.616,-663.224 555.789,-670.222"/>
+<path fill="none" stroke="black" d="M200.812,-904.034C162.375,-902.991 93.2445,-894.663 61,-850.6 40.1192,-822.066 49.1761,-745.579 79,-718.4 115.92,-684.755 444.868,-671.332 587.029,-667.069"/>
+<polygon fill="black" stroke="black" points="587.45,-670.558 597.343,-666.766 587.244,-663.561 587.45,-670.558"/>
 </g>
 <!-- strain_16&#45;&gt;DOWNSAMPLING -->
 <g id="edge9" class="edge"><title>strain_16&#45;&gt;DOWNSAMPLING</title>
-<path fill="none" stroke="black" d="M803.674,-886.297C806.715,-878.413 810.383,-868.904 813.761,-860.146"/>
-<polygon fill="black" stroke="black" points="817.069,-861.294 817.403,-850.704 810.538,-858.775 817.069,-861.294"/>
+<path fill="none" stroke="black" d="M804.674,-886.297C807.715,-878.413 811.383,-868.904 814.761,-860.146"/>
+<polygon fill="black" stroke="black" points="818.069,-861.294 818.403,-850.704 811.538,-858.775 818.069,-861.294"/>
 </g>
 <!-- strain_4&#45;&gt;DOWNSAMPLING -->
 <g id="edge10" class="edge"><title>strain_4&#45;&gt;DOWNSAMPLING</title>
-<path fill="none" stroke="black" d="M699.175,-891.085C721.001,-881.034 752.146,-866.691 777.865,-854.847"/>
-<polygon fill="black" stroke="black" points="779.448,-857.971 787.067,-850.609 776.52,-851.613 779.448,-857.971"/>
+<path fill="none" stroke="black" d="M700.175,-891.085C722.001,-881.034 753.146,-866.691 778.865,-854.847"/>
+<polygon fill="black" stroke="black" points="780.448,-857.971 788.067,-850.609 777.52,-851.613 780.448,-857.971"/>
 </g>
 <!-- PSD_H1&#45;&gt;WHITENING -->
 <g id="edge15" class="edge"><title>PSD_H1&#45;&gt;WHITENING</title>
-<path fill="none" stroke="black" d="M168,-730.489C168,-719.663 168,-705.394 168,-692.976"/>
-<polygon fill="black" stroke="black" points="171.5,-692.672 168,-682.672 164.5,-692.672 171.5,-692.672"/>
+<path fill="none" stroke="black" d="M187.207,-730.489C187.339,-719.663 187.513,-705.394 187.664,-692.976"/>
+<polygon fill="black" stroke="black" points="191.167,-692.714 187.79,-682.672 184.168,-692.628 191.167,-692.714"/>
 </g>
 <!-- PSD_L1&#45;&gt;WHITENING -->
 <g id="edge16" class="edge"><title>PSD_L1&#45;&gt;WHITENING</title>
-<path fill="none" stroke="black" d="M110.918,-730.489C121.083,-718.898 134.711,-703.359 146.101,-690.371"/>
-<polygon fill="black" stroke="black" points="148.891,-692.498 152.853,-682.672 143.628,-687.883 148.891,-692.498"/>
+<path fill="none" stroke="black" d="M130.126,-730.489C140.432,-718.898 154.248,-703.359 165.797,-690.371"/>
+<polygon fill="black" stroke="black" points="168.613,-692.471 172.643,-682.672 163.382,-687.819 168.613,-692.471"/>
 </g>
 <!-- strain_H1_whiten&#45;&gt;BANDPASSING -->
 <g id="edge17" class="edge"><title>strain_H1_whiten&#45;&gt;BANDPASSING</title>
-<path fill="none" stroke="black" d="M167,-572.84C167,-564.783 167,-555 167,-545.984"/>
-<polygon fill="black" stroke="black" points="170.5,-545.901 167,-535.901 163.5,-545.901 170.5,-545.901"/>
+<path fill="none" stroke="black" d="M189.242,-572.84C189.355,-564.783 189.492,-555 189.619,-545.984"/>
+<polygon fill="black" stroke="black" points="193.119,-545.949 189.76,-535.901 186.12,-545.851 193.119,-545.949"/>
 </g>
 <!-- strain_H1_whiten&#45;&gt;SPECTROGRAMS_FOR_WHITEND_DATA -->
 <g id="edge18" class="edge"><title>strain_H1_whiten&#45;&gt;SPECTROGRAMS_FOR_WHITEND_DATA</title>
-<path fill="none" stroke="black" d="M209.839,-574.979C239.226,-564.606 278.578,-550.716 310.8,-539.343"/>
-<polygon fill="black" stroke="black" points="312.287,-542.53 320.552,-535.901 309.957,-535.929 312.287,-542.53"/>
+<path fill="none" stroke="black" d="M231.566,-575.117C234.758,-573.994 237.93,-572.879 241,-571.8 271.598,-561.046 305.689,-549.079 333.725,-539.241"/>
+<polygon fill="black" stroke="black" points="335.097,-542.47 343.374,-535.856 332.779,-535.864 335.097,-542.47"/>
 </g>
 <!-- strain_L1_whiten&#45;&gt;BANDPASSING -->
 <g id="edge19" class="edge"><title>strain_L1_whiten&#45;&gt;BANDPASSING</title>
-<path fill="none" stroke="black" d="M245.329,-573.022C231.797,-563.654 214.836,-551.913 200.16,-541.755"/>
-<polygon fill="black" stroke="black" points="202.041,-538.8 191.827,-535.986 198.057,-544.555 202.041,-538.8"/>
+<path fill="none" stroke="black" d="M267.568,-573.022C254.168,-563.654 237.371,-551.913 222.838,-541.755"/>
+<polygon fill="black" stroke="black" points="224.787,-538.847 214.586,-535.986 220.777,-544.584 224.787,-538.847"/>
 </g>
 <!-- strain_L1_whiten&#45;&gt;SPECTROGRAMS_FOR_WHITEND_DATA -->
 <g id="edge20" class="edge"><title>strain_L1_whiten&#45;&gt;SPECTROGRAMS_FOR_WHITEND_DATA</title>
-<path fill="none" stroke="black" d="M293.713,-573.022C306.598,-563.742 322.718,-552.133 336.732,-542.04"/>
-<polygon fill="black" stroke="black" points="339.068,-544.67 345.137,-535.986 334.977,-538.99 339.068,-544.67"/>
+<path fill="none" stroke="black" d="M315.952,-573.022C328.968,-563.742 345.25,-552.133 359.406,-542.04"/>
+<polygon fill="black" stroke="black" points="361.786,-544.641 367.896,-535.986 357.722,-538.942 361.786,-544.641"/>
 </g>
 <!-- strain_H1_whitenbp&#45;&gt;STRAIN_WAVEFORM_FOR_WHITENED_DATA -->
 <g id="edge21" class="edge"><title>strain_H1_whitenbp&#45;&gt;STRAIN_WAVEFORM_FOR_WHITENED_DATA</title>
@@ -504,18 +504,18 @@
 </g>
 <!-- COEFFICIENTS&#45;&gt;FILTER_DATA -->
 <g id="edge27" class="edge"><title>COEFFICIENTS&#45;&gt;FILTER_DATA</title>
-<path fill="none" stroke="black" d="M665.19,-730.489C657.294,-719.117 646.76,-703.944 637.849,-691.109"/>
-<polygon fill="black" stroke="black" points="640.57,-688.89 631.991,-682.672 634.819,-692.882 640.57,-688.89"/>
+<path fill="none" stroke="black" d="M671.82,-730.489C668.49,-719.554 664.091,-705.106 660.283,-692.6"/>
+<polygon fill="black" stroke="black" points="663.521,-691.219 657.259,-682.672 656.824,-693.258 663.521,-691.219"/>
 </g>
 <!-- strain_H1_filt&#45;&gt;STRAIN_WAVEFORM_FOR_FILTERED_DATA -->
 <g id="edge28" class="edge"><title>strain_H1_filt&#45;&gt;STRAIN_WAVEFORM_FOR_FILTERED_DATA</title>
-<path fill="none" stroke="black" d="M597.818,-572.84C608.804,-563.732 622.451,-552.418 634.414,-542.5"/>
-<polygon fill="black" stroke="black" points="636.909,-544.978 642.374,-535.901 632.441,-539.589 636.909,-544.978"/>
+<path fill="none" stroke="black" d="M626.85,-572.84C637.325,-563.732 650.337,-552.418 661.743,-542.5"/>
+<polygon fill="black" stroke="black" points="664.083,-545.104 669.333,-535.901 659.49,-539.821 664.083,-545.104"/>
 </g>
 <!-- strain_L1_filt&#45;&gt;STRAIN_WAVEFORM_FOR_FILTERED_DATA -->
 <g id="edge29" class="edge"><title>strain_L1_filt&#45;&gt;STRAIN_WAVEFORM_FOR_FILTERED_DATA</title>
-<path fill="none" stroke="black" d="M663,-572.84C663,-564.783 663,-555 663,-545.984"/>
-<polygon fill="black" stroke="black" points="666.5,-545.901 663,-535.901 659.5,-545.901 666.5,-545.901"/>
+<path fill="none" stroke="black" d="M692.032,-572.84C691.58,-564.783 691.031,-555 690.525,-545.984"/>
+<polygon fill="black" stroke="black" points="694.014,-545.689 689.959,-535.901 687.025,-546.081 694.014,-545.689"/>
 </g>
 <!-- strain_H1_shifted&#45;&gt;WAVE_FILE_GENERATOR_FOR_SHIFTED_DATA -->
 <g id="edge30" class="edge"><title>strain_H1_shifted&#45;&gt;WAVE_FILE_GENERATOR_FOR_SHIFTED_DATA</title>
@@ -533,7 +533,7 @@
 </g>
 <!-- ASDs&#45;&gt;ASDs_outflow -->
 <g id="edge60" class="edge"><title>ASDs&#45;&gt;ASDs_outflow</title>
-<path fill="none" stroke="black" d="M320.934,-738.652C356.681,-732.819 404.626,-725.057 447,-718.4 591.717,-695.665 1094,-738.592 1094,-592.1 1094,-592.1 1094,-592.1 1094,-191.2 1094,-138.731 1085.82,-76.9624 1081.54,-48.2243"/>
+<path fill="none" stroke="black" d="M339.931,-737.122C371.149,-731.273 411.225,-724.033 447,-718.4 591.709,-695.615 1094,-738.592 1094,-592.1 1094,-592.1 1094,-592.1 1094,-191.2 1094,-138.731 1085.82,-76.9624 1081.54,-48.2243"/>
 <polygon fill="black" stroke="black" points="1084.96,-47.4072 1079.98,-38.0536 1078.04,-48.4688 1084.96,-47.4072"/>
 </g>
 <!-- WHITENED_strain_data_outflow -->
@@ -542,8 +542,8 @@
 </g>
 <!-- WHITENED_strain_data&#45;&gt;WHITENED_strain_data_outflow -->
 <g id="edge61" class="edge"><title>WHITENED_strain_data&#45;&gt;WHITENED_strain_data_outflow</title>
-<path fill="none" stroke="black" d="M527.873,-257.398C588.246,-220.111 732.479,-131.785 856,-62 862.578,-58.2835 865.3,-58.9591 871,-54 873.623,-51.7178 876.061,-48.9286 878.203,-46.1128"/>
-<polygon fill="black" stroke="black" points="881.243,-47.8645 883.905,-37.6097 875.429,-43.9659 881.243,-47.8645"/>
+<path fill="none" stroke="black" d="M547.338,-257.328C629.561,-206.903 857.153,-66.9252 871,-54 873.542,-51.6274 875.945,-48.7998 878.079,-45.9752"/>
+<polygon fill="black" stroke="black" points="881.1,-47.7565 883.822,-37.5172 875.309,-43.8244 881.1,-47.7565"/>
 </g>
 <!-- spectrogram_outflow -->
 <g id="node48" class="node"><title>spectrogram_outflow</title>
@@ -569,7 +569,7 @@
 </g>
 <!-- filtered_white_noise_data&#45;&gt;filtered_white_noise_data_outflow -->
 <g id="edge64" class="edge"><title>filtered_white_noise_data&#45;&gt;filtered_white_noise_data_outflow</title>
-<path fill="none" stroke="black" d="M904.456,-572.285C973.193,-552.871 1056,-514.122 1056,-440.1 1056,-440.1 1056,-440.1 1056,-191.2 1056,-138.879 1051.09,-77.0398 1048.53,-48.2547"/>
+<path fill="none" stroke="black" d="M908.498,-572.636C973.192,-552.666 1056,-512.888 1056,-440.1 1056,-440.1 1056,-440.1 1056,-191.2 1056,-138.879 1051.09,-77.0398 1048.53,-48.2547"/>
 <polygon fill="black" stroke="black" points="1051.99,-47.7038 1047.59,-38.066 1045.02,-48.3444 1051.99,-47.7038"/>
 </g>
 <!-- H1_strain_filtered_outflow -->
@@ -596,8 +596,8 @@
 </g>
 <!-- whitened_bandpass_wavefile&#45;&gt;whitened_bandpass_wavefile_outflow -->
 <g id="edge67" class="edge"><title>whitened_bandpass_wavefile&#45;&gt;whitened_bandpass_wavefile_outflow</title>
-<path fill="none" stroke="black" d="M798.254,-246.435C827.667,-194.199 888.723,-85.769 910.805,-46.5531"/>
-<polygon fill="black" stroke="black" points="914.085,-47.8627 915.941,-37.4318 907.985,-44.4281 914.085,-47.8627"/>
+<path fill="none" stroke="black" d="M808.83,-246.435C835.667,-194.199 891.375,-85.769 911.523,-46.5531"/>
+<polygon fill="black" stroke="black" points="914.753,-47.926 916.209,-37.4318 908.526,-44.7271 914.753,-47.926"/>
 </g>
 <!-- shifted_wavefile_outflow -->
 <g id="node54" class="node"><title>shifted_wavefile_outflow</title>
@@ -605,8 +605,8 @@
 </g>
 <!-- shifted_wavefile&#45;&gt;shifted_wavefile_outflow -->
 <g id="edge68" class="edge"><title>shifted_wavefile&#45;&gt;shifted_wavefile_outflow</title>
-<path fill="none" stroke="black" d="M440.579,-88.7636C480.132,-79.6832 529.471,-69.1606 574,-62 673.392,-46.0168 793.977,-36.3824 837.93,-33.1875"/>
-<polygon fill="black" stroke="black" points="838.285,-36.6712 848.012,-32.4712 837.789,-29.6888 838.285,-36.6712"/>
+<path fill="none" stroke="black" d="M440.138,-90.1471C480.79,-80.7963 533.064,-69.5796 580,-62 676.849,-46.3601 794.232,-36.5784 837.716,-33.264"/>
+<polygon fill="black" stroke="black" points="838.028,-36.7505 847.74,-32.5159 837.507,-29.7699 838.028,-36.7505"/>
 </g>
 <!-- H1_ASD_SamplingRate_outflow -->
 <g id="node55" class="node"><title>H1_ASD_SamplingRate_outflow</title>
@@ -619,55 +619,55 @@
 </g>
 <!-- fs -->
 <g id="node42" class="node"><title>fs</title>
-<path fill="#ffffff" stroke="black" d="M509,-922.6C509,-922.6 479,-922.6 479,-922.6 473,-922.6 467,-916.6 467,-910.6 467,-910.6 467,-898.6 467,-898.6 467,-892.6 473,-886.6 479,-886.6 479,-886.6 509,-886.6 509,-886.6 515,-886.6 521,-892.6 521,-898.6 521,-898.6 521,-910.6 521,-910.6 521,-916.6 515,-922.6 509,-922.6"/>
-<text text-anchor="middle" x="494" y="-901.9" font-family="Helvetica,sans-Serif" font-size="9.00">fs</text>
+<path fill="#ffffff" stroke="black" d="M510,-922.6C510,-922.6 480,-922.6 480,-922.6 474,-922.6 468,-916.6 468,-910.6 468,-910.6 468,-898.6 468,-898.6 468,-892.6 474,-886.6 480,-886.6 480,-886.6 510,-886.6 510,-886.6 516,-886.6 522,-892.6 522,-898.6 522,-898.6 522,-910.6 522,-910.6 522,-916.6 516,-922.6 510,-922.6"/>
+<text text-anchor="middle" x="495" y="-901.9" font-family="Helvetica,sans-Serif" font-size="9.00">fs</text>
 </g>
 <!-- fs&#45;&gt;AMPLITUDE_SPECTRAL_DENSITY -->
 <g id="edge11" class="edge"><title>fs&#45;&gt;AMPLITUDE_SPECTRAL_DENSITY</title>
-<path fill="none" stroke="black" d="M466.937,-897.449C423.584,-887.596 336.767,-867.865 271.055,-852.931"/>
-<polygon fill="black" stroke="black" points="271.638,-849.474 261.111,-850.671 270.087,-856.3 271.638,-849.474"/>
+<path fill="none" stroke="black" d="M467.937,-897.449C424.584,-887.596 337.767,-867.865 272.055,-852.931"/>
+<polygon fill="black" stroke="black" points="272.638,-849.474 262.111,-850.671 271.087,-856.3 272.638,-849.474"/>
 </g>
 <!-- fs&#45;&gt;SPECTROGRAMS_FOR_STRAIN_DATA -->
 <g id="edge12" class="edge"><title>fs&#45;&gt;SPECTROGRAMS_FOR_STRAIN_DATA</title>
-<path fill="none" stroke="black" d="M487.326,-886.297C484.285,-878.413 480.617,-868.904 477.239,-860.146"/>
-<polygon fill="black" stroke="black" points="480.462,-858.775 473.597,-850.704 473.931,-861.294 480.462,-858.775"/>
+<path fill="none" stroke="black" d="M488.326,-886.297C485.285,-878.413 481.617,-868.904 478.239,-860.146"/>
+<polygon fill="black" stroke="black" points="481.462,-858.775 474.597,-850.704 474.931,-861.294 481.462,-858.775"/>
 </g>
 <!-- fs&#45;&gt;SPECTROGRAMS_FOR_WHITEND_DATA -->
 <g id="edge13" class="edge"><title>fs&#45;&gt;SPECTROGRAMS_FOR_WHITEND_DATA</title>
-<path fill="none" stroke="black" d="M521.201,-898.678C547.028,-892.403 584.436,-878.784 602,-850.6 610.462,-837.021 611.952,-827.128 602,-814.6 558.011,-759.223 498.57,-826.997 447,-778.6 380.477,-716.17 369.968,-599.456 368.792,-546.362"/>
-<polygon fill="black" stroke="black" points="372.288,-545.997 368.666,-536.041 365.288,-546.083 372.288,-545.997"/>
+<path fill="none" stroke="black" d="M522.201,-898.678C548.028,-892.403 585.436,-878.784 603,-850.6 611.462,-837.021 612.961,-827.121 603,-814.6 558.702,-758.915 496.855,-829.37 447,-778.6 384.423,-714.875 385.058,-598.826 389.071,-546.132"/>
+<polygon fill="black" stroke="black" points="392.582,-546.156 389.957,-535.892 385.608,-545.553 392.582,-546.156"/>
 </g>
 <!-- fs&#45;&gt;FILTER_COEFS -->
 <g id="edge14" class="edge"><title>fs&#45;&gt;FILTER_COEFS</title>
-<path fill="none" stroke="black" d="M521.114,-893.867C549.645,-883.625 595.395,-867.202 631.936,-854.085"/>
-<polygon fill="black" stroke="black" points="633.263,-857.327 641.492,-850.654 630.898,-850.739 633.263,-857.327"/>
+<path fill="none" stroke="black" d="M522.114,-893.867C550.645,-883.625 596.395,-867.202 632.936,-854.085"/>
+<polygon fill="black" stroke="black" points="634.263,-857.327 642.492,-850.654 631.898,-850.739 634.263,-857.327"/>
 </g>
 <!-- fs_inflow -->
 <g id="node43" class="node"><title>fs_inflow</title>
-<ellipse fill="none" stroke="black" cx="401" cy="-1127" rx="7" ry="7"/>
+<ellipse fill="none" stroke="black" cx="402" cy="-1127" rx="7" ry="7"/>
 </g>
 <!-- fs_inflow&#45;&gt;fs -->
 <g id="edge57" class="edge"><title>fs_inflow&#45;&gt;fs</title>
-<path fill="none" stroke="black" d="M408.141,-1125.46C423.28,-1123.9 458.552,-1117.97 475,-1096 511.014,-1047.89 505.615,-972.688 499.35,-932.714"/>
-<polygon fill="black" stroke="black" points="502.766,-931.925 497.636,-922.655 495.865,-933.101 502.766,-931.925"/>
+<path fill="none" stroke="black" d="M409.141,-1125.46C424.28,-1123.9 459.552,-1117.97 476,-1096 512.014,-1047.89 506.615,-972.688 500.35,-932.714"/>
+<polygon fill="black" stroke="black" points="503.766,-931.925 498.636,-922.655 496.865,-933.101 503.766,-931.925"/>
 </g>
 <!-- FN_Detector_inflow -->
 <g id="node44" class="node"><title>FN_Detector_inflow</title>
-<ellipse fill="none" stroke="black" cx="369" cy="-1127" rx="7" ry="7"/>
+<ellipse fill="none" stroke="black" cx="370" cy="-1127" rx="7" ry="7"/>
 </g>
 <!-- FN_Detector_inflow&#45;&gt;FN_Detector -->
 <g id="edge58" class="edge"><title>FN_Detector_inflow&#45;&gt;FN_Detector</title>
-<path fill="none" stroke="black" d="M369,-1119.57C369,-1112.65 369,-1101.12 369,-1089.78"/>
-<polygon fill="black" stroke="black" points="372.5,-1089.56 369,-1079.56 365.5,-1089.56 372.5,-1089.56"/>
+<path fill="none" stroke="black" d="M370,-1119.57C370,-1112.65 370,-1101.12 370,-1089.78"/>
+<polygon fill="black" stroke="black" points="373.5,-1089.56 370,-1079.56 366.5,-1089.56 373.5,-1089.56"/>
 </g>
 <!-- FN_Sampling_rate_inflow -->
 <g id="node45" class="node"><title>FN_Sampling_rate_inflow</title>
-<ellipse fill="none" stroke="black" cx="337" cy="-1127" rx="7" ry="7"/>
+<ellipse fill="none" stroke="black" cx="338" cy="-1127" rx="7" ry="7"/>
 </g>
 <!-- FN_Sampling_rate_inflow&#45;&gt;FN_Sampling_rate -->
 <g id="edge59" class="edge"><title>FN_Sampling_rate_inflow&#45;&gt;FN_Sampling_rate</title>
-<path fill="none" stroke="black" d="M330.487,-1123.52C313.475,-1117.04 266.156,-1099.02 224.794,-1083.26"/>
-<polygon fill="black" stroke="black" points="225.845,-1079.92 215.254,-1079.63 223.354,-1086.46 225.845,-1079.92"/>
+<path fill="none" stroke="black" d="M331.487,-1123.52C314.475,-1117.04 267.156,-1099.02 225.794,-1083.26"/>
+<polygon fill="black" stroke="black" points="226.845,-1079.92 216.254,-1079.63 224.354,-1086.46 226.845,-1079.92"/>
 </g>
 </g>
 </svg>

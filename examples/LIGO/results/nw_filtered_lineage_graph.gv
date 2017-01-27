@@ -1,0 +1,171 @@
+digraph dependency {
+    rankdir=BT;
+
+/* Title for graph */
+fontname=Courier; fontsize=30; labelloc=t
+label=NW_FILTERED_LINEAGE_GRAPH_FOR_STRAIN_L1_WHITENBP
+
+    node[fontsize=20]
+    v_1_36 [label="141 fn_d = 'L-L1_LOSC_4_V1-1126259446-32.hdf5'" fillcolor="#85CBD0" fontcolor="black" shape="box" style="rounded,filled"];
+    v_1_39 [label="142 loaddata = (array([ -1.77955839e-18, ... 1, 1, 1], dtype=uint32)})" fillcolor="#3A85B9" fontcolor="white" shape="box" style="filled"];
+    v_1_40 [label="142 time_L1 = array([  1.12625945e+09,  ... 8e+09,   1.12625948e+09])" fillcolor="#85CBD0" fontcolor="black" shape="box" style="rounded,filled"];
+    v_1_41 [label="142 strain_L1 = array([ -1.77955839e-18,  ... 6e-18,  -1.71969299e-18])" fillcolor="#85CBD0" fontcolor="black" shape="box" style="rounded,filled"];
+    v_1_57 [label="151 fs = 4096" fillcolor="#85CBD0" fontcolor="black" shape="box" style="rounded,filled"];
+    v_1_58 [label="153 time = array([  1.12625945e+09,  ... 8e+09,   1.12625948e+09])" fillcolor="#85CBD0" fontcolor="black" shape="box" style="rounded,filled"];
+    v_1_59 [label="155 dt = 0.000244140625" fillcolor="#85CBD0" fontcolor="black" shape="box" style="rounded,filled"];
+    v_1_293 [label="266 NFFT = 4096" fillcolor="#85CBD0" fontcolor="black" shape="box" style="rounded,filled"];
+    v_1_303 [label="270 psd = (array([  2.22851728e-36, ... e+03,   2.04800000e+03]))" fillcolor="#3A85B9" fontcolor="white" shape="box" style="filled"];
+    v_1_304 [label="270 freqs = array([  0.00000000e+00,  ... 0e+03,   2.04800000e+03])" fillcolor="#85CBD0" fontcolor="black" shape="box" style="rounded,filled"];
+    v_1_305 [label="270 Pxx_L1 = array([  2.22851728e-36,  ... 5e-46,   1.77059496e-46])" fillcolor="#85CBD0" fontcolor="black" shape="box" style="rounded,filled"];
+    v_1_313 [label="274 psd_L1 = <scipy.interpolate.interp ... 1d object at 0x1095b0260>" fillcolor="#85CBD0" fontcolor="black" shape="box" style="rounded,filled"];
+    subgraph cluster_79  {
+        color="#3A85B9";
+        fontsize=30;
+        label = "whiten";
+    }
+    subgraph cluster_85  {
+        color="#3A85B9";
+        fontsize=30;
+        label = "whiten";
+        v_85_414 [label="334 return = array([  8.49413154,  -1. ... .39942945,  72.15659253])" fillcolor="#85CBD0" fontcolor="black" shape="box" style="rounded,filled"];
+        v_85_385 [label="325 strain = array([ -1.77955839e-18,  ... 6e-18,  -1.71969299e-18])" fillcolor="#85CBD0" fontcolor="black" shape="box" style="rounded,filled"];
+        v_85_386 [label="325 interp_psd = <scipy.interpolate.interp ... 1d object at 0x1095b0260>" fillcolor="#85CBD0" fontcolor="black" shape="box" style="rounded,filled"];
+        v_85_387 [label="325 dt = 0.000244140625" fillcolor="#85CBD0" fontcolor="black" shape="box" style="rounded,filled"];
+        v_85_385 [label="325 strain = array([ -1.77955839e-18,  ... 6e-18,  -1.71969299e-18])" fillcolor="#85CBD0" fontcolor="black" shape="box" style="rounded,filled"];
+        v_85_386 [label="325 interp_psd = <scipy.interpolate.interp ... 1d object at 0x1095b0260>" fillcolor="#85CBD0" fontcolor="black" shape="box" style="rounded,filled"];
+        v_85_387 [label="325 dt = 0.000244140625" fillcolor="#85CBD0" fontcolor="black" shape="box" style="rounded,filled"];
+        v_85_394 [label="326 len" fillcolor="#3A85B9" fontcolor="white" shape="box" style="filled"];
+        v_85_395 [label="326 Nt = 131072" fillcolor="#85CBD0" fontcolor="black" shape="box" style="rounded,filled"];
+        v_85_398 [label="327 rfftfreq = array([  0.00000000e+00,  ... 5e+03,   2.04800000e+03])" fillcolor="#3A85B9" fontcolor="white" shape="box" style="filled"];
+        v_85_399 [label="327 freqs = array([  0.00000000e+00,  ... 5e+03,   2.04800000e+03])" fillcolor="#85CBD0" fontcolor="black" shape="box" style="rounded,filled"];
+        v_85_402 [label="331 rfft = array([ -2.39692348e-13 + ... 54e-19 +0.00000000e+00j])" fillcolor="#3A85B9" fontcolor="white" shape="box" style="filled"];
+        v_85_403 [label="331 hf = array([ -2.39692348e-13 + ... 54e-19 +0.00000000e+00j])" fillcolor="#85CBD0" fontcolor="black" shape="box" style="rounded,filled"];
+        v_85_407 [label="332 (np.sqrt(interp_psd(freqs) /dt/2.))" fillcolor="#3A85B9" fontcolor="white" shape="box" style="filled"];
+        v_85_409 [label="332 white_hf = array([ -3.54798023e+03 + ... 58e+02 +0.00000000e+00j])" fillcolor="#85CBD0" fontcolor="black" shape="box" style="rounded,filled"];
+        v_85_412 [label="333 irfft = array([  8.49413154,  -1. ... .39942945,  72.15659253])" fillcolor="#3A85B9" fontcolor="white" shape="box" style="filled"];
+        v_85_413 [label="333 white_ht = array([  8.49413154,  -1. ... .39942945,  72.15659253])" fillcolor="#85CBD0" fontcolor="black" shape="box" style="rounded,filled"];
+        v_85_414 [label="334 return = array([  8.49413154,  -1. ... .39942945,  72.15659253])" fillcolor="#85CBD0" fontcolor="black" shape="box" style="rounded,filled"];
+    }
+    v_1_416 [label="338 strain_L1_whiten = array([  8.49413154,  -1. ... .39942945,  72.15659253])" fillcolor="#85CBD0" fontcolor="black" shape="box" style="rounded,filled"];
+    subgraph cluster_91  {
+        color="#3A85B9";
+        fontsize=30;
+        label = "whiten";
+    }
+    v_1_451 [label="362 butter = (array([ 0.0012848 ,  0.  ... 9166733 ,   0.32217438]))" fillcolor="#3A85B9" fontcolor="white" shape="box" style="filled"];
+    v_1_452 [label="362 ab = array([  1.        ,  -6. ... .9166733 ,   0.32217438])" fillcolor="#85CBD0" fontcolor="black" shape="box" style="rounded,filled"];
+    v_1_453 [label="362 bb = array([ 0.0012848 ,  0.   ... 0.        ,  0.0012848 ])" fillcolor="#85CBD0" fontcolor="black" shape="box" style="rounded,filled"];
+    v_1_460 [label="364 filtfilt = array([  8.18464884,  19. ... .18198039,  -0.68432653])" fillcolor="#3A85B9" fontcolor="white" shape="box" style="filled"];
+    v_1_461 [label="364 strain_L1_whitenbp = array([  8.18464884,  19. ... .18198039,  -0.68432653])" fillcolor="#85CBD0" fontcolor="black" shape="box" style="rounded,filled"];
+    subgraph cluster_149  {
+        color="#3A85B9";
+        fontsize=30;
+        label = "get_filter_coefs";
+    }
+    subgraph cluster_330  {
+        color="#3A85B9";
+        fontsize=30;
+        label = "filter_data";
+    }
+    subgraph cluster_380  {
+        color="#3A85B9";
+        fontsize=30;
+        label = "filter_data";
+    }
+    subgraph cluster_399  {
+        color="#3A85B9";
+        fontsize=30;
+        label = "filter_data";
+    }
+    subgraph cluster_418  {
+        color="#3A85B9";
+        fontsize=30;
+        label = "filter_data";
+    }
+    subgraph cluster_459  {
+        color="#3A85B9";
+        fontsize=30;
+        label = "write_wavfile";
+    }
+    subgraph cluster_462  {
+        color="#3A85B9";
+        fontsize=30;
+        label = "write_wavfile";
+    }
+    subgraph cluster_465  {
+        color="#3A85B9";
+        fontsize=30;
+        label = "write_wavfile";
+    }
+    subgraph cluster_468  {
+        color="#3A85B9";
+        fontsize=30;
+        label = "reqshift";
+    }
+    subgraph cluster_474  {
+        color="#3A85B9";
+        fontsize=30;
+        label = "reqshift";
+    }
+    subgraph cluster_480  {
+        color="#3A85B9";
+        fontsize=30;
+        label = "reqshift";
+    }
+    subgraph cluster_486  {
+        color="#3A85B9";
+        fontsize=30;
+        label = "write_wavfile";
+    }
+    subgraph cluster_489  {
+        color="#3A85B9";
+        fontsize=30;
+        label = "write_wavfile";
+    }
+    subgraph cluster_492  {
+        color="#3A85B9";
+        fontsize=30;
+        label = "write_wavfile";
+    }
+    v_85_386 -> v_1_313 [style=""];
+    v_1_303 -> v_1_293 [style="dashed"];
+    v_1_41 -> v_1_39 [style=""];
+    v_1_59 -> v_1_58 [style=""];
+    v_1_461 -> v_1_460 [style=""];
+    v_85_409 -> v_85_407 [style=""];
+    v_1_40 -> v_1_39 [style=""];
+    v_85_402 -> v_85_385 [style="dashed"];
+    v_85_398 -> v_85_387 [style="dashed"];
+    v_85_407 -> v_85_386 [style="dashed"];
+    v_1_460 -> v_1_453 [style="dashed"];
+    v_85_414 -> v_85_413 [style=""];
+    v_1_303 -> v_1_41 [style="dashed"];
+    v_85_395 -> v_85_394 [style=""];
+    v_85_398 -> v_85_395 [style="dashed"];
+    v_85_387 -> v_1_59 [style=""];
+    v_85_403 -> v_85_402 [style=""];
+    v_1_313 -> v_1_304 [style="dashed"];
+    v_85_407 -> v_85_387 [style="dashed"];
+    v_1_416 -> v_85_414 [style=""];
+    v_1_305 -> v_1_303 [style=""];
+    v_1_453 -> v_1_451 [style=""];
+    v_1_304 -> v_1_303 [style=""];
+    v_1_460 -> v_1_452 [style="dashed"];
+    v_85_407 -> v_85_399 [style="dashed"];
+    v_85_413 -> v_85_412 [style=""];
+    v_1_313 -> v_1_305 [style="dashed"];
+    v_1_451 -> v_1_57 [style="dashed"];
+    v_85_399 -> v_85_398 [style=""];
+    v_85_409 -> v_85_403 [style=""];
+    v_85_412 -> v_85_409 [style="dashed"];
+    v_1_452 -> v_1_451 [style=""];
+    v_1_460 -> v_1_416 [style="dashed"];
+    v_1_303 -> v_1_57 [style="dashed"];
+    v_1_293 -> v_1_57 [style=""];
+    v_85_385 -> v_1_41 [style=""];
+    v_1_39 -> v_1_36 [style="dashed"];
+    v_85_394 -> v_85_385 [style="dashed"];
+    v_85_412 -> v_85_395 [style="dashed"];
+    v_1_58 -> v_1_40 [style=""];
+}
+

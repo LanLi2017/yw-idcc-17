@@ -1,0 +1,33 @@
+inputs:
+ - c:\anaconda2\lib\site-packages\matplotlib\mathtext.py
+ - c:\anaconda2\lib\site-packages\matplotlib\backends\backend_agg.py
+ - c:\anaconda2\lib\site-packages\matplotlib\text.py
+ - c:\anaconda2\lib\site-packages\matplotlib\axis.py
+ - c:\anaconda2\lib\site-packages\matplotlib\artist.py
+ - c:\anaconda2\lib\site-packages\matplotlib\axes\_base.py
+ - c:\anaconda2\lib\site-packages\matplotlib\figure.py
+ - c:\anaconda2\lib\site-packages\matplotlib\backend_bases.py
+ - c:\anaconda2\lib\site-packages\matplotlib\backends\backend_qt5agg.py
+ - c:\anaconda2\lib\site-packages\matplotlib\pyplot.py
+ - C:\Users\B4062419\Desktop\LIGO\GW150914_tutorial.py
+ - c:\anaconda2\lib\site-packages\noworkflow\now\collection\prov_execution\execution.py
+outputs:
+ - GW150914_strain.png
+ - GW150914_ASDs.png
+ - GW150914_strain_whitened.png
+ - GW150914_H1_spectrogram.png
+ - GW150914_L1_spectrogram.png
+ - GW150914_H1_spectrogram_whitened.png
+ - GW150914_L1_spectrogram_whitened.png
+ - GW150914_filter.png
+ - GW150914_H1_strain_unfiltered.png
+ - GW150914_H1_strain_filtered.png
+ - GW150914_H1_whitenbp.wav
+ - GW150914_L1_whitenbp.wav
+ - GW150914_NR_whitenbp.wav
+ - GW150914_H1_shifted.wav
+ - GW150914_L1_shifted.wav
+ - GW150914_NR_shifted.wav
+ - GW150914_H1_ASD_16384.png
+ - GW150914_H1_ASD_16384_zoom.png
+ - GW150914_H1_ASD_4096_zoom.png

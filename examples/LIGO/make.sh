@@ -20,7 +20,15 @@ $QUERIES_DIR/materialize_yw_views.sh > $VIEWS_DIR/yw_views.P
 
 
 # copy reconfacts.P  into facts folder
-cp -f recon/reconfacts.P facts
+#cp -f recon/reconfacts.P facts
+
+# generate reconfacts.P to facts/ folder from the run.yaml which is exported from noWorkflow sqlite database
+$YW_MATLAB_RECON_CMD recon $SCRIPT_DIR/GW150914_tutorial_uri.py \
+        -c extract.language=python \
+        -c recon.matlab.exportfile=recon/LIGO.yml \
+        -c recon.factsfile=facts/reconfacts.P \
+        -c recon.finderclass=org.yesworkflow.matlab.MatlabResourceFinder \
+        -c query.engine=xsb
 
 # draw complete workflow graph
 $QUERIES_DIR/render_complete_wf_graph.sh > $RESULTS_DIR/complete_wf_graph.gv

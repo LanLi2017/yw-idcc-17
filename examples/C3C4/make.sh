@@ -48,87 +48,92 @@ $QUERIES_DIR/list_workflow_outputs.sh > $RESULTS_DIR/workflow_outputs.txt
 ##############
 
 # draw worfklow graph upstream of C3_fraction_data
-$QUERIES_DIR/render_wf_graph_upstream_of_data_q1.sh \'C3_fraction_data\' > $RESULTS_DIR/wf_upstream_of_C3_fraction_data.gv
-dot -Tpdf $RESULTS_DIR/wf_upstream_of_C3_fraction_data.gv > $RESULTS_DIR/wf_upstream_of_C3_fraction_data.pdf
-dot -Tsvg $RESULTS_DIR/wf_upstream_of_C3_fraction_data.gv > $RESULTS_DIR/wf_upstream_of_C3_fraction_data.svg
+productName="C3_fraction_data"
+$QUERIES_DIR/render_wf_graph_upstream_of_data_q1.sh \'$productName\' > $RESULTS_DIR/wf_upstream_of_$productName.gv
+dot -Tpdf $RESULTS_DIR/wf_upstream_of_$productName.gv > $RESULTS_DIR/wf_upstream_of_$productName.pdf
+dot -Tsvg $RESULTS_DIR/wf_upstream_of_$productName.gv > $RESULTS_DIR/wf_upstream_of_$productName.svg
 
 # draw worfklow graph upstream of C4_fraction_data
-$QUERIES_DIR/render_wf_graph_upstream_of_data_q1.sh \'C4_fraction_data\' > $RESULTS_DIR/wf_upstream_of_C4_fraction_data.gv
-dot -Tpdf $RESULTS_DIR/wf_upstream_of_C4_fraction_data.gv > $RESULTS_DIR/wf_upstream_of_C4_fraction_data.pdf
-dot -Tsvg $RESULTS_DIR/wf_upstream_of_C4_fraction_data.gv > $RESULTS_DIR/wf_upstream_of_C4_fraction_data.svg
+productName="C4_fraction_data"
+$QUERIES_DIR/render_wf_graph_upstream_of_data_q1.sh \'$productName\' > $RESULTS_DIR/wf_upstream_of_$productName.gv
+dot -Tpdf $RESULTS_DIR/wf_upstream_of_$productName.gv > $RESULTS_DIR/wf_upstream_of_$productName.pdf
+dot -Tsvg $RESULTS_DIR/wf_upstream_of_$productName.gv > $RESULTS_DIR/wf_upstream_of_$productName.svg
 
 # draw worfklow graph upstream of Grass_fraction_data
-$QUERIES_DIR/render_wf_graph_upstream_of_data_q1.sh \'Grass_fraction_data\' > $RESULTS_DIR/wf_upstream_of_Grass_fraction_data.gv
-dot -Tpdf $RESULTS_DIR/wf_upstream_of_Grass_fraction_data.gv > $RESULTS_DIR/wf_upstream_of_Grass_fraction_data.pdf
-dot -Tsvg $RESULTS_DIR/wf_upstream_of_Grass_fraction_data.gv > $RESULTS_DIR/wf_upstream_of_Grass_fraction_data.svg
+productName="Grass_fraction_data"
+$QUERIES_DIR/render_wf_graph_upstream_of_data_q1.sh \'$productName\' > $RESULTS_DIR/wf_upstream_of_$productName.gv
+dot -Tpdf $RESULTS_DIR/wf_upstream_of_$productName.gv > $RESULTS_DIR/wf_upstream_of_$productName.pdf
+dot -Tsvg $RESULTS_DIR/wf_upstream_of_$productName.gv > $RESULTS_DIR/wf_upstream_of_$productName.svg
 
-# draw worfklow graph upstream of mean_precip
-$QUERIES_DIR/render_wf_graph_upstream_of_data_q1.sh mean_precip > $RESULTS_DIR/wf_upstream_of_mean_precip.gv
-dot -Tpdf $RESULTS_DIR/wf_upstream_of_mean_precip.gv > $RESULTS_DIR/wf_upstream_of_mean_precip.pdf
-dot -Tsvg $RESULTS_DIR/wf_upstream_of_mean_precip.gv > $RESULTS_DIR/wf_upstream_of_mean_precip.svg
 
 ##############
 #   Q2_pro   #
 ##############
 
-# list workflow outputs
-#$QUERIES_DIR/list_dependent_inputs_q2.sh > $RESULTS_DIR/q2_pro_outputs.txt
-
 # list script inputs upstream of output data C3_fraction_data
-$QUERIES_DIR/list_inputs_upstream_of_data_q2.sh \'C3_fraction_data\' C3_fraction_data > $RESULTS_DIR/inputs_upstream_of_C3_fraction_data.txt
+productName="C3_fraction_data"
+$QUERIES_DIR/list_inputs_upstream_of_data_q2.sh \'$productName\' $productName > $RESULTS_DIR/inputs_upstream_of_$productName.txt
 
 # list script inputs upstream of output data C4_fraction_data
-$QUERIES_DIR/list_inputs_upstream_of_data_q2.sh \'C4_fraction_data\' C4_fraction_data > $RESULTS_DIR/inputs_upstream_of_C4_fraction_data.txt
+productName="C4_fraction_data"
+$QUERIES_DIR/list_inputs_upstream_of_data_q2.sh \'$productName\' $productName > $RESULTS_DIR/inputs_upstream_of_$productName.txt
 
 # list script inputs upstream of output data Grass_fraction_data
-$QUERIES_DIR/list_inputs_upstream_of_data_q2.sh \'Grass_fraction_data\' Grass_fraction_data > $RESULTS_DIR/inputs_upstream_of_Grass_fraction_data.txt
+productName="Grass_fraction_data"
+$QUERIES_DIR/list_inputs_upstream_of_data_q2.sh \'$productName\' $productName > $RESULTS_DIR/inputs_upstream_of_$productName.txt
 
 
 ##############
 #   Q3_pro   #
 ##############
 
-
 # draw worfklow graph downstream of mean_precip
-$QUERIES_DIR/render_wf_graph_downstream_of_data_q3.sh mean_precip > $RESULTS_DIR/wf_downstream_of_mean_precip.gv
-dot -Tpdf $RESULTS_DIR/wf_downstream_of_mean_precip.gv > $RESULTS_DIR/wf_downstream_of_mean_precip.pdf
-dot -Tsvg $RESULTS_DIR/wf_downstream_of_mean_precip.gv > $RESULTS_DIR/wf_downstream_of_mean_precip.svg
+productName="mean_precip"
+$QUERIES_DIR/render_wf_graph_downstream_of_data_q3.sh $productName > $RESULTS_DIR/wf_downstream_of_$productName.gv
+dot -Tpdf $RESULTS_DIR/wf_downstream_of_$productName.gv > $RESULTS_DIR/wf_downstream_of_$productName.pdf
+dot -Tsvg $RESULTS_DIR/wf_downstream_of_$productName.gv > $RESULTS_DIR/wf_downstream_of_$productName.svg
 
 # draw worfklow graph downstream of mean_airtemp
-$QUERIES_DIR/render_wf_graph_downstream_of_data_q3.sh mean_airtemp > $RESULTS_DIR/wf_downstream_of_mean_airtemp.gv
-dot -Tpdf $RESULTS_DIR/wf_downstream_of_mean_airtemp.gv > $RESULTS_DIR/wf_downstream_of_mean_airtemp.pdf
-dot -Tsvg $RESULTS_DIR/wf_downstream_of_mean_airtemp.gv > $RESULTS_DIR/wf_downstream_of_mean_airtemp.svg
+productName="mean_airtemp"
+$QUERIES_DIR/render_wf_graph_downstream_of_data_q3.sh $productName > $RESULTS_DIR/wf_downstream_of_$productName.gv
+dot -Tpdf $RESULTS_DIR/wf_downstream_of_$productName.gv > $RESULTS_DIR/wf_downstream_of_$productName.pdf
+dot -Tsvg $RESULTS_DIR/wf_downstream_of_$productName.gv > $RESULTS_DIR/wf_downstream_of_$productName.svg
 
 # draw worfklow graph downstream of SYNMAP_land_cover_map_data
-$QUERIES_DIR/render_wf_graph_downstream_of_data_q3.sh \'SYNMAP_land_cover_map_data\'> $RESULTS_DIR/wf_downstream_of_SYNMAP_land_cover_map_data.gv
-dot -Tpdf $RESULTS_DIR/wf_downstream_of_SYNMAP_land_cover_map_data.gv > $RESULTS_DIR/wf_downstream_of_SYNMAP_land_cover_map_data.pdf
-dot -Tsvg $RESULTS_DIR/wf_downstream_of_SYNMAP_land_cover_map_data.gv > $RESULTS_DIR/wf_downstream_of_SYNMAP_land_cover_map_data.svg
+productName="SYNMAP_land_cover_map_data"
+$QUERIES_DIR/render_wf_graph_downstream_of_data_q3.sh \'$productName\' > $RESULTS_DIR/wf_downstream_of_$productName.gv
+dot -Tpdf $RESULTS_DIR/wf_downstream_of_$productName.gv > $RESULTS_DIR/wf_downstream_of_$productName.pdf
+dot -Tsvg $RESULTS_DIR/wf_downstream_of_$productName.gv > $RESULTS_DIR/wf_downstream_of_$productName.svg
 
 # draw worfklow graph downstream of lat_variable
-$QUERIES_DIR/render_wf_graph_downstream_of_data_q3.sh lat_variable > $RESULTS_DIR/wf_downstream_of_lat_variable.gv
-dot -Tpdf $RESULTS_DIR/wf_downstream_of_lat_variable.gv > $RESULTS_DIR/wf_downstream_of_lat_variable.pdf
-dot -Tsvg $RESULTS_DIR/wf_downstream_of_lat_variable.gv > $RESULTS_DIR/wf_downstream_of_lat_variable.svg
+productName="lat_variable"
+$QUERIES_DIR/render_wf_graph_downstream_of_data_q3.sh $productName > $RESULTS_DIR/wf_downstream_of_$productName.gv
+dot -Tpdf $RESULTS_DIR/wf_downstream_of_$productName.gv > $RESULTS_DIR/wf_downstream_of_$productName.pdf
+dot -Tsvg $RESULTS_DIR/wf_downstream_of_$productName.gv > $RESULTS_DIR/wf_downstream_of_$productName.svg
 
 # draw worfklow graph downstream of Grass_variable
-$QUERIES_DIR/render_wf_graph_downstream_of_data_q3.sh \'Grass_variable\' > $RESULTS_DIR/wf_downstream_of_Grass_variable.gv
-dot -Tpdf $RESULTS_DIR/wf_downstream_of_Grass_variable.gv > $RESULTS_DIR/wf_downstream_of_Grass_variable.pdf
-dot -Tsvg $RESULTS_DIR/wf_downstream_of_Grass_variable.gv > $RESULTS_DIR/wf_downstream_of_Grass_variable.svg
+productName="Grass_variable"
+$QUERIES_DIR/render_wf_graph_downstream_of_data_q3.sh \'$productName\' > $RESULTS_DIR/wf_downstream_of_$productName.gv
+dot -Tpdf $RESULTS_DIR/wf_downstream_of_$productName.gv > $RESULTS_DIR/wf_downstream_of_$productName.pdf
+dot -Tsvg $RESULTS_DIR/wf_downstream_of_$productName.gv > $RESULTS_DIR/wf_downstream_of_$productName.svg
+
 
 ##############
 #   Q4_pro   #
 ##############
 
-# list workflow outputs
-$QUERIES_DIR/list_dependent_outputs_q4.sh > $RESULTS_DIR/q4_pro_outputs.txt
-
 # list script outputs downstream of input data mean_airtemp
-$QUERIES_DIR/list_outputs_downstream_of_data_q4.sh mean_airtemp mean_airtemp > $RESULTS_DIR/outputs_downstream_of_mean_airtemp.txt
+productName="mean_airtemp"
+$QUERIES_DIR/list_outputs_downstream_of_data_q4.sh $productName $productName > $RESULTS_DIR/outputs_downstream_of_$productName.txt
 
 # list script outputs downstream of input data mean_precip
-$QUERIES_DIR/list_outputs_downstream_of_data_q4.sh mean_precip mean_precip > $RESULTS_DIR/outputs_downstream_of_mean_precip.txt
+productName="mean_precip"
+$QUERIES_DIR/list_outputs_downstream_of_data_q4.sh $productName $productName > $RESULTS_DIR/outputs_downstream_of_$productName.txt
+
 
 # list script outputs downstream of input data SYNMAP_land_cover_map_data
-$QUERIES_DIR/list_outputs_downstream_of_data_q4.sh \'SYNMAP_land_cover_map_data\' SYNMAP_land_cover_map_data > $RESULTS_DIR/outputs_downstream_of_SYNMAP_land_cover_map_data.txt
+productName="SYNMAP_land_cover_map_data"
+$QUERIES_DIR/list_outputs_downstream_of_data_q4.sh \'$productName\' $productName > $RESULTS_DIR/outputs_downstream_of_$productName.txt
 
 
 ##############
@@ -136,19 +141,23 @@ $QUERIES_DIR/list_outputs_downstream_of_data_q4.sh \'SYNMAP_land_cover_map_data\
 ##############
 
 # draw recon worfklow graph upstream of C3_fraction_data
-$QUERIES_DIR/render_wf_recon_graph_upstream_of_data_q5.sh \'C3_fraction_data\' > $RESULTS_DIR/wf_recon_upstream_of_C3_fraction_data.gv
-dot -Tpdf $RESULTS_DIR/wf_recon_upstream_of_C3_fraction_data.gv > $RESULTS_DIR/wf_recon_upstream_of_C3_fraction_data.pdf
-dot -Tsvg $RESULTS_DIR/wf_recon_upstream_of_C3_fraction_data.gv > $RESULTS_DIR/wf_recon_upstream_of_C3_fraction_data.svg
+productName="C3_fraction_data"
+$QUERIES_DIR/render_wf_recon_graph_upstream_of_data_q5.sh \'$productName\' > $RESULTS_DIR/wf_recon_upstream_of_$productName.gv
+dot -Tpdf $RESULTS_DIR/wf_recon_upstream_of_$productName.gv > $RESULTS_DIR/wf_recon_upstream_of_$productName.pdf
+dot -Tsvg $RESULTS_DIR/wf_recon_upstream_of_$productName.gv > $RESULTS_DIR/wf_recon_upstream_of_$productName.svg
+
 
 # draw recon worfklow graph upstream of C4_fraction_data
-$QUERIES_DIR/render_wf_recon_graph_upstream_of_data_q5.sh \'C4_fraction_data\' > $RESULTS_DIR/wf_recon_upstream_of_C4_fraction_data.gv
-dot -Tpdf $RESULTS_DIR/wf_recon_upstream_of_C4_fraction_data.gv > $RESULTS_DIR/wf_recon_upstream_of_C4_fraction_data.pdf
-dot -Tsvg $RESULTS_DIR/wf_recon_upstream_of_C4_fraction_data.gv > $RESULTS_DIR/wf_recon_upstream_of_C4_fraction_data.svg
+productName="C4_fraction_data"
+$QUERIES_DIR/render_wf_recon_graph_upstream_of_data_q5.sh \'$productName\' > $RESULTS_DIR/wf_recon_upstream_of_$productName.gv
+dot -Tpdf $RESULTS_DIR/wf_recon_upstream_of_$productName.gv > $RESULTS_DIR/wf_recon_upstream_of_$productName.pdf
+dot -Tsvg $RESULTS_DIR/wf_recon_upstream_of_$productName.gv > $RESULTS_DIR/wf_recon_upstream_of_$productName.svg
 
 # draw recon worfklow graph upstream of Grass_fraction_data
-$QUERIES_DIR/render_wf_recon_graph_upstream_of_data_q5.sh \'Grass_fraction_data\' > $RESULTS_DIR/wf_recon_upstream_of_Grass_fraction_data.gv
-dot -Tpdf $RESULTS_DIR/wf_recon_upstream_of_Grass_fraction_data.gv > $RESULTS_DIR/wf_recon_upstream_of_Grass_fraction_data.pdf
-dot -Tsvg $RESULTS_DIR/wf_recon_upstream_of_Grass_fraction_data.gv > $RESULTS_DIR/wf_recon_upstream_of_Grass_fraction_data.svg
+productName="Grass_fraction_data"
+$QUERIES_DIR/render_wf_recon_graph_upstream_of_data_q5.sh \'$productName\' > $RESULTS_DIR/wf_recon_upstream_of_$productName.gv
+dot -Tpdf $RESULTS_DIR/wf_recon_upstream_of_$productName.gv > $RESULTS_DIR/wf_recon_upstream_of_$productName.pdf
+dot -Tsvg $RESULTS_DIR/wf_recon_upstream_of_$productName.gv > $RESULTS_DIR/wf_recon_upstream_of_$productName.svg
 
 ##############
 #   Q6_pro   #

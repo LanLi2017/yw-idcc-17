@@ -1,0 +1,5 @@
+inputs:
+ - input/static_tweet.csv
+ - C:\Anaconda3\lib\site-packages\matplotlib\mpl-data\fonts\ttf\Vera.ttf
+outputs:
+ - output/Scores_NLTK.jpg

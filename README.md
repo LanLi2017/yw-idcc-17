@@ -65,6 +65,8 @@ simulate_data_collection/
 
 ## Installing
 
+Notes that the bash scritps are tested on Mac platform for now. More testing for Windows platform will come soon.
+
 1. The following free software are required in order to run  this demo.
 
   * XSB: a Logic Programming and Deductive Database system for Unix and Windows.  It is available at [XSB homepage] (http://xsb.sourceforge.net). The download and installation page for XSB is at [here] (http://xsb.sourceforge.net/downloads/downloads.html). 

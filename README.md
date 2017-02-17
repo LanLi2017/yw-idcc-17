@@ -28,7 +28,7 @@ The  following tools are used  in our demo project:
 
 The example subfolders also have a typical folder structure:
 
-`dataone-ahm-2016-poster/examples/<my_example>/` 
+`yw-idcc-17/examples/<my_example>/` 
 
 Subfolders that all `<my_example>` folders have:
 

@@ -74,8 +74,8 @@ simulate_data_collection/
   *  SQLite:  a high-reliability, embedded, zero-configuration, public-domain, SQL database engine.  It is availabe at [SQLite homepage](https://www.sqlite.org). 
 
 
-2.  Clone the `dataone-ahm-2016` git repo to your local machine using the command:
-  `git clone https://github.com/idaks/dataone-ahm-2016-poster.git`.
+2.  Clone the `yw-idcc-17` git repo to your local machine using the command:
+  `git clone https://github.com/yesworkflow-org/yw-idcc-17.git`.
   
 ## Running the Demo 
 1. Go to the examples/ folder. We have provided four examples here:  

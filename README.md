@@ -9,7 +9,7 @@ The prospective provenance in this demo is created by YW which models convention
 
 There are various approaches to capture retrospective provenance. Retrospective provenance observables, e.g., from `DataONE RunManagers` (file-level), `ReproZip` (OS-level), or `noWorkflow` (Python code-level) only yield isolated fragments of the overall data lineage and processing history. In this demo, two types of retrospective provenance observables are used: `yw-recon` and `DataONE RunManager`. The `yw-recon` can search the file system for files that match the URI templates declared for @IN and @OUT ports in the script. On the other hand, `DataONE RunManager` can record a list of input and output files for a script run. 
 
-The  following open-source packages are used  in our demo project:
+The  following tools are used  in our demo project:
   *  [YesWorkflow](https://github.com/yesworkflow-org/yw-prototypes)
   *  [noWorkflow](https://github.com/gems-uff/noworkflow)
   *  [yw-recon](https://github.com/yesworkflow-org/yw-tapp-15-recon)  

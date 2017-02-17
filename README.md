@@ -89,7 +89,7 @@ Notes that the bash scritps are tested on Mac platform for now. More testing for
 3.  Run the demo example by calling `bash make.sh` or `./make.sh`.
     
 ## Developing your own Demo
-1. Copy your example folder under examples/ folder. There are already four examples there:  `C3C4`, `LIGO`, `Twitter`, and `simulate_data_collection`.
+1. Copy your example folder under examples/ folder. 
 
 2. Reorganize your directory layout for your example to be the same as `C3C4`, `LIGO`, and `simulate_data_collection`. Create a `recon/` folder which contains your `reconfacts.P`.
 

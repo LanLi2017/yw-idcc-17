@@ -3,7 +3,7 @@ Examples of YW provenance queries highlighted in the IDCC'17 presentation, paper
 
 # Introduction
 
-The purpose of this demo is to demonstrate the `Yesworkflow` (YW) query ability to use the `prospective provenance` created by YW and the `retrospective provenance` together to answer queries that can not be answered solely by prospective provenance or retrospective provenance.
+The purpose of this demo is to demonstrate the `Yesworkflow` (YW) query ability to use the **prospective provenance** created by YW, the **retrospective provenance** and **hybrid provenance** together to answer queries that can not be answered solely by prospective provenance or retrospective provenance.
 
 The prospective provenance in this demo is created by YW which models conventional scripts and programs as scientific workflows. YW can provide a number of the benefits of using a scientific workflow management system without having to rewrite scripts and other scientific software. A YW user simply adds special YW comments to existing scripts. These comments declare how data is used and results produced, step by step, by the script. Then, YW interprets these comments and produces graphical output that reveals the stages of computation and the flow of data in the script.
 
@@ -17,6 +17,20 @@ The  following tools are used  in our demo project:
   *  [DataONE recordr R package](https://github.com/NCEAS/recordr)
   *  [DataONE Matlab Toolbox](https://github.com/DataONEorg/matlab-dataone)
   
+Our system demonstration will illustrate the variety of provenance information that we are able to capture, query, and visualize using a
+combination of tools for exposing both prospective and retrospective provenance. We show how prospective provenance can be declared using YesWorkflow (YW) annotations that reveal
+the fine-grained (variable level) dataflow graph implicit in scripts, and how this prospective provenance can be integrated with the coarse-grained (file-level) retrospective provenance
+information recorded by the DataONE Run Managers for MATLAB and R. We demonstrate the usefulness of integrating prospective and retrospective provenance in this way with queries:
+
+1. **Prospective provenance queries in the context of a single script**. This can expose and test data dependencies at the workflow-level.
+
+2. **Retrospective provenance queries in the context of a single run of a single script**: captures actual input and output files of a script run and other runtime observables.
+
+3. **Hybrid provenance query in the context of a single script and single run**: blends retrospective and prospective provenance, yielding new knowledge artefacts.
+
+4. **Provenance query in the context of multiple scripts and multiple runs**: query and visualize data dependencies across multiple script runs
+
+Our demonstration queries and provenance reports thus yield a more complete and comprehensible picture of data provenance from multiple script runs.
 
 # Layouts of Repository
 
@@ -70,7 +84,7 @@ simulate_data_collection/
 
 ## Installing Instructions
 
-Notes that the bash scritps have been tested on Mac and Windows platform.
+The bash scritps have been tested on Mac and Windows platform.
 
 1. The following free software are required in order to run  this demo.
 
@@ -85,18 +99,18 @@ Notes that the bash scritps have been tested on Mac and Windows platform.
   (http://xsb.sourceforge.net). The download and installation page for XSB is at [here] (http://xsb.sourceforge.net/downloads/downloads.html). Please navigate to the page https://sourceforge.net/projects/xsb/files/xsb/.The version 3.7 is the newest version. Download `xsb-3.7.0.exe` for Windows platform. Run the downloaded installer file and accept all default configuration.
    This is the extra steps for Windows users. Please determine the directory containing the XSB executable: `C:\Program Files (x86)\XSB\config\x64-pc-windows\bin` or `C:\Program Files (x86)\XSB\config\x86-pc-windows\bin `. Then, add the path to the XSB executable to my windows path variable `Control Panel -> System and Security -> System -> Advanced System Settings -> Environment Variables -> Path`. Typing `xsb` in a command console in order to confirm that XSB can run from the command prompt.   
     ```sh
-     C:\Users\tmcphill> xsb
-     [xsb_configuration loaded]
-     [sysinitrc loaded]
-     [xsbbrat loaded]
-      
-     XSB Version 3.6. (Gazpatcho) of April 22, 2015
-     [x64-pc-windows; mode: optimal; engine: slg-wam; scheduling: local]
-     [Build date: 2015-04-22]
-      
-     | ?- halt. 
-      
-     End XSB (cputime 0.05 secs, elapsetime 4.22 secs)
+     C:\Users\tmcphill> xsb 
+     [xsb_configuration loaded] 
+     [sysinitrc loaded] 
+     [xsbbrat loaded] 
+       
+     XSB Version 3.6. (Gazpatcho) of April 22, 2015 
+     [x64-pc-windows; mode: optimal; engine: slg-wam; scheduling: local] 
+     [Build date: 2015-04-22] 
+       
+     | ?- halt.  
+       
+     End XSB (cputime 0.05 secs, elapsetime 4.22 secs) 
    ```
   * **Graphviz**: a Graph Visuzlization Software for Unix and Windows.  It is available at [Graphviz homepage](http://www.graphviz.org). The download and installation page for Graphviz is at  [here](http://www.graphviz.org/Download.php). For Windows platform, please download `graphviz-2.38.msi` installer package and start the installer file. You might accept all default configurations. Please confirm if the `dot` command is available by typing the command below. If not, then first determined directory containing dot.exe binary (`C:\Program Files (x86)\Graphviz2.38\bin`) and ddded the directory containing the dot executable to my Windows PATH variable.
  
@@ -107,6 +121,7 @@ Notes that the bash scritps have been tested on Mac and Windows platform.
     ```
  
  * **SQLite**:  a high-reliability, embedded, zero-configuration, public-domain, SQL database engine.  It is availabe at [SQLite homepage](https://www.sqlite.org). 
+ 
 2. **Install Git for Windows**: please download Git for Windows from https://git-for-windows.github.io/. Run the downloaded `Git-2.11.1-64-bit.exe` and accept default configuration. Then, finish installation. Please check the git command in the command shell by: 
   
    ```sh
@@ -116,7 +131,7 @@ Notes that the bash scritps have been tested on Mac and Windows platform.
 3. Clone the `yw-idcc-17` git repo to your local machine using the command:
   `git clone https://github.com/yesworkflow-org/yw-idcc-17.git`.
 
-4. Run the demo from the command shell. For Windows users, you can either run from `Git shell` which contains the `bash` command or add the path to bash executable included with Git for Windows to my Windows `path` variable.
+4. Run the demo from the command shell. For Windows users, you can either run from `Git shell` which contains the `bash` command or add the path to bash executable included with "Git for Windows" (`C:\Program Files\Git\bin`) to my Windows `path` variable.
 
 ## Running the Demo 
 1. Go to the examples/ folder. There are two types of examples demonstrated. One is single script implemented in various programming languages and the other is a R workflow project `OHIBC_HOWE_Sound` that is a real-life use case and consists of multiple R scripts. We have provided four examples here:  
@@ -127,7 +142,7 @@ Notes that the bash scritps have been tested on Mac and Windows platform.
 
 3. Run the demo example by calling `bash make.sh` or `./make.sh`.
 
-4. Go to `results/` folder and check the generated proveannce query result. For Mac users, you might use `open` command to access the PDF files, while for Windows users, you might use `start` command to access the PDF files.
+4. Go to `results/` folder and check the generated provenance query result. For Mac users, you might use `open` command to access the PDF files, while for Windows users, you might use `start` command to access the PDF files.
     
 ## Developing your own Demo
 1. Copy your example folder under examples/ folder. 
@@ -185,7 +200,14 @@ The full command to run the provenance query looks like:
 Then, users can go to ... to check the query results.
 
 
+## Publications
+1. Q Zhang, Y Cao, Q Wang, D Vu, P Thavasimani, T McPhillips, P Missier, B Ludäscher. Revealing the Detailed Lineage of Script Outputs Using Hybrid Provenance. IDCC 2017 (Practice Paper track).
+2. Y Cao, P Slaughter, C Jones, MB Jones, Q Wang, D Vu, P Thavasimani, Q Zhang, T McPhillips, P Missier, L Walker, D Vieglais, B Ludäscher. Demonstrating Hybrid Provenance Queries from Script Runs. IDCC 2017 (Demo).
 
+## DataSet Citation
+1. BS Halpern, C Longo, D Hardy, KL McLeod, JF Samhouri, SK Katona, et al. (2012) An index to assess the health and benefits of the global ocean. Nature. 2012;488: 615–620. doi:10.1038/nature11397.
+2. Y Wei, S Liu, D Huntzinger, A Michalak, N Viovy, W Post, C Schwalm, K Schaefer, A Jacobson, C Lu, H Tian, D Ricciuto, R Cook, J Mao, X Shi. (2014) NACP MsTMIP: Global and North American Driver Data for Multi-Model Intercomparison. http://dx.doi.org/10.3334/ORNLDAAC/1220
+3. LIGO Open Science Center: Signal Processing with GW150914 Open Data. https://losc.ligo.org/events/GW150914/
 
 
 

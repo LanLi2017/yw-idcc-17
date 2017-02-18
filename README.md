@@ -90,30 +90,29 @@ Notes that the bash scritps have been tested on Mac and Windows platform.
   (http://xsb.sourceforge.net). The download and installation page for XSB is at [here] (http://xsb.sourceforge.net/downloads/downloads.html). Please navigate to the page https://sourceforge.net/projects/xsb/files/xsb/.The version 3.7 is the newest version. Download `xsb-3.7.0.exe` for Windows platform. Run the downloaded installer file and accept all default configuration.
    This is the extra steps for Windows users. Please determine the directory containing the XSB executable: `C:\Program Files (x86)\XSB\config\x64-pc-windows\bin` or `C:\Program Files (x86)\XSB\config\x86-pc-windows\bin `. Then, add the path to the XSB executable to my windows path variable `Control Panel -> System and Security -> System -> Advanced System Settings -> Environment Variables -> Path`. Typing `xsb` in a command console in order to confirm that XSB can run from the command prompt. 
   
-  ```
-  C:\Users\tmcphill> xsb 
-  [xsb_configuration loaded] 
-  [sysinitrc loaded] 
-  [xsbbrat loaded] 
-    
-  XSB Version 3.6. (Gazpatcho) of April 22, 2015 
-  [x64-pc-windows; mode: optimal; engine: slg-wam; scheduling: local] 
-  [Build date: 2015-04-22] 
-    
-  | ?- halt. 
-   
-  End XSB (cputime 0.05 secs, elapsetime 4.22 secs)
-  ```
+    <pre>
+     C:\Users\tmcphill> xsb 
+     [xsb_configuration loaded] 
+     [sysinitrc loaded] 
+     [xsbbrat loaded] 
+      
+     XSB Version 3.6. (Gazpatcho) of April 22, 2015 
+     [x64-pc-windows; mode: optimal; engine: slg-wam; scheduling: local] 
+     [Build date: 2015-04-22] 
+      
+     | ?- halt. 
+      
+     End XSB (cputime 0.05 secs, elapsetime 4.22 secs)
+   <code>
  
   * Graphviz: a Graph Visuzlization Software for Unix and Windows.  It is available at [Graphviz homepage](http://www.graphviz.org). The download and installation page for Graphviz is at  [here](http://www.graphviz.org/Download.php). For Windows platform, please download `graphviz-2.38.msi` installer package and start the installer file. You might accept all default configurations. Please confirm if the `dot` command is available by typing the command below. 
  
-  ```
+  <pre>
   Started new command prompt and noted that dot command is not in the PATH: 
- 
   C:\Users\tmcphill> dot 
     'dot' is not recognized as an internal or external command, 
     operable program or batch file. 
-  ```
+  <code>
  
   If not, then first determined directory containing dot.exe binary (`C:\Program Files (x86)\Graphviz2.38\bin`) and ddded the directory containing the dot executable to my Windows PATH variable.
    
@@ -121,10 +120,10 @@ Notes that the bash scritps have been tested on Mac and Windows platform.
 
   * Install Git for Windows: please download Git for Windows from https://git-for-windows.github.io/. Run the downloaded `Git-2.11.1-64-bit.exe` and accept default configuration. Then, finish installation. Please check the git command in the command shell by: 
   
-    ````
+   <pre>
      C:\Users\tmcphill> git --version 
      git version 2.11.1.windows.1
-    ```
+   <code>
   
     
 2. Clone the `yw-idcc-17` git repo to your local machine using the command:

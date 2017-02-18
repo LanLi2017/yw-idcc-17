@@ -148,7 +148,7 @@ The bash scritps have been tested on Mac and Windows platform.
 
 ## Running the Demo 
 1. Go to the examples/ folder. There are two types of examples demonstrated. One is single script implemented in various programming languages and the other is a R workflow project. We have provided four examples here:  
-   * **Type I**: Single script in various programming languages: a MATLAB example (`C3C4/`) and four Python examples (`LIGO/`, `Twitter/`, `simulate_data_collection/` and `kurator-SPNHC16-YW-xsb`).
+   * **Type I**: Single script in various programming languages: a MATLAB example (`C3C4/`) and four Python examples (`LIGO/`, `Twitter/`, `simulate_data_collection/` and `kurator-SPNHC16-YW-xsb/`).
    * **Type II**: A real-life R workflow project `OHIBC_HOWE_Sound_project/`.
    
 2. Go to  one of the above example. First, run the cleaning script by calling `bash clean.sh` or `./clean.sh`

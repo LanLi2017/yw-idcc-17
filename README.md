@@ -68,25 +68,22 @@ simulate_data_collection/
  
 # Installing, Browsing, and Running the Demo
 
-## Installing
+## Installing Instructions
 
 Notes that the bash scritps have been tested on Mac and Windows platform.
 
 1. The following free software are required in order to run  this demo.
 
-  * Java: please install Java SE Development Kit 8 by navigating to http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html  to view JDK dowloads. Accept all default installation configuration. Please confirm if Java is available by typing the command below. If not, please locate the directory containing the JDK executables (`C:\Program Files\Java\jdk1.8.0_121\bin`) and add the direcoty containing the JDL executables to my Windows `path` variable. 
- 
+  * **Java**: please install Java SE Development Kit 8 by navigating to http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html  to view JDK dowloads. Accept all default installation configuration. Please confirm if Java is available by typing the command below. If not, please locate the directory containing the JDK executables (`C:\Program Files\Java\jdk1.8.0_121\bin`) and add the direcoty containing the JDL executables to my Windows `path` variable. 
      ```sh
        C:\Users\tmcphill> java -version 
        java version "1.8.0_121" 
        Java(TM) SE Runtime Environment (build 1.8.0_121-b13) 
        Java HotSpot(TM) 64-Bit Server VM (build 25.121-b13, mixed mode)
-     ```
-  	 
-  * XSB: a Logic Programming and Deductive Database system for Unix and Windows.  It is available at [XSB homepage]
+     ``` 	 
+  * **XSB**: a Logic Programming and Deductive Database system for Unix and Windows.  It is available at [XSB homepage]
   (http://xsb.sourceforge.net). The download and installation page for XSB is at [here] (http://xsb.sourceforge.net/downloads/downloads.html). Please navigate to the page https://sourceforge.net/projects/xsb/files/xsb/.The version 3.7 is the newest version. Download `xsb-3.7.0.exe` for Windows platform. Run the downloaded installer file and accept all default configuration.
-   This is the extra steps for Windows users. Please determine the directory containing the XSB executable: `C:\Program Files (x86)\XSB\config\x64-pc-windows\bin` or `C:\Program Files (x86)\XSB\config\x86-pc-windows\bin `. Then, add the path to the XSB executable to my windows path variable `Control Panel -> System and Security -> System -> Advanced System Settings -> Environment Variables -> Path`. Typing `xsb` in a command console in order to confirm that XSB can run from the command prompt. 
-  
+   This is the extra steps for Windows users. Please determine the directory containing the XSB executable: `C:\Program Files (x86)\XSB\config\x64-pc-windows\bin` or `C:\Program Files (x86)\XSB\config\x86-pc-windows\bin `. Then, add the path to the XSB executable to my windows path variable `Control Panel -> System and Security -> System -> Advanced System Settings -> Environment Variables -> Path`. Typing `xsb` in a command console in order to confirm that XSB can run from the command prompt.   
     ```sh
      C:\Users\tmcphill> xsb
      [xsb_configuration loaded]
@@ -101,8 +98,7 @@ Notes that the bash scritps have been tested on Mac and Windows platform.
       
      End XSB (cputime 0.05 secs, elapsetime 4.22 secs)
    ```
- 
-  * Graphviz: a Graph Visuzlization Software for Unix and Windows.  It is available at [Graphviz homepage](http://www.graphviz.org). The download and installation page for Graphviz is at  [here](http://www.graphviz.org/Download.php). For Windows platform, please download `graphviz-2.38.msi` installer package and start the installer file. You might accept all default configurations. Please confirm if the `dot` command is available by typing the command below. If not, then first determined directory containing dot.exe binary (`C:\Program Files (x86)\Graphviz2.38\bin`) and ddded the directory containing the dot executable to my Windows PATH variable.
+  * **Graphviz**: a Graph Visuzlization Software for Unix and Windows.  It is available at [Graphviz homepage](http://www.graphviz.org). The download and installation page for Graphviz is at  [here](http://www.graphviz.org/Download.php). For Windows platform, please download `graphviz-2.38.msi` installer package and start the installer file. You might accept all default configurations. Please confirm if the `dot` command is available by typing the command below. If not, then first determined directory containing dot.exe binary (`C:\Program Files (x86)\Graphviz2.38\bin`) and ddded the directory containing the dot executable to my Windows PATH variable.
  
     ```sh
      C:\Users\tmcphill> dot
@@ -110,8 +106,8 @@ Notes that the bash scritps have been tested on Mac and Windows platform.
         operable program or batch file. 
     ```
  
- * SQLite:  a high-reliability, embedded, zero-configuration, public-domain, SQL database engine.  It is availabe at [SQLite homepage](https://www.sqlite.org). 
-2. Install Git for Windows: please download Git for Windows from https://git-for-windows.github.io/. Run the downloaded `Git-2.11.1-64-bit.exe` and accept default configuration. Then, finish installation. Please check the git command in the command shell by: 
+ * **SQLite**:  a high-reliability, embedded, zero-configuration, public-domain, SQL database engine.  It is availabe at [SQLite homepage](https://www.sqlite.org). 
+2. **Install Git for Windows**: please download Git for Windows from https://git-for-windows.github.io/. Run the downloaded `Git-2.11.1-64-bit.exe` and accept default configuration. Then, finish installation. Please check the git command in the command shell by: 
   
    ```sh
      C:\Users\tmcphill> git --version 
@@ -120,7 +116,7 @@ Notes that the bash scritps have been tested on Mac and Windows platform.
 3. Clone the `yw-idcc-17` git repo to your local machine using the command:
   `git clone https://github.com/yesworkflow-org/yw-idcc-17.git`.
 
-4. Run the demo from the command shell. For windows users, you can either run from `Git shell` which contains the `bash` command or add the path to bash executable included with Git for Windows to my Windows path variable.
+4. Run the demo from the command shell. For Windows users, you can either run from `Git shell` which contains the `bash` command or add the path to bash executable included with Git for Windows to my Windows `path` variable.
 
 ## Running the Demo 
 1. Go to the examples/ folder. There are two types of examples demonstrated. One is single script implemented in various programming languages and the other is a R workflow project `OHIBC_HOWE_Sound` that is a real-life use case and consists of multiple R scripts. We have provided four examples here:  
@@ -129,7 +125,9 @@ Notes that the bash scritps have been tested on Mac and Windows platform.
    
 2. Go to  one of the above example. First, run the cleaning script by calling `bash clean.sh` or `./clean.sh`
 
-3.  Run the demo example by calling `bash make.sh` or `./make.sh`.
+3. Run the demo example by calling `bash make.sh` or `./make.sh`.
+
+4. Go to `results/` folder and check the generated proveannce query result. For Mac users, you might use `open` command to access the PDF files, while for Windows users, you might use `start` command to access the PDF files.
     
 ## Developing your own Demo
 1. Copy your example folder under examples/ folder. 

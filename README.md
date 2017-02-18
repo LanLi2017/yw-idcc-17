@@ -25,10 +25,11 @@ The  following tools are used  in our demo project:
 |examples/ |   Contains examples demonstrating the queries in the queries folder |
 |queries/ | it stores the scripts to the nine demo queries we asked.|
 |rules/| it contains a set of Prolog rules for generating prospective yesworkflow views rules (`yw_rules.P` and `yw_views.P`), retrospective reconstructed rules (`recon_rules.P`), graph rendering rules (`gv_rules.P`), and populating graph rules (`yw_graph_rules.P`).|
-|OHIBC_Howe_Sound_project| A R workflow project `OHIBC_HOWE_Sound` that is a real-life use case and consists of multiple R scripts.|
-|docker| Contains a docker image that can help users to reprouce the demonstrated provenance queries.|
-|yw_jar| Contains two version YesWorkflow Java library.|
-|poster_template| Contains the poster and other publications.|
+|OHIBC_Howe_Sound_project/| A R workflow project `OHIBC_HOWE_Sound` that is a real-life use case and consists of multiple R scripts.|
+|docker/| Contains a docker image that can help users to reprouce the demonstrated provenance queries.|
+|yw_jar/| Contains two version YesWorkflow Java library.|
+|poster_template/| Contains the poster and other publications.|
+|SQLiteToYaml/| Contains Java program is used to convert Sqlite database into yaml file to be queried by YesWorkflow.|
 
 The example subfolders also have a typical folder structure:
 

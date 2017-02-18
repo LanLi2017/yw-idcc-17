@@ -77,7 +77,7 @@ Notes that the bash scritps have been tested on Mac and Windows platform.
   * XSB: a Logic Programming and Deductive Database system for Unix and Windows.  It is available at [XSB homepage]
   (http://xsb.sourceforge.net). The download and installation page for XSB is at [here] (http://xsb.sourceforge.net/downloads/downloads.html). Please navigate to the page https://sourceforge.net/projects/xsb/files/xsb/.The version 3.7 is the newest version. Download `xsb-3.7.0.exe` for Windows platform. Run the downloaded installer file and accept all default configuration.
    This is the extra steps for Windows users. Please determine the directory containing the XSB executable: `C:\Program Files (x86)\XSB\config\x64-pc-windows\bin` or `C:\Program Files (x86)\XSB\config\x86-pc-windows\bin `. Then, add the path to the XSB executable to my windows path variable `Control Panel -> System and Security -> System -> Advanced System Settings -> Environment Variables -> Path`. Typing `xsb` in a command console in order to confirm that XSB can run from the command prompt. 
-  ```
+```
   C:\Users\tmcphill> xsb 
 [xsb_configuration loaded] 
 [sysinitrc loaded] 
@@ -90,12 +90,12 @@ XSB Version 3.6. (Gazpatcho) of April 22, 2015 
 | ?- halt. 
  
 End XSB (cputime 0.05 secs, elapsetime 4.22 secs)
-  ```
+```
   
   
   * Graphviz:  a Graph Visuzlization Software for Unix and Windows.  It is available at [Graphviz homepage](http://www.graphviz.org). The download and installation page for Graphviz is at  [here](http://www.graphviz.org/Download.php). For Windows platform, please download `graphviz-2.38.msi` installer package and start the installer file. You might accept all default configurations.
  
- ```
+```
   Started new command prompt and noted that dot command is not in the PATH: 
  
 C:\Users\tmcphill> dot 
@@ -107,9 +107,8 @@ Determined directory containing dot.exe binary: 
  
 C:\Program Files (x86)\Graphviz2.38\bin 
  
- 
 Added the directory containing the dot executable to my Windows PATH variable
-  ```
+```
    
   *  SQLite:  a high-reliability, embedded, zero-configuration, public-domain, SQL database engine.  It is availabe at [SQLite homepage](https://www.sqlite.org). 
 

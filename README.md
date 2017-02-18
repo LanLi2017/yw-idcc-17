@@ -47,7 +47,7 @@ Subfolders that all `<my_example>` folders have:
 |supplementary/ | a folder with supplementary files and information about the example|
 | clean.sh | removes generated demo artifacts for \<my_example\> |
 | make.sh | creates demo artifacts for \<my_example\> |
-
+Please 
 Note: after running `clean.sh` and `make.sh`, you can use git status to see what demo artifacts have just been created.
 
 ```
@@ -63,18 +63,19 @@ simulate_data_collection/
 │   ├── cassette_q55_spreadsheet.csv
 │   └── simulate_data_collection.py
 └── views
-    └── yw_views.P
+    └── yw_views.P
  ```
  
 # Installing, Browsing, and Running the Demo
 
 ## Installing
 
-Notes that the bash scritps are tested on Mac platform for now. More testing for Windows platform will come soon.
-
+Notes that the bash scritps are tested on Mac platform for now. More testing for Windows platform will come soon.:Control Panel -> System and Security -> System -> Advanced System Settings -> Environment Variables -> Path 
 1. The following free software are required in order to run  this demo.
 
-  * XSB: a Logic Programming and Deductive Database system for Unix and Windows.  It is available at [XSB homepage] (http://xsb.sourceforge.net). The download and installation page for XSB is at [here] (http://xsb.sourceforge.net/downloads/downloads.html). 
+  * XSB: a Logic Programming and Deductive Database system for Unix and Windows.  It is available at [XSB homepage]
+  (http://xsb.sourceforge.net). The download and installation page for XSB is at [here] (http://xsb.sourceforge.net/downloads/downloads.html). Please navigate to the page https://sourceforge.net/projects/xsb/files/xsb/.The version 3.7 is the newest version. Download `xsb-3.7.0.exe` for Windows platform. Run the downloaded installer file and accept all default configuration.
+   This is the extra steps for Windows users. Please determine the directory containing the XSB executable: `C:\Program Files (x86)\XSB\config\x64-pc-windows\bin` or `C:\Program Files (x86)\XSB\config\x86-pc-windows\bin `. Then, add the path to the XSB executable to my windows path variable `Control Panel -> System and Security -> System -> Advanced System Settings -> Environment Variables -> Path`. Typing `xsb` in a command console in order to confirm that XSB can run from the command prompt. 
   
   * Graphviz:  a Graph Visuzlization Software for Unix and Windows.  It is available at [Graphviz homepage](http://www.graphviz.org). The download and installation page for Graphviz is at  [here](http://www.graphviz.org/Download.php).  The download page is  at [here](https://www.sqlite.org/download.html).
   

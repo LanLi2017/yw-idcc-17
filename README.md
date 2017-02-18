@@ -92,6 +92,8 @@ XSB Version 3.6. (Gazpatcho) of April 22, 2015 
  
 End XSB (cputime 0.05 secs, elapsetime 4.22 secs)
   ```
+  
+  
   * Graphviz:  a Graph Visuzlization Software for Unix and Windows.  It is available at [Graphviz homepage](http://www.graphviz.org). The download and installation page for Graphviz is at  [here](http://www.graphviz.org/Download.php). For Windows platform, please download `graphviz-2.38.msi` installer package and start the installer file. You might accept all default configurations.
   ```
   Started new command prompt and noted that dot command is not in the PATH: 

@@ -76,12 +76,12 @@ Notes that the bash scritps have been tested on Mac and Windows platform.
 
   * Java: please install Java SE Development Kit 8 by navigating to http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html  to view JDK dowloads. Accept all default installation configuration. Please confirm if Java is available by typing the command below.
  
-   ``` 
+  <pre>
    C:\Users\tmcphill> java -version 
    java version "1.8.0_121" 
    Java(TM) SE Runtime Environment (build 1.8.0_121-b13) 
    Java HotSpot(TM) 64-Bit Server VM (build 25.121-b13, mixed mode)
-   ``` 
+  <code>
   
   If not, please locate the directory containing the JDK executables (`C:\Program Files\Java\jdk1.8.0_121\bin`) and add the direcoty containing the JDL executables to my Windows `path` variable. 
 
@@ -107,14 +107,13 @@ Notes that the bash scritps have been tested on Mac and Windows platform.
  
   * Graphviz: a Graph Visuzlization Software for Unix and Windows.  It is available at [Graphviz homepage](http://www.graphviz.org). The download and installation page for Graphviz is at  [here](http://www.graphviz.org/Download.php). For Windows platform, please download `graphviz-2.38.msi` installer package and start the installer file. You might accept all default configurations. Please confirm if the `dot` command is available by typing the command below. 
  
-  <pre>
-  Started new command prompt and noted that dot command is not in the PATH: 
-  C:\Users\tmcphill> dot 
-    'dot' is not recognized as an internal or external command, 
-    operable program or batch file. 
-  <code>
+    <pre>
+     C:\Users\tmcphill> dot 
+       'dot' is not recognized as an internal or external command, 
+        operable program or batch file. 
+    <code>
  
-  If not, then first determined directory containing dot.exe binary (`C:\Program Files (x86)\Graphviz2.38\bin`) and ddded the directory containing the dot executable to my Windows PATH variable.
+    If not, then first determined directory containing dot.exe binary (`C:\Program Files (x86)\Graphviz2.38\bin`) and ddded the directory containing the dot executable to my Windows PATH variable.
    
   * SQLite:  a high-reliability, embedded, zero-configuration, public-domain, SQL database engine.  It is availabe at [SQLite homepage](https://www.sqlite.org). 
 

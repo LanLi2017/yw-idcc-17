@@ -98,8 +98,8 @@ The bash scritps have been tested on Mac and Windows platform.
  
 	   C:\Users\tmcphill>
      ``` 	 
-  * **XSB**: a Logic Programming and Deductive Database system for Unix and Windows.  It is available at [XSB homepage]
-  (http://xsb.sourceforge.net). The download and installation page for XSB is at [here] (http://xsb.sourceforge.net/downloads/downloads.html). Please navigate to the page https://sourceforge.net/projects/xsb/files/xsb/. The version 3.7 is the newest version. Download the XSB executable `xsb-3.7.0.exe` for Windows platform. Run the downloaded installer file and accept all default configuration.
+  * **XSB**: a Logic Programming and Deductive Database system for Unix and Windows ([XSB homepage]
+  (http://xsb.sourceforge.net)). The download and installation page for XSB is at [here] (http://xsb.sourceforge.net/downloads/downloads.html) or please navigate to the page https://sourceforge.net/projects/xsb/files/xsb/. The version 3.7 is the newest version. Download the XSB executable `xsb-3.7.0.exe` for Windows platform. Run the downloaded installer file and accept all default configuration.
    This is the extra steps for Windows users. Please determine the directory containing the XSB executable: 
    
     ```sh

@@ -20,7 +20,7 @@ The  following tools are used  in our demo project:
 Our system demonstration will illustrate the variety of provenance information that we are able to capture, query, and visualize using a
 combination of tools for exposing both prospective and retrospective provenance. We show how prospective provenance can be declared using YesWorkflow (YW) annotations that reveal
 the fine-grained (variable level) dataflow graph implicit in scripts, and how this prospective provenance can be integrated with the coarse-grained (file-level) retrospective provenance
-information recorded by the DataONE Run Managers for MATLAB and R. We demonstrate the usefulness of integrating prospective and retrospective provenance in this way with queries:
+information recorded by the DataONE Run Managers for MATLAB and R, fine-grained retrospective provenance captured by noWorkflow, user-exported log file at any fine-grained level. We demonstrate the usefulness of integrating prospective and retrospective provenance in this way with queries:
 
 1. **Prospective provenance queries in the context of a single script**. This can expose and test data dependencies at the workflow-level.
 

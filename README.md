@@ -1,5 +1,5 @@
 # yw-idcc-17
-Welcome to visit our yw-idcc-17 web site. This demo consists of examples of YW provenance queries highlighted in the IDCC'17 presentation, paper, and demo.
+Welcome you to visit our yw-idcc-17 web site. This demo consists of examples of YW provenance queries highlighted in the IDCC'17 presentation, paper, and demo.
 
 # Introduction
 
@@ -99,14 +99,17 @@ The bash scritps have been tested on Mac and Windows platform.
 	   C:\Users\tmcphill>
      ``` 	 
   * **XSB**: a Logic Programming and Deductive Database system for Unix and Windows ([XSB homepage]
-  (http://xsb.sourceforge.net)). The download and installation page for XSB is at [here] (http://xsb.sourceforge.net/downloads/downloads.html) or please navigate to the page https://sourceforge.net/projects/xsb/files/xsb/. The version 3.7 is the newest version. Download the XSB executable `xsb-3.7.0.exe` for Windows platform. Run the downloaded installer file and accept all default configuration.
-   This is the extra steps for Windows users. Please determine the directory containing the XSB executable: 
+  (http://xsb.sourceforge.net)). The download and installation page for XSB is at [here] (http://xsb.sourceforge.net/downloads/downloads.html) or please navigate to the page https://sourceforge.net/projects/xsb/files/xsb/. The version 3.7 is the newest version. 
+  
+     * Install XSB for Windows users. Download the XSB executable `xsb-3.7.0.exe` for Windows platform. Run the downloaded installer file and accept all default configuration.
+       This is the extra steps for Windows users. Please determine the directory containing the XSB executable: 
    
-    ```sh
-      C:\Program Files (x86)\XSB\config\x64-pc-windows\bin  
-      C:\Program Files (x86)\XSB\config\x86-pc-windows\bin 
-    ``` 
-  Then, add the path to the XSB executable to my windows path variable `Control Panel -> System and Security -> System -> Advanced System Settings -> Environment Variables -> Path`. Typing `xsb` in a command console in order to confirm that XSB can run from the command prompt.   
+       ```sh
+         C:\Program Files (x86)\XSB\config\x64-pc-windows\bin  
+         C:\Program Files (x86)\XSB\config\x86-pc-windows\bin 
+       ``` 
+
+	   Then, add the path to the XSB executable to my windows path variable `Control Panel -> System and Security -> System -> Advanced System Settings -> Environment Variables -> Path`. Typing `xsb` in a command console in order to confirm that XSB can run from the command prompt.   
  
     ```sh
 	 C:\Users\tmcphill> xsb 
@@ -156,11 +159,35 @@ The bash scritps have been tested on Mac and Windows platform.
    * **Type I**: Single script in various programming languages: a MATLAB example (`C3C4/`) and four Python examples (`LIGO/`, `Twitter/`, `simulate_data_collection/` and `kurator-SPNHC16-YW-xsb/`).
    * **Type II**: A real-life R workflow project `OHIBC_HOWE_Sound_project/`.
    
-2. Go to  one of the above example. First, run the cleaning script by calling `bash clean.sh` or `./clean.sh`
-```sh
-C:\Users\yang\Desktop\yw-idcc-17>cd examples\C3C4C:\Users\yang\Desktop\yw-idcc-17\examples\C3C4>dir Volume in drive C is Windows8_OS Volume Serial Number is 6473-FB35 Directory of C:\Users\yang\Desktop\yw-idcc-17\examples\C3C402/20/2017  10:39 AM    <DIR>          .02/20/2017  10:39 AM    <DIR>          ..02/18/2017  12:47 PM               132 clean.sh02/18/2017  02:14 PM    <DIR>          facts02/18/2017  12:47 PM             8,546 make.sh02/18/2017  12:47 PM    <DIR>          recon02/18/2017  02:14 PM    <DIR>          results02/18/2017  12:47 PM    <DIR>          script02/18/2017  12:47 PM    <DIR>          supplementary02/18/2017  02:14 PM    <DIR>          views               2 File(s)          8,678 bytes               8 Dir(s)  77,619,445,760 bytes freeC:\Users\yang\Desktop\yw-idcc-17\examples\C3C4>bash make.sh
-```sh
-3. Run the demo example by calling `bash make.sh` or `./make.sh`.
+2. Go to  one of the above example. First, run the cleaning script by calling `bash clean.sh` or `./clean.sh`. 
+
+3. Run the demo example by calling bash make.sh or ./make.sh. For Windows users, please reference the example below.
+
+  ```sh
+  C:\Users\yang\Desktop\yw-idcc-17>cd examples\C3C4
+ 
+  C:\Users\yang\Desktop\yw-idcc-17\examples\C3C4>dir
+  Volume in drive C is Windows8_OS
+  Volume Serial Number is 6473-FB35
+ 
+  Directory of C:\Users\yang\Desktop\yw-idcc-17\examples\C3C4
+ 
+  02/20/2017  10:39 AM    <DIR>          .
+  02/20/2017  10:39 AM    <DIR>          ..
+  02/18/2017  12:47 PM               132 clean.sh
+  02/18/2017  02:14 PM    <DIR>          facts
+  02/18/2017  12:47 PM             8,546 make.sh
+  02/18/2017  12:47 PM    <DIR>          recon
+  02/18/2017  02:14 PM    <DIR>          results
+  02/18/2017  12:47 PM    <DIR>          script
+  02/18/2017  12:47 PM    <DIR>          supplementary
+  02/18/2017  02:14 PM    <DIR>          views
+               2 File(s)          8,678 bytes
+               8 Dir(s)  77,619,445,760 bytes free
+ 
+  C:\Users\yang\Desktop\yw-idcc-17\examples\C3C4>bash make.sh
+ 
+  ```sh
 
 4. Go to `results/` folder and check the generated provenance query result. For Mac users, you might use `open` command to access the PDF files, while for Windows users, you might use `start` command to access the PDF files.
     

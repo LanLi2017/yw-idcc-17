@@ -101,15 +101,15 @@ The bash scritps have been tested on Mac and Windows platform.
   * **XSB**: a Logic Programming and Deductive Database system for Unix and Windows ([XSB homepage]
   (http://xsb.sourceforge.net)). The download and installation page for XSB is at [here] (http://xsb.sourceforge.net/downloads/downloads.html) or please navigate to the page https://sourceforge.net/projects/xsb/files/xsb/. The version 3.7 is the newest version. 
   
-     * Install XSB for Windows users. Download the XSB executable `xsb-3.7.0.exe` for Windows platform. Run the downloaded installer file and accept all default configuration.
-       This is the extra steps for Windows users. Please determine the directory containing the XSB executable: 
+   * **Install XSB on Windows** Download the XSB executable `xsb-3.7.0.exe` for Windows platform. Run the downloaded installer file and accept all default configuration.
+       This is the extra steps for Windows users. Please determine which directory contains the XSB executable that works for your computer: 
    
        ```sh
          C:\Program Files (x86)\XSB\config\x64-pc-windows\bin  
          C:\Program Files (x86)\XSB\config\x86-pc-windows\bin 
        ``` 
 
-	   Then, add the path to the XSB executable to my windows path variable `Control Panel -> System and Security -> System -> Advanced System Settings -> Environment Variables -> Path`. Typing `xsb` in a command console in order to confirm that XSB can run from the command prompt.   
+   Then, add the path to the XSB executable to my windows path variable `Control Panel -> System and Security -> System -> Advanced System Settings -> Environment Variables -> Path`. Typing `xsb` in a command console in order to confirm that XSB can run from the command prompt.   
  
       ```sh
 	    C:\Users\tmcphill> xsb 

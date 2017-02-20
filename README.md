@@ -230,25 +230,25 @@ Run the demo from the command shell. For **Windows users**, you might either run
 5. Sample proveance query results. 
 
  * YesWorkflow Graph for C3C4 Example
-   <a href="url"><img src="https://github.com/yesworkflow-org/yw-idcc-17/blob/master/examples/C3C4/results/complete_wf_graph_uri.png" align="center" height="48" width="48" hspace="50">
+   <img src="https://github.com/yesworkflow-org/yw-idcc-17/blob/master/examples/C3C4/results/complete_wf_graph_uri.png" align="center" height="48" width="48" hspace="50">
  * Hybrid Graph for C3C4 Example
-   <a href="url"><img src="https://github.com/yesworkflow-org/yw-idcc-17/blob/master/examples/C3C4/results/wf_recon_complete_graph_all_observables.png" align="center" height="48" width="48" hspace="50">
+   <img src="https://github.com/yesworkflow-org/yw-idcc-17/blob/master/examples/C3C4/results/wf_recon_complete_graph_all_observables.png" align="center" height="48" width="48" hspace="50">
  * YesWorkflow Graph for LIGO Example
-   <a href="url"><img src="https://github.com/yesworkflow-org/yw-idcc-17/blob/master/examples/LIGO/results/complete_wf_graph_uri.png" align="center" height="48" width="48" hspace="50">
+   <img src="https://github.com/yesworkflow-org/yw-idcc-17/blob/master/examples/LIGO/results/complete_wf_graph_uri.png" align="center" height="48" width="48" hspace="50">
  * Hybrid Graph for LIGO Example
-   <a href="url"><img src="https://github.com/yesworkflow-org/yw-idcc-17/blob/master/examples/LIGO/results/wf_recon_complete_graph_all_observables.png" align="center" height="48" width="48" hspace="50">
+   <img src="https://github.com/yesworkflow-org/yw-idcc-17/blob/master/examples/LIGO/results/wf_recon_complete_graph_all_observables.png" align="center" height="48" width="48" hspace="50">
  * noWorkflow Filtered Graph for LIGO Example
-   <a href="url"><img src="https://github.com/yesworkflow-org/yw-idcc-17/blob/master/examples/LIGO/results/nw_filtered_lineage_graph.png" align="center" height="48" width="48" hspace="50"> 
+   <img src="https://github.com/yesworkflow-org/yw-idcc-17/blob/master/examples/LIGO/results/nw_filtered_lineage_graph.png" align="center" height="48" width="48" hspace="50"> 
  * YesWorkflow Graph for Kurator Example
-   <a href="url"><img src="https://github.com/yesworkflow-org/yw-idcc-17/blob/master/examples/kurator-SPNHC16-YW-xsb/results/complete_wf_graph_uri.png" align="center" height="48" width="48" hspace="50"> 
+   <img src="https://github.com/yesworkflow-org/yw-idcc-17/blob/master/examples/kurator-SPNHC16-YW-xsb/results/complete_wf_graph_uri.png" align="center" height="48" width="48" hspace="50"> 
  * Hybrid Graph for Kurator Example
-   <a href="url"><img src="https://github.com/yesworkflow-org/yw-idcc-17/blob/master/examples/kurator-SPNHC16-YW-xsb/results/wf_recon_complete_graph_all_observables.png" align="center" height="48" width="48" hspace="50"> 
+   <img src="https://github.com/yesworkflow-org/yw-idcc-17/blob/master/examples/kurator-SPNHC16-YW-xsb/results/wf_recon_complete_graph_all_observables.png" align="center" height="48" width="48" hspace="50"> 
  * YesWorkflow Graph for Twitter Example
-   <a href="url"><img src="https://github.com/yesworkflow-org/yw-idcc-17/blob/master/examples/Twitter/results/complete_wf_graph_uri.png" align="center" height="48" width="48" hspace="50"> 
+   <img src="https://github.com/yesworkflow-org/yw-idcc-17/blob/master/examples/Twitter/results/complete_wf_graph_uri.png" align="center" height="48" width="48" hspace="50"> 
  * Hybrid Graph for Twitter Example
-   <a href="url"><img src="https://github.com/yesworkflow-org/yw-idcc-17/blob/master/examples/Twitter/results/wf_recon_complete_graph_all_observables.png" align="center" height="48" width="48" hspace="50">
+   <img src="https://github.com/yesworkflow-org/yw-idcc-17/blob/master/examples/Twitter/results/wf_recon_complete_graph_all_observables.png" align="center" height="48" width="48" hspace="50">
  * Multiple_run_Multple_scripts_Graph for OHIBC Example
-   <a href="url"><img src="https://github.com/yesworkflow-org/yw-idcc-17/blob/master/OHIBC_Howe_Sound_project/multi_runs_retrospective_provenance_queries/results/wf_upstream_of_lsp_trend_filePath.png" align="center" height="48" width="48" hspace="50">
+   <img src="https://github.com/yesworkflow-org/yw-idcc-17/blob/master/OHIBC_Howe_Sound_project/multi_runs_retrospective_provenance_queries/results/wf_upstream_of_lsp_trend_filePath.png" align="center" height="48" width="48" hspace="50">
    
 ## Developing your own Demo
 1. Copy your example folder under examples/ folder. 

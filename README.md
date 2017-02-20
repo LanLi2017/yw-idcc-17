@@ -146,17 +146,17 @@ The bash scritps have been tested on Mac and Windows platform.
  * **SQLite**:  a high-reliability, embedded, zero-configuration, public-domain, SQL database engine.  It is availabe at [SQLite homepage](https://www.sqlite.org). 
      
              
+## Clone yw-idcc repository to local computer
 
-2. Clone the `yw-idcc-17` git repo to your local machine using the command
+1. Clone the `yw-idcc-17` git repo to your local machine using the command
    
    ```sh
    git clone https://github.com/yesworkflow-org/yw-idcc-17.git
    ```
    
-3. Run the demo from the command shell. For **Windows users**, you might either run from `Git shell` which contains the `bash` command or run from the command prompt directly.
-
-
 ## Running the Demo 
+Run the demo from the command shell. For **Windows users**, you might either run from `Git shell` which contains the `bash` command or run from the command prompt directly.
+
 1. Go to the examples/ folder. There are two types of examples demonstrated. One is single script implemented in various programming languages and the other is a R workflow project. We have provided four examples here:  
    * **Type I**: Single script in various programming languages: a MATLAB example (`C3C4/`) and four Python examples (`LIGO/`, `Twitter/`, `simulate_data_collection/` and `kurator-SPNHC16-YW-xsb/`).
    * **Type II**: A real-life R workflow project `OHIBC_HOWE_Sound_project/`.

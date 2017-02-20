@@ -247,7 +247,7 @@ Run the demo from the command shell. For **Windows users**, you might either run
    <img src="https://github.com/yesworkflow-org/yw-idcc-17/blob/master/examples/Twitter/results/complete_wf_graph_uri.png" align="center" height="48" width="48" hspace="50"> 
  * Hybrid Graph for Twitter Example
    <img src="https://github.com/yesworkflow-org/yw-idcc-17/blob/master/examples/Twitter/results/wf_recon_complete_graph_all_observables.png" align="center" height="48" width="48" hspace="50">
- * Multiple_run_Multple_scripts_Graph for OHIBC Example
+ * Multiple_run_Multiple_scripts_Graph for OHIBC Example
    <img src="https://github.com/yesworkflow-org/yw-idcc-17/blob/master/OHIBC_Howe_Sound_project/multi_runs_retrospective_provenance_queries/results/wf_upstream_of_lsp_trend_filePath.png" align="center" height="48" width="48" hspace="50">
    
 ## Developing your own Demo

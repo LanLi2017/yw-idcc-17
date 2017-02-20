@@ -136,7 +136,7 @@ The bash scritps have been tested on Mac and Windows platform.
      C:\Users\tmcphill> git --version 
      git version 2.11.1.windows.1
    ```	   
-   You might add the `path to bash executable` included with "Git for Windows" (`C:\Program Files\Git\bin`) to my Windows `path` variable so that the bash script can run on the command prompt directly.
+     You might add the `path to bash executable` included with "Git for Windows" (`C:\Program Files\Git\bin`) to my Windows `path` variable so that the bash script can run on the command prompt directly.
    
    * **Install Git for Mac**
    
@@ -149,7 +149,7 @@ The bash scritps have been tested on Mac and Windows platform.
    git clone https://github.com/yesworkflow-org/yw-idcc-17.git
    ```
    
-3. Run the demo from the command shell. For Windows users, you can either run from `Git shell` which contains the `bash` command or run from the command prompt directly.
+3. Run the demo from the command shell. For **Windows users**, you might either run from `Git shell` which contains the `bash` command or run from the command prompt directly.
 
 ## Running the Demo 
 1. Go to the examples/ folder. There are two types of examples demonstrated. One is single script implemented in various programming languages and the other is a R workflow project. We have provided four examples here:  

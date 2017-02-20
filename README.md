@@ -132,7 +132,7 @@ The bash scritps have been tested on Mac and Windows platform.
  
  * **SQLite**:  a high-reliability, embedded, zero-configuration, public-domain, SQL database engine.  It is availabe at [SQLite homepage](https://www.sqlite.org). 
  
-2. **Install Git for Windows**: please download `Git` for Windows from https://git-for-windows.github.io/. Run the downloaded `Git-2.11.1-64-bit.exe` and accept default configuration. Then, finish installation. Please check the `git` command in the command shell by: 
+ * **Install Git for Windows**: please download `Git` for Windows from https://git-for-windows.github.io/. Run the downloaded `Git-2.11.1-64-bit.exe` and accept default configuration. Then, finish installation. Please check the `git` command in the command shell by: 
   
    ```sh
      C:\Users\tmcphill> git --version 
@@ -140,13 +140,13 @@ The bash scritps have been tested on Mac and Windows platform.
    ```	   
    You might add the `path to bash executable` included with "Git for Windows" (`C:\Program Files\Git\bin`) to my Windows `path` variable so that the bash script can run on the command prompt directly.
    
-3. Clone the `yw-idcc-17` git repo to your local machine using the command
+2. Clone the `yw-idcc-17` git repo to your local machine using the command
    
    ```sh
    git clone https://github.com/yesworkflow-org/yw-idcc-17.git
    ```
    
-4. Run the demo from the command shell. For Windows users, you can either run from `Git shell` which contains the `bash` command or run from the command prompt directly.
+3. Run the demo from the command shell. For Windows users, you can either run from `Git shell` which contains the `bash` command or run from the command prompt directly.
 
 ## Running the Demo 
 1. Go to the examples/ folder. There are two types of examples demonstrated. One is single script implemented in various programming languages and the other is a R workflow project. We have provided four examples here:  

@@ -144,7 +144,9 @@ The bash scritps have been tested on Mac and Windows platform.
  * **Install Git for Mac**
    
  * **SQLite**:  a high-reliability, embedded, zero-configuration, public-domain, SQL database engine.  It is availabe at [SQLite homepage](https://www.sqlite.org). 
-    
+     
+             
+
 2. Clone the `yw-idcc-17` git repo to your local machine using the command
    
    ```sh

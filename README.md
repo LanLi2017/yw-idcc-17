@@ -84,9 +84,7 @@ simulate_data_collection/
 
 ## Installing Instructions
 
-The bash scritps have been tested on Mac and Windows platform.
-
-  1. The following free software are required in order to run  this demo.
+The following free software are required in order to run  this demo.
 
   * **Java**: please install Java SE Development Kit 8 by navigating to http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html  to view JDK dowloads. Accept all default installation configuration. Please confirm if Java is available by typing the command below. If not, please locate the directory containing the JDK executables (`C:\Program Files\Java\jdk1.8.0_121\bin`) and add the direcoty containing the JDK executables to my Windows `path` variable. 
   
@@ -158,14 +156,13 @@ The bash scritps have been tested on Mac and Windows platform.
    
 * **Installing Git for Mac** 
    
-  1. The easiest is to use the graphical Git installer, which you can download from the [SourceForge page](http://sourceforge.net/projects/git-osx-installer/)
+  * The easiest is to use the graphical Git installer, which you can download from the [SourceForge page](http://sourceforge.net/projects/git-osx-installer/)
    
-  2. If you have `MacPorts` installed, install Git via
+  * If you have `MacPorts` installed, install Git via
    ```sh
    $ sudo port install git
    ```
-   
-  3. If you have `Homebrew` installed, install Git via
+  * If you have `Homebrew` installed, install Git via
    ```sh
    $ brew install git
    ```
@@ -193,7 +190,7 @@ Clone the `yw-idcc-17` git repo to your local machine using the command from the
    ```
    
 ## Running the Demo 
-Run the demo from the command shell. For **Windows users**, you might either run from `Git shell` which contains the `bash` command or run from the command prompt directly.
+Run the demo from the command shell. For **Windows users**, you might either run from `Git shell` which contains the `bash` command or run from the command prompt directly. The bash scritps have been tested on Mac and Windows platform. 
 
 1. Go to the examples/ folder. There are two types of examples demonstrated. One is single script implemented in various programming languages and the other is a R workflow project. We have provided four examples here:  
    * **Type I**: Single script in various programming languages: a MATLAB example (`C3C4/`) and four Python examples (`LIGO/`, `Twitter/`, `simulate_data_collection/` and `kurator-SPNHC16-YW-xsb/`).

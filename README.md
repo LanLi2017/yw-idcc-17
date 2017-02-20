@@ -1,5 +1,5 @@
 # yw-idcc-17
-Examples of YW provenance queries highlighted in the IDCC'17 presentation, paper, and demo.
+Welcome to visit our demo web site. This demo consists of examples of YW provenance queries highlighted in the IDCC'17 presentation, paper, and demo.
 
 # Introduction
 
@@ -136,7 +136,8 @@ The bash scritps have been tested on Mac and Windows platform.
      C:\Users\tmcphill> git --version 
      git version 2.11.1.windows.1
    ```	   
-     You might add the `path to bash executable` included with "Git for Windows" (`C:\Program Files\Git\bin`) to my Windows `path` variable so that the bash script can run on the command prompt directly.
+   
+    You might add the `path to bash executable` included with "Git for Windows" (`C:\Program Files\Git\bin`) to my Windows `path` variable so that the bash script can run on the command prompt directly.
    
    * **Install Git for Mac**
    

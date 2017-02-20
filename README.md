@@ -192,13 +192,13 @@ Clone the `yw-idcc-17` git repo to your local machine using the command from the
 ## Running the Demo 
 Run the demo from the command shell. For **Windows users**, you might either run from `Git shell` which contains the `bash` command or run from the command prompt directly. The bash scritps have been tested on Mac and Windows platform. 
 
-1. Go to the examples/ folder. There are two types of examples demonstrated. One is single script implemented in various programming languages and the other is a R workflow project. We have provided four examples here:  
+1. Go to the `examples/` folder. There are two types of examples demonstrated. One is single script implemented in various programming languages and the other is a R workflow project. We have provided four examples here:  
    * **Type I**: Single script in various programming languages: a MATLAB example (`C3C4/`) and four Python examples (`LIGO/`, `Twitter/`, `simulate_data_collection/` and `kurator-SPNHC16-YW-xsb/`).
    * **Type II**: A real-life R workflow project `OHIBC_HOWE_Sound_project/`.
    
 2. Go to  one of the above example. First, run the cleaning script by calling `bash clean.sh` or `./clean.sh`. 
 
-3. Run the demo example by calling bash make.sh or ./make.sh. For Windows users, please reference the example below. Note that in some cases after adding `C:\Program Files\Git` to the `Path` variable, and use `git-bash` or `git-cmd` command instead of the bash command. In this way, it works both using bash in `Git shell` and using `git-bash` or `git-cmd` in command shell.
+3. Run the demo example by calling `bash make.sh` or `./make.sh`. For Windows users, please reference the example below. Note that in some cases after adding `C:\Program Files\Git` to the `Path` variable, and use `git-bash` or `git-cmd` command instead of the bash command. In this way, it works both using bash in `Git shell` and using `git-bash` or `git-cmd` in command shell.
 
   ```sh
   C:\Users\yang\Desktop\yw-idcc-17>cd examples\C3C4

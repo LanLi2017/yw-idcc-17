@@ -125,7 +125,22 @@ The bash scritps have been tested on Mac and Windows platform.
  
 	      End XSB (cputime 0.05 secs, elapsetime 4.22 secs)
         ```
-  * **Graphviz**: a Graph Visuzlization Software for Unix and Windows.  It is available at [Graphviz homepage](http://www.graphviz.org). The download and installation page for Graphviz is at  [here](http://www.graphviz.org/Download.php). For Windows platform, please download `graphviz-2.38.msi` installer package and start the installer file. You might accept all default configurations. Please confirm if the `dot` command is available by typing the command below. If not, then first determined directory containing dot.exe binary (`C:\Program Files (x86)\Graphviz2.38\bin`) and added the directory containing the dot executable to my Windows PATH variable.
+
+   * **Install XSB on Mac/Linux** Download the XSB tar package (version 3.7.0) from [here](https://sourceforge.net/projects/xsb/files/xsb/3.7%20%28Clan%20MacGregor%29/XSB.tar.gz/download). Then, Unpack the tarball in some directory. This should create a subdirectory, called `XSB`, which contains the XSB sources. In the terminal, type
+   
+       ```sh
+  	     cd XSB/build
+  	     ./configure
+  	     ./makexsb
+	   ```
+  
+     Next, you might add the path to the XSB executable to the `PATH` variable. For example, in a ~/.bashrc file, add this line:
+	 
+	    ```sh
+	    export PATH="/path/to/xsb-3.6/bin:$PATH"
+	    ```
+
+ * **Graphviz**: a Graph Visuzlization Software for Unix and Windows.  It is available at [Graphviz homepage](http://www.graphviz.org). The download and installation page for Graphviz is at  [here](http://www.graphviz.org/Download.php). For Windows platform, please download `graphviz-2.38.msi` installer package and start the installer file. You might accept all default configurations. Please confirm if the `dot` command is available by typing the command below. If not, then first determined directory containing dot.exe binary (`C:\Program Files (x86)\Graphviz2.38\bin`) and added the directory containing the dot executable to my Windows PATH variable.
  
     ```sh
      C:\Users\tmcphill> dot

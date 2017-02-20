@@ -122,7 +122,7 @@ The bash scritps have been tested on Mac and Windows platform.
  
 	 End XSB (cputime 0.05 secs, elapsetime 4.22 secs)
    ```
-  * **Graphviz**: a Graph Visuzlization Software for Unix and Windows.  It is available at [Graphviz homepage](http://www.graphviz.org). The download and installation page for Graphviz is at  [here](http://www.graphviz.org/Download.php). For Windows platform, please download `graphviz-2.38.msi` installer package and start the installer file. You might accept all default configurations. Please confirm if the `dot` command is available by typing the command below. If not, then first determined directory containing dot.exe binary (`C:\Program Files (x86)\Graphviz2.38\bin`) and ddded the directory containing the dot executable to my Windows PATH variable.
+  * **Graphviz**: a Graph Visuzlization Software for Unix and Windows.  It is available at [Graphviz homepage](http://www.graphviz.org). The download and installation page for Graphviz is at  [here](http://www.graphviz.org/Download.php). For Windows platform, please download `graphviz-2.38.msi` installer package and start the installer file. You might accept all default configurations. Please confirm if the `dot` command is available by typing the command below. If not, then first determined directory containing dot.exe binary (`C:\Program Files (x86)\Graphviz2.38\bin`) and added the directory containing the dot executable to my Windows PATH variable.
  
     ```sh
      C:\Users\tmcphill> dot
@@ -137,14 +137,16 @@ The bash scritps have been tested on Mac and Windows platform.
    ```sh
      C:\Users\tmcphill> git --version 
      git version 2.11.1.windows.1
-   ```	       
+   ```	   
+   You might add the path to bash executable included with "Git for Windows" (`C:\Program Files\Git\bin`) to my Windows `path` variable so that the bash script can run on the command prompt directly.
+   
 3. Clone the `yw-idcc-17` git repo to your local machine using the command
    
    ```sh
    git clone https://github.com/yesworkflow-org/yw-idcc-17.git
    ```
    
-4. Run the demo from the command shell. For Windows users, you can either run from `Git shell` which contains the `bash` command or add the path to bash executable included with "Git for Windows" (`C:\Program Files\Git\bin`) to my Windows `path` variable.
+4. Run the demo from the command shell. For Windows users, you can either run from `Git shell` which contains the `bash` command or run from the command prompt directly.
 
 ## Running the Demo 
 1. Go to the examples/ folder. There are two types of examples demonstrated. One is single script implemented in various programming languages and the other is a R workflow project. We have provided four examples here:  

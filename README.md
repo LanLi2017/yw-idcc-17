@@ -157,7 +157,9 @@ The bash scritps have been tested on Mac and Windows platform.
    * **Type II**: A real-life R workflow project `OHIBC_HOWE_Sound_project/`.
    
 2. Go to  one of the above example. First, run the cleaning script by calling `bash clean.sh` or `./clean.sh`
-
+```sh
+C:\Users\yang\Desktop\yw-idcc-17>cd examples\C3C4C:\Users\yang\Desktop\yw-idcc-17\examples\C3C4>dir Volume in drive C is Windows8_OS Volume Serial Number is 6473-FB35 Directory of C:\Users\yang\Desktop\yw-idcc-17\examples\C3C402/20/2017  10:39 AM    <DIR>          .02/20/2017  10:39 AM    <DIR>          ..02/18/2017  12:47 PM               132 clean.sh02/18/2017  02:14 PM    <DIR>          facts02/18/2017  12:47 PM             8,546 make.sh02/18/2017  12:47 PM    <DIR>          recon02/18/2017  02:14 PM    <DIR>          results02/18/2017  12:47 PM    <DIR>          script02/18/2017  12:47 PM    <DIR>          supplementary02/18/2017  02:14 PM    <DIR>          views               2 File(s)          8,678 bytes               8 Dir(s)  77,619,445,760 bytes freeC:\Users\yang\Desktop\yw-idcc-17\examples\C3C4>bash make.sh
+```sh
 3. Run the demo example by calling `bash make.sh` or `./make.sh`.
 
 4. Go to `results/` folder and check the generated provenance query result. For Mac users, you might use `open` command to access the PDF files, while for Windows users, you might use `start` command to access the PDF files.

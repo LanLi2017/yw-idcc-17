@@ -109,22 +109,22 @@ The bash scritps have been tested on Mac and Windows platform.
          C:\Program Files (x86)\XSB\config\x86-pc-windows\bin 
        ``` 
 
-   Then, add the path to the XSB executable to my windows path variable `Control Panel -> System and Security -> System -> Advanced System Settings -> Environment Variables -> Path`. Typing `xsb` in a command console in order to confirm that XSB can run from the command prompt.   
+       Then, add the path to the XSB executable to my windows path variable `Control Panel -> System and Security -> System -> Advanced System Settings -> Environment Variables -> Path`. Typing `xsb` in a command console in order to confirm that XSB can run from the command prompt.   
  
-      ```sh
-	    C:\Users\tmcphill> xsb 
-	    [xsb_configuration loaded] 
-	    [sysinitrc loaded] 
-	    [xsbbrat loaded] 
+        ```sh
+	      C:\Users\tmcphill> xsb 
+	      [xsb_configuration loaded] 
+	      [sysinitrc loaded] 
+	      [xsbbrat loaded] 
  
-	    XSB Version 3.6. (Gazpatcho) of April 22, 2015 
-	    [x64-pc-windows; mode: optimal; engine: slg-wam; scheduling: local] 
-	    [Build date: 2015-04-22] 
+	      XSB Version 3.6. (Gazpatcho) of April 22, 2015 
+	      [x64-pc-windows; mode: optimal; engine: slg-wam; scheduling: local] 
+	      [Build date: 2015-04-22] 
  
-	    | ?- halt. 
+	      | ?- halt. 
  
-	    End XSB (cputime 0.05 secs, elapsetime 4.22 secs)
-     ```
+	      End XSB (cputime 0.05 secs, elapsetime 4.22 secs)
+        ```
   * **Graphviz**: a Graph Visuzlization Software for Unix and Windows.  It is available at [Graphviz homepage](http://www.graphviz.org). The download and installation page for Graphviz is at  [here](http://www.graphviz.org/Download.php). For Windows platform, please download `graphviz-2.38.msi` installer package and start the installer file. You might accept all default configurations. Please confirm if the `dot` command is available by typing the command below. If not, then first determined directory containing dot.exe binary (`C:\Program Files (x86)\Graphviz2.38\bin`) and added the directory containing the dot executable to my Windows PATH variable.
  
     ```sh
@@ -147,8 +147,7 @@ The bash scritps have been tested on Mac and Windows platform.
      
              
 ## Clone yw-idcc repository to local computer
-
-1. Clone the `yw-idcc-17` git repo to your local machine using the command from the terminal for Mac/Linux or the command shell for Windows.
+Clone the `yw-idcc-17` git repo to your local machine using the command from the terminal for Mac/Linux or the command shell for Windows.
    
    ```sh
    git clone https://github.com/yesworkflow-org/yw-idcc-17.git
@@ -163,7 +162,7 @@ Run the demo from the command shell. For **Windows users**, you might either run
    
 2. Go to  one of the above example. First, run the cleaning script by calling `bash clean.sh` or `./clean.sh`. 
 
-3. Run the demo example by calling bash make.sh or ./make.sh. For Windows users, please reference the example below. Note that after adding `C:\Program Files\Git` to the `Path` variable, and use `git-bash` or `git-cmd` command instead of the bash command. In this way, it works both using bash in `Git shell` and using `git-bash` or `git-cmd` in command shell.
+3. Run the demo example by calling bash make.sh or ./make.sh. For Windows users, please reference the example below. Note that in some cases after adding `C:\Program Files\Git` to the `Path` variable, and use `git-bash` or `git-cmd` command instead of the bash command. In this way, it works both using bash in `Git shell` and using `git-bash` or `git-cmd` in command shell.
 
   ```sh
   C:\Users\yang\Desktop\yw-idcc-17>cd examples\C3C4

@@ -32,7 +32,7 @@ information recorded by the DataONE Run Managers for MATLAB and R, fine-grained 
 
 Our demonstration queries and provenance reports thus yield a more complete and comprehensible picture of data provenance from multiple script runs.
 
-# Sample proveance query results.  
+# Sample proveance query results
 * YesWorkflow Graph for C3C4 Example   <img src="https://github.com/yesworkflow-org/yw-idcc-17/blob/master/examples/C3C4/results/complete_wf_graph_uri.png" align="center" height="48" width="48" hspace="50"> 
 * Hybrid Graph for C3C4 Example   <img src="https://github.com/yesworkflow-org/yw-idcc-17/blob/master/examples/C3C4/results/wf_recon_complete_graph_all_observables.png" align="center" height="48" width="48" hspace="50"> 
 * YesWorkflow Graph for LIGO Example   <img src="https://github.com/yesworkflow-org/yw-idcc-17/blob/master/examples/LIGO/results/complete_wf_graph_uri.png" align="center" height="48" width="48" hspace="50"> 

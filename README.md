@@ -227,6 +227,39 @@ Run the demo from the command shell. For **Windows users**, you might either run
 
 4. Go to `results/` folder and check the generated provenance query result. For Mac users, you might use `open` command to access the PDF files, while for Windows users, you might use `start` command to access the PDF files.
     
+5. Sample proveance query results. 
+
+ * YesWorkflow Graph for C3C4 Example
+   ![alt text][yw_c3c4]
+   [yw_c3c4]: https://github.com/yesworkflow-org/yw-idcc-17/blob/master/examples/C3C4/results/complete_wf_graph_uri.svg 
+ * Hybrid Graph for C3C4 Example
+   ![alt text][hybrid_C3C4]
+   [hybrid_C3C4]: https://github.com/yesworkflow-org/yw-idcc-17/blob/master/examples/C3C4/results/wf_recon_complete_graph_all_observables.svg
+ * YesWorkflow Graph for LIGO Example
+   ![alt text][yw_ligo]
+   [yw_ligo]: https://github.com/yesworkflow-org/yw-idcc-17/blob/master/examples/LIGO/results/complete_wf_graph_uri.svg
+ * Hybrid Graph for LIGO Example
+   ![alt text][hybrid_LIGO]
+   [hybrid_LIGO]: 
+ * noWorkflow Filtered Graph for LIGO Example
+   ![alt text][nw_LIGO]
+   [nw_LIGO]: https://github.com/yesworkflow-org/yw-idcc-17/blob/master/examples/LIGO/results/nw_filtered_lineage_graph.png  
+ * YesWorkflow Graph for Kurator Example
+   ![alt text][yw_kurator]
+   [yw_kurator]: https://github.com/yesworkflow-org/yw-idcc-17/blob/master/examples/kurator-SPNHC16-YW-xsb/results/complete_wf_graph_uri.svg
+ * Hybrid Graph for Kurator Example
+   ![alt text][hybrid_kurator]
+   [hybrid_kurator]:https://github.com/yesworkflow-org/yw-idcc-17/blob/master/examples/kurator-SPNHC16-YW-xsb/results/wf_recon_complete_graph_all_observables.svg
+ * YesWorkflow Graph for Twitter Example
+   ![alt text][yw_twitter]
+   [yw_twitter]https://github.com/yesworkflow-org/yw-idcc-17/blob/master/examples/Twitter/results/complete_wf_graph_uri.svg
+ * Hybrid Graph for C3C4 Example
+   ![alt text][hybrid_twitter]
+   [hybrid_twitter]: https://github.com/yesworkflow-org/yw-idcc-17/blob/master/examples/Twitter/results/wf_recon_complete_graph_all_observables.svg
+ * Multiple_run_Multple_scripts_Graph for OHIBC Example
+   ![alt text][ohibc]
+   [ohibc]https://github.com/yesworkflow-org/yw-idcc-17/blob/master/OHIBC_Howe_Sound_project/multi_runs_retrospective_provenance_queries/results/wf_upstream_of_lsp_status_filePath.svg
+  
 ## Developing your own Demo
 1. Copy your example folder under examples/ folder. 
 

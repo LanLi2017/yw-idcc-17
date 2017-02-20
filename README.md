@@ -86,18 +86,18 @@ simulate_data_collection/
 
 The bash scritps have been tested on Mac and Windows platform.
 
-1. The following free software are required in order to run  this demo.
+  1. The following free software are required in order to run  this demo.
 
   * **Java**: please install Java SE Development Kit 8 by navigating to http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html  to view JDK dowloads. Accept all default installation configuration. Please confirm if Java is available by typing the command below. If not, please locate the directory containing the JDK executables (`C:\Program Files\Java\jdk1.8.0_121\bin`) and add the direcoty containing the JDK executables to my Windows `path` variable. 
   
-	```sh
+	   ```sh
 	   C:\Users\tmcphill> java -version 
 	   java version "1.8.0_121" 
 	   Java(TM) SE Runtime Environment (build 1.8.0_121-b13) 
 	   Java HotSpot(TM) 64-Bit Server VM (build 25.121-b13, mixed mode) 
  
 	   C:\Users\tmcphill>
-     ``` 	 
+       ``` 	 
   * **XSB**: a Logic Programming and Deductive Database system for Unix and Windows ([XSB homepage]
   (http://xsb.sourceforge.net)). The download and installation page for XSB is at [here] (http://xsb.sourceforge.net/downloads/downloads.html) or please navigate to the page https://sourceforge.net/projects/xsb/files/xsb/. The version 3.7 is the newest version. 
   
@@ -148,7 +148,7 @@ The bash scritps have been tested on Mac and Windows platform.
              
 ## Clone yw-idcc repository to local computer
 
-1. Clone the `yw-idcc-17` git repo to your local machine using the command
+1. Clone the `yw-idcc-17` git repo to your local machine using the command from the terminal for Mac/Linux or the command shell for Windows.
    
    ```sh
    git clone https://github.com/yesworkflow-org/yw-idcc-17.git

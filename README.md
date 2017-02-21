@@ -32,6 +32,10 @@ information recorded by the DataONE Run Managers for MATLAB and R, fine-grained 
 
 Our demonstration queries and provenance reports thus yield a more complete and comprehensible picture of data provenance from multiple script runs.
 
+# Demo Queries
+
+Please read [Query README](https://github.com/idaks/dataone-ahm-2016-poster/blob/master/queries/README.md) in the demo repo.
+
 # Sample proveance query results
 * YesWorkflow Graph for C3C4 Example   <img src="https://github.com/yesworkflow-org/yw-idcc-17/blob/master/examples/C3C4/results/complete_wf_graph_uri.png" align="center" height="48" width="48" hspace="50"> 
 * Hybrid Graph for C3C4 Example   <img src="https://github.com/yesworkflow-org/yw-idcc-17/blob/master/examples/C3C4/results/wf_recon_complete_graph_all_observables.png" align="center" height="48" width="48" hspace="50"> 
@@ -252,11 +256,6 @@ Run the demo from the command shell. For **Windows users**, you might either run
 
 5. Run `bash make.sh`.
     
-
-# Demo Queries
-
-Please read [Query README](https://github.com/idaks/dataone-ahm-2016-poster/blob/master/queries/README.md) in the demo repo.
-
 # How to run the Demo using Docker
 
 We have created a Docker image (`yesworkflow/provenance-demo`) to help readers to explore the YesWorkflow demonstrated provenance queries. In the `yesworkflow/provenance-demo` image, the XSB, Graphivz, YesWorkflow, noWorkflow, dataone demo queries are installed. Users can boot up a Docker container to run the demo provenance queries using this image within seconds, without the need to manually install packages. 

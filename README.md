@@ -133,11 +133,12 @@ The following free software are required in order to run  this demo.
       ```
 	
     Then, in a terminal, typing this command
-	    ```sh
+	    
+		```sh
 		  my_home$ source ~/.bashrc
 		  my_home$ which xsb
 		  /Users/my_home/XSB/bin/xsb
-		````
+		```
    
    * **Install XSB on Windows** Download the XSB executable `xsb-3.6.0.exe` for Windows platform. Run the downloaded installer file and accept all default configuration.
        This is the extra steps for Windows users. Please determine which directory contains the XSB executable that works for your computer: 

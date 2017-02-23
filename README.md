@@ -235,6 +235,22 @@ Run the demo from the command shell. For **Windows users**, you might either run
 
 3. Run the demo example by calling `bash make.sh` or `./make.sh`. For Windows users, please reference the example below. Note that in some cases after adding `C:\Program Files\Git` to the `Path` variable, and use `git-bash` or `git-cmd` command instead of the bash command. In this way, it works both using bash in `Git shell` and using `git-bash` or `git-cmd` in command shell.
 
+  * For Mac/Linux platfor,
+  
+  ```sh
+      my_home$ ls
+      OHIBC_Howe_Sound_project	docker				queries
+      README.md			examples			rules
+      SQLiteToYaml			poster_template			yw_jar
+      my_home$ cd examples/C3C4/
+      my_home$ ls
+      clean.sh	facts		make.sh		recon		results		script		supplementary	views
+      my_home$ bash clean.sh 
+      my_home$ bash make.sh
+  ````
+  
+  * For **Windows** platform,
+  
   ```sh
   C:\Users\my_home\Desktop\yw-idcc-17>cd examples\C3C4
  

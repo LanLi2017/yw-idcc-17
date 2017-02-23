@@ -235,7 +235,7 @@ Run the demo from the command shell. For **Windows users**, you might either run
 
 3. Run the demo example by calling `bash make.sh` or `./make.sh`. For Windows users, please reference the example below. Note that in some cases after adding `C:\Program Files\Git` to the `Path` variable, and use `git-bash` or `git-cmd` command instead of the bash command. In this way, it works both using bash in `Git shell` and using `git-bash` or `git-cmd` in command shell.
 
-  * For Mac/Linux platfor,
+  * For **Mac/Linux** platform,
   
   ```sh
       my_home$ ls

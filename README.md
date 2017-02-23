@@ -106,12 +106,12 @@ The following free software are required in order to run  this demo.
   * **Java**: please install Java SE Development Kit 8 by navigating to http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html  to view JDK dowloads. Accept all default installation configuration. Please confirm if Java is available by typing the command below. If not, please locate the directory containing the JDK executables (`C:\Program Files\Java\jdk1.8.0_121\bin`) and add the direcoty containing the JDK executables to my Windows `path` variable. 
   
 	   ```sh
-	   C:\Users\tmcphill> java -version 
+	   C:\Users\my_home> java -version 
 	   java version "1.8.0_121" 
 	   Java(TM) SE Runtime Environment (build 1.8.0_121-b13) 
 	   Java HotSpot(TM) 64-Bit Server VM (build 25.121-b13, mixed mode) 
  
-	   C:\Users\tmcphill>
+	   C:\Users\my_home>
        ``` 	 
   * **XSB**: a Logic Programming and Deductive Database system for Unix and Windows ([XSB homepage]
   (http://xsb.sourceforge.net)). The download and installation page for XSB is at [here] (http://xsb.sourceforge.net/downloads/downloads.html) or please navigate to the page https://sourceforge.net/projects/xsb/files/xsb/. The version 3.7 is the newest version. 
@@ -127,7 +127,7 @@ The following free software are required in order to run  this demo.
        Then, add the path to the XSB executable to my windows path variable `Control Panel -> System and Security -> System -> Advanced System Settings -> Environment Variables -> Path`. Typing `xsb` in a command console in order to confirm that XSB can run from the command prompt.   
  
         ```sh
-	      C:\Users\tmcphill> xsb 
+	      C:\Users\my_home> xsb 
 	      [xsb_configuration loaded] 
 	      [sysinitrc loaded] 
 	      [xsbbrat loaded] 
@@ -158,7 +158,7 @@ The following free software are required in order to run  this demo.
 * **Graphviz**: a Graph Visuzlization Software for Unix and Windows.  It is available at [Graphviz homepage](http://www.graphviz.org). The download and installation page for Graphviz is at  [here](http://www.graphviz.org/Download.php). For Windows platform, please download `graphviz-2.38.msi` installer package and start the installer file. You might accept all default configurations. Please confirm if the `dot` command is available by typing the command below. If not, then first determined directory containing dot.exe binary (`C:\Program Files (x86)\Graphviz2.38\bin`) and added the directory containing the dot executable to my Windows PATH variable.
  
     ```sh
-     C:\Users\tmcphill> dot
+     C:\Users\my_home> dot
        'dot' is not recognized as an internal or external command,
         operable program or batch file. 
     ```
@@ -166,7 +166,7 @@ The following free software are required in order to run  this demo.
 * **Install Git for Windows**: please download `Git` for Windows from https://git-for-windows.github.io/. Run the downloaded `Git-2.11.1-64-bit.exe` and accept default configuration. Then, finish installation. Please check the `git` command in the command shell by typing `git --version`. Next, you might add the `path to bash executable` included with "Git for Windows" (`C:\Program Files\Git\bin`) to my Windows `path` variable so that the bash script can run on the command prompt directly.
   
     ```sh
-      C:\Users\tmcphill> git --version 
+      C:\Users\my_home> git --version 
       git version 2.11.1.windows.1
     ```	   
 	
@@ -218,13 +218,13 @@ Run the demo from the command shell. For **Windows users**, you might either run
 3. Run the demo example by calling `bash make.sh` or `./make.sh`. For Windows users, please reference the example below. Note that in some cases after adding `C:\Program Files\Git` to the `Path` variable, and use `git-bash` or `git-cmd` command instead of the bash command. In this way, it works both using bash in `Git shell` and using `git-bash` or `git-cmd` in command shell.
 
   ```sh
-  C:\Users\yang\Desktop\yw-idcc-17>cd examples\C3C4
+  C:\Users\my_home\Desktop\yw-idcc-17>cd examples\C3C4
  
-  C:\Users\yang\Desktop\yw-idcc-17\examples\C3C4>dir
+  C:\Users\my_home\Desktop\yw-idcc-17\examples\C3C4>dir
   Volume in drive C is Windows8_OS
   Volume Serial Number is 6473-FB35
  
-  Directory of C:\Users\yang\Desktop\yw-idcc-17\examples\C3C4
+  Directory of C:\Users\my_home\Desktop\yw-idcc-17\examples\C3C4
  
   02/20/2017  10:39 AM    <DIR>          .
   02/20/2017  10:39 AM    <DIR>          ..
@@ -239,7 +239,7 @@ Run the demo from the command shell. For **Windows users**, you might either run
                2 File(s)          8,678 bytes
                8 Dir(s)  77,619,445,760 bytes free
  
-  C:\Users\yang\Desktop\yw-idcc-17\examples\C3C4>bash make.sh
+  C:\Users\my_home\Desktop\yw-idcc-17\examples\C3C4>bash make.sh
   ```
 
 4. Go to `results/` folder and check the generated provenance query result. For Mac users, you might use `open` command to access the PDF files, while for Windows users, you might use `start` command to access the PDF files.

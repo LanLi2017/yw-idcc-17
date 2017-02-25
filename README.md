@@ -126,19 +126,21 @@ The following free software are required in order to run  this demo.
 		 my_home$  /Users/my_home/XSB/bin/xsb
       ```
  
-    Next, you might add the path to the XSB executable (`/Users/my_home/XSB/bin/xsb`) to the `PATH` variable. For example, in a ~/.bashrc file, add this line:
+   Next, you might add the path to the XSB executable (`/Users/my_home/XSB/bin/xsb`) to the `PATH` variable. For example, in a ~/.bashrc file, add this line:
  
       ```sh
         export PATH="/Users/my_home/XSB/bin:$PATH"
       ```
 	
-    Then, in a terminal, typing this command
-	    
-		```sh
-		  my_home$ source ~/.bashrc
-		  my_home$ which xsb
-		  /Users/my_home/XSB/bin/xsb
-		```
+	
+   Then, in a terminal, typing this command    
+
+	  
+	  ```sh
+		 my_home$ source ~/.bashrc
+		 my_home$ which xsb
+		 /Users/my_home/XSB/bin/xsb
+	  ```
    
    * **Install XSB on Windows** Download the XSB executable `xsb-3.6.0.exe` for Windows platform. Run the downloaded installer file and accept all default configuration.
        This is the extra steps for Windows users. Please determine which directory contains the XSB executable that works for your computer: 

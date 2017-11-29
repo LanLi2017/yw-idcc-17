@@ -64,7 +64,7 @@ _yw_input_port(PortId, in, PortName, DataId) :-
 _yw_input_port(PortId, param, PortName, DataId) :-
     port(PortId, param, PortName, _, _, DataId).
 
-yw_step_output(ProgramId, ProgramName, PortType, PortId, PortName, DataId, DataName) :-
+yw_step_output(ProgramId, ProgramName, out, PortId, PortName, DataId, DataName) :-
     annotation(Annotation_id, _, _, 'out', _, _),
     port(PortId, _, PortName, _, Annotation_id, DataId),
     has_out_port(ProgramId, PortId),

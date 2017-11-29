@@ -1,0 +1,244 @@
+2017-11-28-15:30:48 Reading input records from data/demo_input.csv
+
+
+2017-11-28-15:30:49 Reading input record 11974652
+
+2017-11-28-15:30:49 Checking if scientificName value is Empty - NO
+
+2017-11-28-15:30:49 Trying external_check local_authority_source EXACT match for validating scientificName: <Placopecten magellanicus>
+
+2017-11-28-15:30:49 EXACT match was SUCCESSFUL, compliant with local_authority_source: SUCCESSFUL
+
+2017-11-28-15:30:49 UPDATING record 11974652: scientificNameAuthorship from <Gmelin, 1791> to <(Gmelin, 1791)>
+
+2017-11-28-15:30:49 ACCEPTED the record 11974652
+
+
+2017-11-28-15:30:49 Reading input record 21122253
+
+2017-11-28-15:30:49 Checking if scientificName value is Empty - NO
+
+2017-11-28-15:30:49 Trying external_check local_authority_source EXACT match for validating scientificName: <Placopecten magellanicus>
+
+2017-11-28-15:30:49 EXACT match was SUCCESSFUL, compliant with local_authority_source: SUCCESSFUL
+
+2017-11-28-15:30:49 ACCEPTED the record 21122253
+
+
+2017-11-28-15:30:49 Reading input record 27370792
+
+2017-11-28-15:30:49 Checking if scientificName value is Empty - NO
+
+2017-11-28-15:30:49 Trying external_check local_authority_source EXACT match for validating scientificName: <magellanicus placopecten>
+
+2017-11-28-15:30:49 EXACT match was FAILED, compliant with local_authority_source: FAILED
+
+2017-11-28-15:30:49 Trying external_check local_authority_source FUZZY match for validating scientificName: <magellanicus placopecten>
+
+2017-11-28-15:30:49 FUZZY match was FAILED, compliant with local_authority_source: FAILED
+
+2017-11-28-15:30:49 UNABLE-to-validate the record 27370792
+
+
+2017-11-28-15:30:49 Reading input record 94812207
+
+2017-11-28-15:30:49 Checking if scientificName value is Empty - NO
+
+2017-11-28-15:30:49 Trying external_check local_authority_source EXACT match for validating scientificName: <Placopecten magellanicus>
+
+2017-11-28-15:30:49 EXACT match was SUCCESSFUL, compliant with local_authority_source: SUCCESSFUL
+
+2017-11-28-15:30:49 UPDATING record 94812207: scientificNameAuthorship from <> to <(Gmelin, 1791)>
+
+2017-11-28-15:30:49 ACCEPTED the record 94812207
+
+
+2017-11-28-15:30:49 Reading input record 25200680
+
+2017-11-28-15:30:49 Checking if scientificName value is Empty - NO
+
+2017-11-28-15:30:49 Trying external_check local_authority_source EXACT match for validating scientificName: <Placopecten magellanicus>
+
+2017-11-28-15:30:49 EXACT match was SUCCESSFUL, compliant with local_authority_source: SUCCESSFUL
+
+2017-11-28-15:30:49 ACCEPTED the record 25200680
+
+
+2017-11-28-15:30:49 Reading input record 10816759
+
+2017-11-28-15:30:49 Checking if scientificName value is Empty - YES
+
+2017-11-28-15:30:49 UNABLE-to-validate the record 10816759
+
+
+2017-11-28-15:30:49 Reading input record 10995071
+
+2017-11-28-15:30:49 Checking if scientificName value is Empty - NO
+
+2017-11-28-15:30:49 Trying external_check local_authority_source EXACT match for validating scientificName: <Placopcten magellanicus>
+
+2017-11-28-15:30:49 EXACT match was FAILED, compliant with local_authority_source: FAILED
+
+2017-11-28-15:30:49 Trying external_check local_authority_source FUZZY match for validating scientificName: <Placopcten magellanicus>
+
+2017-11-28-15:30:49 FUZZY match was SUCCESSFUL, compliant with local_authority_source: SUCCESSFUL
+
+2017-11-28-15:30:49 UPDATING record 10995071: scientificName from <Placopcten magellanicus> to <Placopecten magellanicus>
+
+2017-11-28-15:30:49 UPDATING record 10995071: scientificNameAuthorship from <Gmellin> to <(Gmelin, 1791)>
+
+2017-11-28-15:30:49 ACCEPTED the record 10995071
+
+
+2017-11-28-15:30:49 Reading input record 28174106
+
+2017-11-28-15:30:49 Checking if scientificName value is Empty - NO
+
+2017-11-28-15:30:49 Trying external_check local_authority_source EXACT match for validating scientificName: <Placopecten magellanicus>
+
+2017-11-28-15:30:49 EXACT match was SUCCESSFUL, compliant with local_authority_source: SUCCESSFUL
+
+2017-11-28-15:30:49 ACCEPTED the record 28174106
+
+
+2017-11-28-15:30:49 Reading input record 19408784
+
+2017-11-28-15:30:49 Checking if scientificName value is Empty - NO
+
+2017-11-28-15:30:49 Trying external_check local_authority_source EXACT match for validating scientificName: <Nodipecten nodsus>
+
+2017-11-28-15:30:49 EXACT match was FAILED, compliant with local_authority_source: FAILED
+
+2017-11-28-15:30:49 Trying external_check local_authority_source FUZZY match for validating scientificName: <Nodipecten nodsus>
+
+2017-11-28-15:30:49 FUZZY match was SUCCESSFUL, compliant with local_authority_source: SUCCESSFUL
+
+2017-11-28-15:30:49 UPDATING record 19408784: scientificName from <Nodipecten nodsus> to <Nodipecten nodosus>
+
+2017-11-28-15:30:49 ACCEPTED the record 19408784
+
+
+2017-11-28-15:30:49 Reading input record 22720939
+
+2017-11-28-15:30:49 Checking if scientificName value is Empty - NO
+
+2017-11-28-15:30:49 Trying external_check local_authority_source EXACT match for validating scientificName: <Pecten nodosus>
+
+2017-11-28-15:30:49 EXACT match was FAILED, compliant with local_authority_source: FAILED
+
+2017-11-28-15:30:49 Trying external_check local_authority_source FUZZY match for validating scientificName: <Pecten nodosus>
+
+2017-11-28-15:30:49 FUZZY match was SUCCESSFUL, compliant with local_authority_source: SUCCESSFUL
+
+2017-11-28-15:30:49 UPDATING record 22720939: scientificName from <Pecten nodosus> to <Nodipecten nodosus>
+
+2017-11-28-15:30:49 ACCEPTED the record 22720939
+
+
+2017-11-28-15:30:49 Wrote 8 ACCEPTED records to run/demo_output_name_val.csv
+
+2017-11-28-15:30:49 Wrote 2 UNABLE-to-validate records to run/demo_output_name_val.csv
+
+2017-11-28-15:30:49 Reading input records from run/demo_output_name_val.csv
+
+
+2017-11-28-15:30:49 Reading input record 11974652
+
+2017-11-28-15:30:49 Checking if eventDate value is Empty: NO
+
+2017-11-28-15:30:49 Trying self_check ISO_date_format-(YYYY-MM-DD) EXACT match for validating eventDate: <5/27/50>
+
+2017-11-28-15:30:49 EXACT match was FAILED, compliant with ISO_date_format-(YYYY-MM-DD): FAILED
+
+2017-11-28-15:30:49 UPDATING record 11974652: eventDate from <5/27/50> to <1950-05-27>
+
+2017-11-28-15:30:49 ACCEPTED the record 11974652
+
+
+2017-11-28-15:30:49 Reading input record 21122253
+
+2017-11-28-15:30:49 Checking if eventDate value is Empty: NO
+
+2017-11-28-15:30:49 Trying self_check ISO_date_format-(YYYY-MM-DD) EXACT match for validating eventDate: <1880-01-01/1880-12-31>
+
+2017-11-28-15:30:49 EXACT match was SUCCESSFUL, compliant with ISO_date_format-(YYYY-MM-DD): SUCCESSFUL
+
+2017-11-28-15:30:49 ACCEPTED the record 21122253
+
+
+2017-11-28-15:30:49 Reading input record 27370792
+
+2017-11-28-15:30:49 Checking if eventDate value is Empty: NO
+
+2017-11-28-15:30:49 Trying self_check ISO_date_format-(YYYY-MM-DD) EXACT match for validating eventDate: <1963-09-01/1963-09-30>
+
+2017-11-28-15:30:49 EXACT match was SUCCESSFUL, compliant with ISO_date_format-(YYYY-MM-DD): SUCCESSFUL
+
+2017-11-28-15:30:49 ACCEPTED the record 27370792
+
+
+2017-11-28-15:30:49 Reading input record 94812207
+
+2017-11-28-15:30:49 Checking if eventDate value is Empty: NO
+
+2017-11-28-15:30:49 Trying self_check ISO_date_format-(YYYY-MM-DD) EXACT match for validating eventDate: <1931-09-01/1931-09-30>
+
+2017-11-28-15:30:49 EXACT match was SUCCESSFUL, compliant with ISO_date_format-(YYYY-MM-DD): SUCCESSFUL
+
+2017-11-28-15:30:49 ACCEPTED the record 94812207
+
+
+2017-11-28-15:30:49 Reading input record 25200680
+
+2017-11-28-15:30:49 Checking if eventDate value is Empty: NO
+
+2017-11-28-15:30:49 Trying self_check ISO_date_format-(YYYY-MM-DD) EXACT match for validating eventDate: <1880-01-01/1880-12-31>
+
+2017-11-28-15:30:49 EXACT match was SUCCESSFUL, compliant with ISO_date_format-(YYYY-MM-DD): SUCCESSFUL
+
+2017-11-28-15:30:49 ACCEPTED the record 25200680
+
+
+2017-11-28-15:30:49 Reading input record 10816759
+
+2017-11-28-15:30:49 Checking if eventDate value is Empty: NO
+
+2017-11-28-15:30:49 Trying self_check ISO_date_format-(YYYY-MM-DD) EXACT match for validating eventDate: <1904-06-01/1904-06-30>
+
+2017-11-28-15:30:49 EXACT match was SUCCESSFUL, compliant with ISO_date_format-(YYYY-MM-DD): SUCCESSFUL
+
+2017-11-28-15:30:49 ACCEPTED the record 10816759
+
+
+2017-11-28-15:30:49 Reading input record 10995071
+
+2017-11-28-15:30:49 Checking if eventDate value is Empty: YES
+
+2017-11-28-15:30:49 UNABLE-to-validate the record 10995071
+
+
+2017-11-28-15:30:49 Reading input record 28174106
+
+2017-11-28-15:30:49 Checking if eventDate value is Empty: YES
+
+2017-11-28-15:30:49 UNABLE-to-validate the record 28174106
+
+
+2017-11-28-15:30:49 Reading input record 19408784
+
+2017-11-28-15:30:49 Checking if eventDate value is Empty: YES
+
+2017-11-28-15:30:49 UNABLE-to-validate the record 19408784
+
+
+2017-11-28-15:30:49 Reading input record 22720939
+
+2017-11-28-15:30:49 Checking if eventDate value is Empty: YES
+
+2017-11-28-15:30:49 UNABLE-to-validate the record 22720939
+
+
+2017-11-28-15:30:49 Wrote 6 accepted records to run/demo_output_name_date_val.csv
+
+2017-11-28-15:30:49 Wrote 4 UNABLE-to-validate records to run/demo_output_name_date_val.csv
+

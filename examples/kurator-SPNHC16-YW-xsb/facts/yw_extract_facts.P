@@ -1,49 +1,49 @@
 
 % FACT: extract_source(source_id, source_path).
-extract_source(1, './script/clean_name_date_yw.py').
+extract_source(1, 'script/clean_name_date_yw.py').
 
 % FACT: annotation(annotation_id, source_id, line_number, tag, keyword, value).
 annotation(1, 1, 11, 'begin', '@begin', 'clean_name_and_date_workflow').
 annotation(2, 1, 12, 'in', '@in', 'input1_data').
-annotation(3, 1, 12, 'uri', '@uri', 'file:demo_input.csv').
+annotation(3, 1, 12, 'uri', '@uri', 'file:data/demo_input.csv').
 annotation(4, 1, 12, 'as', '@as', 'original_dataset').
 annotation(5, 1, 13, 'param', '@param', 'local_authority_source').
-annotation(6, 1, 13, 'uri', '@uri', 'file:demo_localDB.csv').
+annotation(6, 1, 13, 'uri', '@uri', 'file:data/demo_localDB.csv').
 annotation(7, 1, 14, 'out', '@out', 'name_val_log').
-annotation(8, 1, 14, 'uri', '@uri', 'file:name_val_log.txt').
+annotation(8, 1, 14, 'uri', '@uri', 'file:run/name_val_log.txt').
 annotation(9, 1, 14, 'as', '@as', 'name_cleaning_log').
 annotation(10, 1, 15, 'out', '@out', 'output2_data').
-annotation(11, 1, 15, 'uri', '@uri', 'file:demo_output_name_date_val.csv').
+annotation(11, 1, 15, 'uri', '@uri', 'file:run/demo_output_name_date_val.csv').
 annotation(12, 1, 15, 'as', '@as', 'data_with_cleaned_names_and_dates').
 annotation(13, 1, 16, 'out', '@out', 'date_val_log').
-annotation(14, 1, 16, 'uri', '@uri', 'file:date_val_log.txt').
+annotation(14, 1, 16, 'uri', '@uri', 'file:run/date_val_log.txt').
 annotation(15, 1, 16, 'as', '@as', 'date_cleaning_log').
 annotation(16, 1, 20, 'begin', '@begin', 'clean_scientific_name').
 annotation(17, 1, 20, 'desc', '@desc', 'Clean scientificName field').
 annotation(18, 1, 21, 'param', '@param', 'local_authority_source').
-annotation(19, 1, 21, 'uri', '@uri', 'file:demo_localDB.csv').
+annotation(19, 1, 21, 'uri', '@uri', 'file:data/demo_localDB.csv').
 annotation(20, 1, 22, 'in', '@in', 'input1_data').
-annotation(21, 1, 22, 'uri', '@uri', 'file:demo_input.csv').
+annotation(21, 1, 22, 'uri', '@uri', 'file:data/demo_input.csv').
 annotation(22, 1, 22, 'as', '@as', 'original_dataset').
 annotation(23, 1, 23, 'out', '@out', 'output1_data').
-annotation(24, 1, 23, 'uri', '@uri', 'file:demo_output_name_val.csv').
+annotation(24, 1, 23, 'uri', '@uri', 'file:run/demo_output_name_val.csv').
 annotation(25, 1, 23, 'as', '@as', 'data_with_cleaned_names').
 annotation(26, 1, 24, 'out', '@out', 'name_val_log').
-annotation(27, 1, 24, 'uri', '@uri', 'file:name_val_log.txt').
+annotation(27, 1, 24, 'uri', '@uri', 'file:run/name_val_log.txt').
 annotation(28, 1, 24, 'as', '@as', 'name_cleaning_log').
 annotation(29, 1, 25, 'out', '@out', 'record_id_data').
-annotation(30, 1, 25, 'uri', '@uri', 'file:record_id.txt').
+annotation(30, 1, 25, 'uri', '@uri', 'file:run/record_id.txt').
 annotation(31, 1, 45, 'begin', '@begin', 'initialize_run').
 annotation(32, 1, 45, 'desc', '@desc', 'Create the run log file').
 annotation(33, 1, 46, 'out', '@out', 'name_val_log').
-annotation(34, 1, 46, 'uri', '@uri', 'file:name_val_log.txt').
+annotation(34, 1, 46, 'uri', '@uri', 'file:run/name_val_log.txt').
 annotation(35, 1, 46, 'as', '@as', 'name_cleaning_log').
 annotation(36, 1, 47, 'log', '@log', '{timestamp} Reading input records from {input1_data_file_name}').
 annotation(37, 1, 53, 'end', '@end', 'initialize_run').
 annotation(38, 1, 57, 'begin', '@begin', 'read_scientific_name').
 annotation(39, 1, 57, 'desc', '@desc', 'Read scientificName from local authority source').
 annotation(40, 1, 58, 'param', '@param', 'local_authority_source').
-annotation(41, 1, 58, 'uri', '@uri', 'file:demo_localDB.csv').
+annotation(41, 1, 58, 'uri', '@uri', 'file:data/demo_localDB.csv').
 annotation(42, 1, 59, 'call', '@call', 'fieldmatch').
 annotation(43, 1, 60, 'out', '@out', 'local_authority_source_scientificName_lst').
 annotation(44, 1, 60, 'as', '@as', 'local_authority_source_scientificName_list').
@@ -51,7 +51,7 @@ annotation(45, 1, 90, 'end', '@end', 'read_scientific_name').
 annotation(46, 1, 94, 'begin', '@begin', 'read_data_records').
 annotation(47, 1, 94, 'desc', '@desc', 'Read original dataset').
 annotation(48, 1, 95, 'in', '@in', 'input1_data').
-annotation(49, 1, 95, 'uri', '@uri', 'file:demo_input.csv').
+annotation(49, 1, 95, 'uri', '@uri', 'file:data/demo_input.csv').
 annotation(50, 1, 95, 'as', '@as', 'original_dataset').
 annotation(51, 1, 96, 'out', '@out', 'original_scientificName').
 annotation(52, 1, 96, 'as', '@as', 'scientificName').
@@ -61,9 +61,9 @@ annotation(55, 1, 98, 'out', '@out', 'RecordID').
 annotation(56, 1, 99, 'out', '@out', 'original_others').
 annotation(57, 1, 99, 'as', '@as', 'other_fields').
 annotation(58, 1, 100, 'out', '@out', 'record_id_data').
-annotation(59, 1, 100, 'uri', '@uri', 'file:record_id.txt').
+annotation(59, 1, 100, 'uri', '@uri', 'file:run/record_id.txt').
 annotation(60, 1, 101, 'out', '@out', 'name_val_log').
-annotation(61, 1, 101, 'uri', '@uri', 'file:name_val_log.txt').
+annotation(61, 1, 101, 'uri', '@uri', 'file:run/name_val_log.txt').
 annotation(62, 1, 101, 'as', '@as', 'name_cleaning_log').
 annotation(63, 1, 102, 'log', '@log', '{timestamp} Reading input record {RecordID}').
 annotation(64, 1, 134, 'end', '@end', 'read_data_records').
@@ -76,7 +76,7 @@ annotation(70, 1, 140, 'as', '@as', 'empty_scientificName').
 annotation(71, 1, 141, 'out', '@out', 'original_scientificName').
 annotation(72, 1, 141, 'as', '@as', 'nonEmpty_scientificName').
 annotation(73, 1, 142, 'out', '@out', 'name_val_log').
-annotation(74, 1, 142, 'uri', '@uri', 'file:name_val_log.txt').
+annotation(74, 1, 142, 'uri', '@uri', 'file:run/name_val_log.txt').
 annotation(75, 1, 142, 'as', '@as', 'name_cleaning_log').
 annotation(76, 1, 143, 'log', '@log', '{timestamp} Checking if {field_name} value is Empty - {check_result}').
 annotation(77, 1, 159, 'end', '@end', 'check_if_name_is_nonempty').
@@ -90,7 +90,7 @@ annotation(84, 1, 166, 'as', '@as', 'record_final_status').
 annotation(85, 1, 167, 'out', '@out', 'rejected_record_count').
 annotation(86, 1, 167, 'as', '@as', 'unable-to-validate_record_count').
 annotation(87, 1, 168, 'out', '@out', 'name_val_log').
-annotation(88, 1, 168, 'uri', '@uri', 'file:name_val_log.txt').
+annotation(88, 1, 168, 'uri', '@uri', 'file:run/name_val_log.txt').
 annotation(89, 1, 168, 'as', '@as', 'name_cleaning_log').
 annotation(90, 1, 169, 'log', '@log', '{timestamp} {final_result} the record {RecordID}').
 annotation(91, 1, 182, 'end', '@end', 'log_name_is_empty').
@@ -109,7 +109,7 @@ annotation(103, 1, 196, 'out', '@out', 'final_result').
 annotation(104, 1, 196, 'as', '@as', 'record_final_status').
 annotation(105, 1, 197, 'out', '@out', 'matching_method').
 annotation(106, 1, 198, 'out', '@out', 'name_val_log').
-annotation(107, 1, 198, 'uri', '@uri', 'file:name_val_log.txt').
+annotation(107, 1, 198, 'uri', '@uri', 'file:run/name_val_log.txt').
 annotation(108, 1, 198, 'as', '@as', 'name_cleaning_log').
 annotation(109, 1, 199, 'log', '@log', '{timestamp} Trying {check_type} {source_used} {match_method} match for validating {field_name}: <{field_name_value}>').
 annotation(110, 1, 200, 'log', '@log', '{timestamp} {match_method} match was {match_result}, compliant with {source_used}: {compliant_result}.').
@@ -123,7 +123,7 @@ annotation(117, 1, 236, 'in', '@in', 'match_result').
 annotation(118, 1, 237, 'out', '@out', 'rejected_record_count').
 annotation(119, 1, 237, 'as', '@as', 'unable-to-validate_record_count').
 annotation(120, 1, 238, 'out', '@out', 'name_val_log').
-annotation(121, 1, 238, 'uri', '@uri', 'file:name_val_log.txt').
+annotation(121, 1, 238, 'uri', '@uri', 'file:run/name_val_log.txt').
 annotation(122, 1, 238, 'as', '@as', 'name_cleaning_log').
 annotation(123, 1, 239, 'log', '@log', '{timestamp} {final_result} the record {RecordID}').
 annotation(124, 1, 252, 'end', '@end', 'log_match_not_found').
@@ -151,7 +151,7 @@ annotation(145, 1, 296, 'in', '@in', 'updated_authorship').
 annotation(146, 1, 297, 'in', '@in', 'original_authorship').
 annotation(147, 1, 297, 'as', '@as', 'authorship').
 annotation(148, 1, 298, 'out', '@out', 'name_val_log').
-annotation(149, 1, 298, 'uri', '@uri', 'file:name_val_log.txt').
+annotation(149, 1, 298, 'uri', '@uri', 'file:run/name_val_log.txt').
 annotation(150, 1, 298, 'as', '@as', 'name_cleaning_log').
 annotation(151, 1, 299, 'log', '@log', '{timestamp} UPDATING record {RecordID}: {field_name} from <{original_value}> to <{updated_value}>').
 annotation(152, 1, 317, 'end', '@end', 'log_updated_record').
@@ -162,7 +162,7 @@ annotation(156, 1, 323, 'in', '@in', 'final_result').
 annotation(157, 1, 323, 'as', '@as', 'record_final_status').
 annotation(158, 1, 324, 'out', '@out', 'accepted_record_count').
 annotation(159, 1, 325, 'out', '@out', 'name_val_log').
-annotation(160, 1, 325, 'uri', '@uri', 'file:name_val_log.txt').
+annotation(160, 1, 325, 'uri', '@uri', 'file:run/name_val_log.txt').
 annotation(161, 1, 325, 'as', '@as', 'name_cleaning_log').
 annotation(162, 1, 326, 'log', '@log', '{timestamp} {final_result} the record {RecordID}').
 annotation(163, 1, 331, 'end', '@end', 'log_accepted_record').
@@ -177,7 +177,7 @@ annotation(171, 1, 339, 'as', '@as', 'authorship').
 annotation(172, 1, 340, 'in', '@in', 'updated_scientificName').
 annotation(173, 1, 341, 'in', '@in', 'updated_authorship').
 annotation(174, 1, 342, 'out', '@out', 'output1_data').
-annotation(175, 1, 342, 'uri', '@uri', 'file:demo_output_name_val.csv').
+annotation(175, 1, 342, 'uri', '@uri', 'file:run/demo_output_name_val.csv').
 annotation(176, 1, 342, 'as', '@as', 'data_with_cleaned_names').
 annotation(177, 1, 347, 'end', '@end', 'write_output1_data').
 annotation(178, 1, 351, 'begin', '@begin', 'log_summary').
@@ -186,7 +186,7 @@ annotation(180, 1, 352, 'in', '@in', 'accepted_record_count').
 annotation(181, 1, 353, 'in', '@in', 'rejected_record_count').
 annotation(182, 1, 353, 'as', '@as', 'unable-to-validate_record_count').
 annotation(183, 1, 354, 'out', '@out', 'name_val_log').
-annotation(184, 1, 354, 'uri', '@uri', 'file:name_val_log.txt').
+annotation(184, 1, 354, 'uri', '@uri', 'file:run/name_val_log.txt').
 annotation(185, 1, 354, 'as', '@as', 'name_cleaning_log').
 annotation(186, 1, 355, 'log', '@log', '{timestamp} Wrote {accepted_record_count} ACCEPTED records to {output1_data_file_name}').
 annotation(187, 1, 356, 'log', '@log', '{timestamp} Wrote {rejected_record_count} UNABLE-to-validate records to {output1_data_file_name}').
@@ -195,37 +195,37 @@ annotation(189, 1, 367, 'end', '@end', 'clean_scientific_name').
 annotation(190, 1, 371, 'begin', '@begin', 'clean_event_date').
 annotation(191, 1, 371, 'desc', '@desc', 'Clean eventDate field').
 annotation(192, 1, 372, 'in', '@in', 'output1_data').
-annotation(193, 1, 372, 'uri', '@uri', 'file:demo_output_name_val.csv').
+annotation(193, 1, 372, 'uri', '@uri', 'file:run/demo_output_name_val.csv').
 annotation(194, 1, 372, 'as', '@as', 'data_with_cleaned_names').
 annotation(195, 1, 373, 'param', '@param', 'record_id_data').
-annotation(196, 1, 373, 'uri', '@uri', 'file:record_id.txt').
+annotation(196, 1, 373, 'uri', '@uri', 'file:run/record_id.txt').
 annotation(197, 1, 374, 'out', '@out', 'output2_data').
-annotation(198, 1, 374, 'uri', '@uri', 'file:demo_output_name_date_val.csv').
+annotation(198, 1, 374, 'uri', '@uri', 'file:run/demo_output_name_date_val.csv').
 annotation(199, 1, 374, 'as', '@as', 'data_with_cleaned_names_and_dates').
 annotation(200, 1, 375, 'out', '@out', 'date_val_log').
-annotation(201, 1, 375, 'uri', '@uri', 'file:date_val_log.txt').
+annotation(201, 1, 375, 'uri', '@uri', 'file:run/date_val_log.txt').
 annotation(202, 1, 375, 'as', '@as', 'date_cleaning_log').
 annotation(203, 1, 392, 'begin', '@begin', 'initialize_run').
 annotation(204, 1, 392, 'desc', '@desc', 'Create the run log file').
 annotation(205, 1, 393, 'out', '@out', 'date_val_log').
-annotation(206, 1, 393, 'uri', '@uri', 'file:date_val_log.txt').
+annotation(206, 1, 393, 'uri', '@uri', 'file:run/date_val_log.txt').
 annotation(207, 1, 393, 'as', '@as', 'date_cleaning_log').
 annotation(208, 1, 394, 'log', '@log', '{timestamp} Reading input records from {input2_data_file_name}').
 annotation(209, 1, 400, 'end', '@end', 'initialize_run').
 annotation(210, 1, 404, 'begin', '@begin', 'read_data_records').
 annotation(211, 1, 404, 'desc', '@desc', 'Read data with cleaned names').
 annotation(212, 1, 405, 'in', '@in', 'input2_data').
-annotation(213, 1, 405, 'uri', '@uri', 'file:demo_output_name_val.csv').
+annotation(213, 1, 405, 'uri', '@uri', 'file:run/demo_output_name_val.csv').
 annotation(214, 1, 405, 'as', '@as', 'data_with_cleaned_names').
 annotation(215, 1, 406, 'in', '@in', 'record_id_data').
-annotation(216, 1, 406, 'uri', '@uri', 'file:record_id.txt').
+annotation(216, 1, 406, 'uri', '@uri', 'file:run/record_id.txt').
 annotation(217, 1, 407, 'out', '@out', 'original2_eventDate').
 annotation(218, 1, 407, 'as', '@as', 'eventDate').
 annotation(219, 1, 408, 'out', '@out', 'RecordID').
 annotation(220, 1, 409, 'out', '@out', 'original2_others').
 annotation(221, 1, 409, 'as', '@as', 'other_fields').
 annotation(222, 1, 410, 'out', '@out', 'date_val_log').
-annotation(223, 1, 410, 'uri', '@uri', 'file:date_val_log.txt').
+annotation(223, 1, 410, 'uri', '@uri', 'file:run/date_val_log.txt').
 annotation(224, 1, 410, 'as', '@as', 'date_cleaning_log').
 annotation(225, 1, 411, 'log', '@log', '{timestamp} Reading input record {RecordID}').
 annotation(226, 1, 441, 'end', '@end', 'read_input2_data_records').
@@ -238,7 +238,7 @@ annotation(232, 1, 447, 'as', '@as', 'empty_eventDate').
 annotation(233, 1, 448, 'out', '@out', 'original2_eventDate').
 annotation(234, 1, 448, 'as', '@as', 'nonEmpty_eventDate').
 annotation(235, 1, 449, 'out', '@out', 'date_val_log').
-annotation(236, 1, 449, 'uri', '@uri', 'file:date_val_log.txt').
+annotation(236, 1, 449, 'uri', '@uri', 'file:run/date_val_log.txt').
 annotation(237, 1, 449, 'as', '@as', 'date_cleaning_log').
 annotation(238, 1, 450, 'log', '@log', '{timestamp} Checking if {field_name} value is Empty: {check_result}').
 annotation(239, 1, 466, 'end', '@end', 'check_if_date_is_nonempty').
@@ -250,7 +250,7 @@ annotation(244, 1, 472, 'as', '@as', 'empty_eventDate').
 annotation(245, 1, 473, 'out', '@out', 'rejected2_record_count').
 annotation(246, 1, 473, 'as', '@as', 'unable-to-validate_record_count').
 annotation(247, 1, 474, 'out', '@out', 'date_val_log').
-annotation(248, 1, 474, 'uri', '@uri', 'file:date_val_log.txt').
+annotation(248, 1, 474, 'uri', '@uri', 'file:run/date_val_log.txt').
 annotation(249, 1, 474, 'as', '@as', 'date_cleaning_log').
 annotation(250, 1, 475, 'log', '@log', '{timestamp} {final_result} the record {RecordID}').
 annotation(251, 1, 489, 'end', '@end', 'log_date_is_empty').
@@ -263,7 +263,7 @@ annotation(257, 1, 498, 'as', '@as', 'compliant_eventDate').
 annotation(258, 1, 499, 'out', '@out', 'original2_eventDate').
 annotation(259, 1, 499, 'as', '@as', 'nonCompliant_eventDate').
 annotation(260, 1, 500, 'out', '@out', 'date_val_log').
-annotation(261, 1, 500, 'uri', '@uri', 'file:date_val_log.txt').
+annotation(261, 1, 500, 'uri', '@uri', 'file:run/date_val_log.txt').
 annotation(262, 1, 500, 'as', '@as', 'date_cleaning_log').
 annotation(263, 1, 501, 'log', '@log', '{timestamp} Trying {check_type} {source_used} {match_method} match for validating {field_name}: <{field_name_value}>').
 annotation(264, 1, 502, 'log', '@log', '{timestamp} {match_method} match was {match_result}, compliant with {source_used}: {match_result}.').
@@ -275,7 +275,7 @@ annotation(269, 1, 525, 'as', '@as', 'nonCompliant_eventDate').
 annotation(270, 1, 526, 'out', '@out', 'updated2_eventDate').
 annotation(271, 1, 526, 'as', '@as', 'updated_eventDate').
 annotation(272, 1, 527, 'out', '@out', 'date_val_log').
-annotation(273, 1, 527, 'uri', '@uri', 'file:date_val_log.txt').
+annotation(273, 1, 527, 'uri', '@uri', 'file:run/date_val_log.txt').
 annotation(274, 1, 527, 'as', '@as', 'date_cleaning_log').
 annotation(275, 1, 528, 'log', '@log', '{timestamp} UPDATING record {RecordID}: {field_name} from <{original_value}> to <{updated_value}>').
 annotation(276, 1, 565, 'end', '@end', 'update_event_date').
@@ -289,7 +289,7 @@ annotation(283, 1, 572, 'as', '@as', 'compliant_eventDate').
 annotation(284, 1, 573, 'out', '@out', 'accepted2_record_count').
 annotation(285, 1, 573, 'as', '@as', 'accepted_record_count').
 annotation(286, 1, 574, 'out', '@out', 'date_val_log').
-annotation(287, 1, 574, 'uri', '@uri', 'file:date_val_log.txt').
+annotation(287, 1, 574, 'uri', '@uri', 'file:run/date_val_log.txt').
 annotation(288, 1, 574, 'as', '@as', 'date_cleaning_log').
 annotation(289, 1, 575, 'log', '@log', '{timestamp} {final_result} the record {RecordID}').
 annotation(290, 1, 580, 'end', '@end', 'log_accepted_record').
@@ -302,7 +302,7 @@ annotation(296, 1, 587, 'as', '@as', 'updated_eventDate').
 annotation(297, 1, 588, 'in', '@in', 'original2_eventDate').
 annotation(298, 1, 588, 'as', '@as', 'eventDate').
 annotation(299, 1, 589, 'out', '@out', 'output2_data').
-annotation(300, 1, 589, 'uri', '@uri', 'file:demo_output_name_date_val.csv').
+annotation(300, 1, 589, 'uri', '@uri', 'file:run/demo_output_name_date_val.csv').
 annotation(301, 1, 589, 'as', '@as', 'data_with_cleaned_names_and_dates').
 annotation(302, 1, 594, 'end', '@end', 'write_output2_data').
 annotation(303, 1, 598, 'begin', '@begin', 'log_summary').
@@ -312,7 +312,7 @@ annotation(306, 1, 599, 'as', '@as', 'accepted_record_count').
 annotation(307, 1, 600, 'in', '@in', 'rejected2_record_count').
 annotation(308, 1, 600, 'as', '@as', 'unable-to-validate_record_count').
 annotation(309, 1, 601, 'out', '@out', 'date_val_log').
-annotation(310, 1, 601, 'uri', '@uri', 'file:date_val_log.txt').
+annotation(310, 1, 601, 'uri', '@uri', 'file:run/date_val_log.txt').
 annotation(311, 1, 601, 'as', '@as', 'date_cleaning_log').
 annotation(312, 1, 602, 'log', '@log', '{timestamp} Wrote {accepted2_record_count} accepted records to {output2_data_file_name}').
 annotation(313, 1, 603, 'log', '@log', '{timestamp} Wrote {rejected2_record_count} UNABLE-to-validate records to {rejected2_data_file_name}').

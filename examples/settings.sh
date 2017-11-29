@@ -16,7 +16,10 @@ export QUERIES_DIR=${PROJECT_ROOT}/queries
 
 # destination of facts, views and query results
 export SCRIPT_DIR=${EXAMPLE_DIR}/script
+export DATA_DIR=${EXAMPLE_DIR}/data
+export RUN_DIR=${EXAMPLE_DIR}/run
 export FACTS_DIR=${EXAMPLE_DIR}/facts
+export RECON_DIR=${EXAMPLE_DIR}/recon
 export VIEWS_DIR=${EXAMPLE_DIR}/views
 export RESULTS_DIR=${EXAMPLE_DIR}/results
 export LOCALRULES_DIR=${EXAMPLE_DIR}/myLocalRules
